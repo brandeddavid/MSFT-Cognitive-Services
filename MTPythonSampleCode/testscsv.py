@@ -6,4 +6,5 @@ with open('translate.csv', 'r') as f:
 
     for row in r:
 
-        print (row)
+
+        print row[2]
