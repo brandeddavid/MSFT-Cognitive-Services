@@ -5,20 +5,75 @@ Example application showing the use of the Translate method in the Text Translat
 from xml.etree import ElementTree
 from auth import AzureAuthClient
 import requests
+import csv
 
 
 
 def GetTextAndTranslate(finalToken):
 
     fromLangCode = "en"
-    toLangCode = "es"
+    toLangCode = ""
     textToTranslate = " "
 
 
-    textToTranslate = raw_input("Type the text that you want to translate:  ")
+    with open('translate.csv', 'r') as f:
 
-    print " "
+        r = csv.reader(f, delimiter=',')
 
+        for row in r:
+
+            textToTranslate = row[0]
+            toLangCode = "ru"
+            # Call to Microsoft Translator Service
+            headers = {"Authorization ": finalToken}
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
+
+            translationData = requests.get(translateUrl, headers = headers)
+
+            # parse xml return values
+            translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+
+            row [2] = translation.text
+
+            print row[2]
+
+        for row in r:
+
+            textToTranslate = row[0]
+            toLangCode = "sp"
+            # Call to Microsoft Translator Service
+            headers = {"Authorization ": finalToken}
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
+
+            translationData = requests.get(translateUrl, headers = headers)
+
+            # parse xml return values
+            translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+
+            row [3] = translation.text
+
+            print row[3]
+
+        for row in r:
+
+            textToTranslate = row[0]
+            toLangCode = "du"
+            # Call to Microsoft Translator Service
+            headers = {"Authorization ": finalToken}
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
+
+            translationData = requests.get(translateUrl, headers = headers)
+
+            # parse xml return values
+            translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+
+            row [4] = translation.text
+
+            print row[4]
+
+
+
+"""
     # Call to Microsoft Translator Service
     headers = {"Authorization ": finalToken}
     translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
@@ -31,7 +86,7 @@ def GetTextAndTranslate(finalToken):
 
     print " "
 
-
+"""
 if __name__ == "__main__":
 
     client_secret = 'b084fcc6af46498492cc6b707f4f53cb'
