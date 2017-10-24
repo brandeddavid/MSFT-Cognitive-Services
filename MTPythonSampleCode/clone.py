@@ -6,6 +6,12 @@ from xml.etree import ElementTree
 from auth import AzureAuthClient
 import requests
 import csv
+import sys
+
+
+reload(sys)
+
+sys.setdefaultencoding('utf-8')
 
 
 
@@ -16,7 +22,7 @@ def GetTextAndTranslate(finalToken):
     textToTranslate = " "
 
 
-    with open('test.csv', 'r') as f:
+    with open('test.csv', 'ra') as f:
 
         r = csv.reader(f, delimiter=',')
 
@@ -35,7 +41,7 @@ def GetTextAndTranslate(finalToken):
 
             row [2] = translation.text
 
-            print row[2]
+            #print row[2]
 
             textToTranslate = row[0]
             toLangCode = "es"
@@ -50,7 +56,7 @@ def GetTextAndTranslate(finalToken):
 
             row [3] = translation.text
 
-            print row[3]
+            #print row[3]
 
             textToTranslate = row[0]
             toLangCode = "nl"
@@ -65,7 +71,18 @@ def GetTextAndTranslate(finalToken):
 
             row [4] = translation.text
 
-            print row[4]
+            #print row[4]
+
+            content = [row[0],row[1],row[2],row[3],row[4]]
+
+            with open('out.csv','a') as l:
+
+
+                w = csv.writer(l, delimiter=',')
+
+                w.writerow(content)
+
+
 
 
 
