@@ -28,50 +28,27 @@ def GetTextAndTranslate(finalToken):
 
         for row in r:
 
-            textToTranslate = row[0]
-            toLangCode = "ru"
-            # Call to Microsoft Translator Service
             headers = {"Authorization ": finalToken}
-            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
 
+            #Translate to Russian
+
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(row[0], 'ru')
             translationData = requests.get(translateUrl, headers = headers)
-
-            # parse xml return values
             translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+            row[2] = translation.text
 
-            row [2] = translation.text
-
-            #print row[2]
-
-            textToTranslate = row[0]
-            toLangCode = "es"
-            # Call to Microsoft Translator Service
-            headers = {"Authorization ": finalToken}
-            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
-
+            #Translate to Spanish
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(row[0], 'es')
             translationData = requests.get(translateUrl, headers = headers)
-
-            # parse xml return values
             translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+            row[3] = translation.text
 
-            row [3] = translation.text
-
-            #print row[3]
-
-            textToTranslate = row[0]
-            toLangCode = "nl"
-            # Call to Microsoft Translator Service
-            headers = {"Authorization ": finalToken}
-            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
-
+            #Translate to Dutch
+            translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(row[0], 'nl')
             translationData = requests.get(translateUrl, headers = headers)
-
-            # parse xml return values
             translation = ElementTree.fromstring(translationData.text.encode('utf-8'))
+            row[4] = translation.text
 
-            row [4] = translation.text
-
-            #print row[4]
 
             content = [row[0],row[1],row[2],row[3],row[4]]
 
