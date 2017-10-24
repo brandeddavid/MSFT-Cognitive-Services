@@ -37,10 +37,8 @@ def GetTextAndTranslate(finalToken):
 
             print row[2]
 
-        for row in r:
-
             textToTranslate = row[0]
-            toLangCode = "sp"
+            toLangCode = "es"
             # Call to Microsoft Translator Service
             headers = {"Authorization ": finalToken}
             translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
@@ -54,10 +52,8 @@ def GetTextAndTranslate(finalToken):
 
             print row[3]
 
-        for row in r:
-
             textToTranslate = row[0]
-            toLangCode = "du"
+            toLangCode = "nl"
             # Call to Microsoft Translator Service
             headers = {"Authorization ": finalToken}
             translateUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(textToTranslate, toLangCode)
