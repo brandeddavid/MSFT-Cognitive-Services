@@ -37,25 +37,25 @@ def GetTextAndTranslate(finalToken):
 
                 headers = {"Authorization ": finalToken}
 
-                toTranslate = str(item[0])
+                toTranslate = item[0].replace('"','')
 
                 #Translate to Russia
                 translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'ru')
                 translationRUData = requests.get(translateRUUrl, headers = headers)
                 translationRU = ElementTree.fromstring(translationRUData.text.encode('utf-8'))
-                item[2] = translationRU.text
+                item[2] = translationRU.text.replace('"','')
 
                 #Translate to Spanish
                 translateESUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'es')
                 translationESData = requests.get(translateESUrl, headers = headers)
                 translationES = ElementTree.fromstring(translationESData.text.encode('utf-8'))
-                item[3] = translationES.text
+                item[3] = translationES.text.replace('"','')
 
                 #Translate to Dutch
                 translateNLUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'nl')
                 translationNLData = requests.get(translateNLUrl, headers = headers)
                 translationNL = ElementTree.fromstring(translationNLData.text.encode('utf-8'))
-                item[4] = translationNL.text
+                item[4] = translationNL.text.replace('"','')
 
                 writer.writerow({'Title': item[0],'ID':item[1], 'ru':item[2],'sp':item[3],'du':item[4]})
 
