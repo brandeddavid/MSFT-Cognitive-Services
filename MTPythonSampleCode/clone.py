@@ -16,7 +16,7 @@ def GetTextAndTranslate(finalToken):
     textToTranslate = " "
 
 
-    with open('translate.csv', 'r') as f:
+    with open('test.csv', 'r') as f:
 
         r = csv.reader(f, delimiter=',')
 
