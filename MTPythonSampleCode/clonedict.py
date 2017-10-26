@@ -63,7 +63,7 @@ def GetTextAndTranslate(finalToken):
 
 if __name__ == "__main__":
 
-    client_secret = 'b084fcc6af46498492cc6b707f4f53cb'
+    client_secret = 'f7b89ffc171b4a278ce7d17a6d218cf2'
     auth_client = AzureAuthClient(client_secret)
     bearer_token = 'Bearer ' + auth_client.get_access_token()
     GetTextAndTranslate(bearer_token)
