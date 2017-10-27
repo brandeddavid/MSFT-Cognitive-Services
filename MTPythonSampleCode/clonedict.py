@@ -29,7 +29,7 @@ def GetTextAndTranslate(finalToken):
 
         writer.writeheader()
 
-        with open('test.csv','r') as f:
+        with open('translate.csv','r') as f:
 
             reader = csv.reader(f, delimiter=',')
 
@@ -51,11 +51,11 @@ def GetTextAndTranslate(finalToken):
                 translationES = ElementTree.fromstring(translationESData.text.encode('utf-8'))
                 item[3] = translationES.text.replace('"','')
 
-                #Translate to Dutch
-                translateNLUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'nl')
-                translationNLData = requests.get(translateNLUrl, headers = headers)
-                translationNL = ElementTree.fromstring(translationNLData.text.encode('utf-8'))
-                item[4] = translationNL.text.replace('"','')
+                #Translate to Deutsch
+                translateDEUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'de')
+                translationDEData = requests.get(translateDEUrl, headers = headers)
+                translationDE = ElementTree.fromstring(translationDEData.text.encode('utf-8'))
+                item[4] = translationDE.text.replace('"','')
 
                 writer.writerow({'Title': item[0],'ID':item[1], 'ru':item[2],'sp':item[3],'du':item[4]})
 
