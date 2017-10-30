@@ -45,10 +45,14 @@ if len(subscriptionKey) == 32:
     jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
     for item in jsonResponse['value']:
+        
 
         if jsonResponse['value'].index(item) < 3:
+            
 
-            urllib.request.urlretrieve(item['contentUrl'], term + random.choice(string.ascii_letters) + ".jpg")
+            urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)) + ".jpg")
+
+
 
 else:
 
