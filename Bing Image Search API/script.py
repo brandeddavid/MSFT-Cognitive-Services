@@ -21,10 +21,12 @@ term = "puppies"
 def BingImageSearch(search):
     "Performs a Bing image search and returns the results."
 
+    imageFilters = '&size=medium&imageType=clipart'
+
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
     query = urllib.parse.quote(search)
-    conn.request("GET", path + "?q=" + query, headers=headers)
+    conn.request("GET", path + "?q=" + query + imageFilters, headers=headers)
     response = conn.getresponse()
     headers = [k + ": " + v for (k, v) in response.getheaders()
                    if k.startswith("BingAPIs-") or k.startswith("X-MSEdge-")]
