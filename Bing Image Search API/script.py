@@ -169,18 +169,23 @@ if len(subscriptionKey) == 32:
         print('Searching images for: ', term)
 
 
+        try:
 
-        headers, result = BingImageSearch(term)
+            headers, result = BingImageSearch(term)
 
-        jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+            jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
-        for item in jsonResponse['value']:
-            
-
-            if jsonResponse['value'].index(item) < 3:
+            for item in jsonResponse['value']:
                 
 
-                urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)) + ".jpg")
+                if jsonResponse['value'].index(item) < 3:
+                    
+
+                    urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)) + ".jpg")
+
+        except:
+
+            pass
 
 
 
