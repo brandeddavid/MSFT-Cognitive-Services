@@ -16,7 +16,7 @@ subscriptionKey = "0643c39bbd3240e6a880f6cf7367b3ee"
 host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/images/search"
 
-term = "puppies"
+toSearch = ['puppies','angry']
 
 def BingImageSearch(search):
     "Performs a Bing image search and returns the results."
@@ -35,22 +35,23 @@ def BingImageSearch(search):
 if len(subscriptionKey) == 32:
 
 
-
-    print('Searching images for: ', term)
-
-
-
-    headers, result = BingImageSearch(term)
-
-    jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
-
-    for item in jsonResponse['value']:
+    for term in toSearch:
         
+        print('Searching images for: ', term)
 
-        if jsonResponse['value'].index(item) < 3:
+
+
+        headers, result = BingImageSearch(term)
+
+        jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+
+        for item in jsonResponse['value']:
             
 
-            urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)) + ".jpg")
+            if jsonResponse['value'].index(item) < 3:
+                
+
+                urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)) + ".jpg")
 
 
 
