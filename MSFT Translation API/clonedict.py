@@ -29,7 +29,7 @@ def GetTextAndTranslate(finalToken):
 
         writer.writeheader()
 
-        with open('translate.csv','r') as f:
+        with open('test.csv','r') as f:
 
             reader = csv.reader(f, delimiter=',')
 
@@ -40,7 +40,7 @@ def GetTextAndTranslate(finalToken):
                 toTranslate = item[0].replace('"','')
 
                 #Translate to Russia
-                translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}".format(toTranslate, 'ru')
+                translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ru')
                 translationRUData = requests.get(translateRUUrl, headers = headers)
                 translationRU = ElementTree.fromstring(translationRUData.text.encode('utf-8'))
                 item[2] = translationRU.text.replace('"','')
