@@ -1,13 +1,118 @@
 
 Title,ID,ru,sp,du
-Title,ID,Название,Título,Titel
-Hello,,Привет,Hola,Hallo
-“Bye”,,«До свидания»,Bye,Bye
-Morning,,Утро,Mañana,Morgen
-A word must always have a vowel sound.,,Слово всегда должна иметь гласный звук.,Una palabra siempre debe tener un sonido de vocal.,Ein Wort muss immer ein Vokal.
+﻿Title,Id,Название,Título,Titel
+"""ent"" (as in cli-ent)",_went,(как в CLI-интерфейсе),ENT (como en CLI-ENT),ent (wie in CLI-ent)
+“u” - consonant - “e”,_suce,u-согласные-e,u-consonante-e,u-Konsonanten-e
+"""vce"" words.",_svw,ВЦЕ слова.,palabras de VCE.,VCE Worte.
+"""a""",a,a,un,eine
+"a (long a), which is also called a faded schwa",_wfs,"a (длинный a), который также называется потерянным счва","a (largo a), que también se llama un Schwa desteñido","a (Long a), die auch als verblasst Schwa"
+a (long),_sa1,a (длинный),a (largo),a (lang)
+a (short),_sa,a (короткий),a (corto),a (Short)
+A closed syllable is one in which a vowel is followed by one or more consonants.,_sacsio,"Закрытый слог — это один из них, в котором за гласными следуют один или несколько согласных.",Una sílaba cerrada es una en la que una vocal es seguida por una o más consonantes.,"Eine geschlossene Silbe ist ein, in dem ein Vokal von einem oder mehreren Konsonanten gefolgt wird."
+"A one syllable word that ends in a vowel is an open syllable, for example:  me  = m",_saone1,"Одно слоговое слово, заканчивающееся гласным, является открытым слогом, например: Me = m","Una palabra de una sílaba que termina en una vocal es una sílaba abierta, por ejemplo: me = m","Eine Silbe Wort, die mit einem Vokal endet, ist eine offene Silbe, zum Beispiel: Me = m"
+A syllable always contains a vowel and can be said in one breath.,_sasaca,Слог всегда содержит гласные и может быть сказано в одном дыхании.,Una sílaba contiene siempre una vocal y se puede decir en una respiración.,Eine Silbe enthält immer einen Vokal und kann in einem Atemzug gesagt werden.
+"A syllable is a word, or part of a word.",_sasiaw,Слог-это слово или часть слова.,"Una sílaba es una palabra, o parte de una palabra.",Eine Silbe ist ein Wort oder ein Teil eines Wortes.
+"A syllable that contains a vowel, a consonant and a siltne ""e"" is called a vce syllable.",_sastca,"Слог, содержащий гласную, согласный и силтне e называется ВЦЕ слогом.","Una sílaba que contiene una vocal, una consonante y un siltne e se llama una sílaba de VCE.","Eine Silbe, die einen Vokal, einen Konsonanten und eine siltne e enthält, wird als VCE Silbe bezeichnet."
+A syllable with a vowel at the end of it is called an open syllable.,_saswav,Слог с гласным в конце его называют открытым слогом.,Una sílaba con una vocal en el extremo de ella se llama una sílaba abierta.,Eine Silbe mit einem Vokal am Ende wird als offene Silbe bezeichnet.
+a vowel,_sav,гласный,una vocal,ein Vokal
+A word must always have a vowel sound.  ,_sawmah,Слово всегда должно иметь гласный звук.  ,Una palabra debe tener siempre un sonido vocal.  ,Ein Wort muss immer einen Vokal haben.  
+"A word represented by the letters ""cvc"" is made up with (a consonant , a vowel, and a consonant).",_sawwtl,"Слово, представленное буквами КВК, состоит из (согласных, гласных и согласных).","Una palabra representada por las letras CVC se compone con (una consonante, una vocal, y una consonante).","Ein Wort, das durch die Buchstaben CVC dargestellt wird, wird mit (einem Konsonanten, einem Vokal und einem Konsonanten) gebildet."
+"A, e, i, o, and u.",_saeiou,"А, Рик, я, о, и ты.","A, e, yo, o, y tú.","A, e, i, o und du."
+able (the letters),_lable,возможность (буквы),able (las letras),fähig (die Buchstaben)
+about final blends.,_safb,о финальных смешениях.,Acerca de las mezclas finales.,über Final Blends.
+about initial blends.,_saib,о начальных переходах.,Acerca de las mezclas iniciales.,über anfängliche blenden.
+about the doubling rule.,_satdr,о правиле удвоения.,sobre la regla de doblaje.,über die doppelte Regel.
+about word blends.,_sitlywl,о программе Word Blend.,Acerca de las mezclas de palabras.,über Word Blends.
+active,active,Active,activo,Active
+"Add a vowel (a,e,i,o or u) to make a word.",_saavtm,"Добавить гласные (a, e, i, o или u), чтобы сделать слово.","Añada una vocal (a, e, i, o u u) para hacer una palabra.","Fügen Sie einen Vokal (a, e, i, o oder u) ein, um ein Wort zu machen."
+"After you type your choice, I will give you the correct choice for spelling.",_saytyc,После ввода выбранного варианта я дам вам правильный выбор для написания.,"Después de que usted teclee su opción, le daré la opción correcta para deletrear.","Nachdem Sie Ihre Wahl eingegeben haben, werde ich Ihnen die richtige Wahl für die Rechtschreibung geben."
+AFTMID2,AFTMID2,Афтмид2,AFTMID2,AFTMID2
+"Again, separate the words into syllables, read one syllable at a time, and then blend into a whole word.",_sasitw,"Снова разделите слова на слоги, прочитайте один слог за раз, а затем переходите в целое слово.","Una vez más, separar las palabras en sílabas, leer una sílaba a la vez, y luego mezclar en una palabra entera.","Wiederum trennen Sie die Wörter in Silben, lesen Sie jeweils eine Silbe, und vermischen Sie sich dann in ein ganzes Wort."
+ai (the letters),_lai,Ай (буквы),AI (las letras),Ai (die Buchstaben)
+ai (the sounds),_sai,AI (звуки),AI (los sonidos),Ai (die Klänge)
+air,air,воздуха,aire,Air
+ald (the letters),_lald,НОП (буквы),ALD (las letras),ALD (die Buchstaben)
+alk (the letters),_lalk,АЛК (буквы),alcalino (las letras),ALK (die Buchstaben)
+all (the letters),_lall,все (буквы),todos (las letras),Alle (die Buchstaben)
+all of the long vowel sounds which are closed syllable exceptions,_saotlvs,"все длинные гласные звуки, которые являются исключениями из закрытого слога",todos los sonidos largos de la vocal que son excepciones cerradas de la sílaba,"alle langen Vokal-Töne, die geschlossene Silbe Exceptions sind"
+All of these words should be memorized.,_saatws,Все эти слова следует запоминать.,Todas estas palabras deben memorizarse.,Alle diese Wörter sollten auswendig gelernt werden.
+All syllables must have a vowel.,_sasmha,Все слоги должны быть гласными.,Todas las sílabas deben tener una vocal.,Alle Silben müssen einen Vokal haben.
+all the digraphs you have learned so far.,_satdyh,"все, что вы узнали до сих пор.",todos los digramas que has aprendido hasta ahora.,"Alle Digraphen, die Sie bisher gelernt haben."
+All the syllables in these words will be closed; therefore the vowels will be short.,_sallth,Все слоги в этих словах будут закрыты; Поэтому гласные будут короткими.,Todas las sílabas en estas palabras serán cerradas; por lo tanto las vocales serán cortas.,Alle Silben in diesen Wörtern werden geschlossen; Daher werden die Vokale kurz sein.
+all the vowel teams you have learned so far.,_satvty,"все гласные команды, которые вы узнали до сих пор.",todos los equipos vocales que has aprendido hasta ahora.,"alle Vokal-Teams, die Sie bisher gelernt haben."
+all the vowel teams you worked with in the previous lessons.,_satvty1,"все гласные команды, с которыми вы работали на предыдущих уроках.",todos los equipos vocales con los que trabajaste en las lecciones anteriores.,"alle Vokal-Teams, mit denen Sie in den vorangegangenen Lektionen gearbeitet haben."
+All three make the same sound.,_satmtss,Все три делают один и тот же звук.,Los tres hacen el mismo sonido.,Alle drei machen denselben Klang.
+alm (the letters),_lalm,Управление жизненным циклом приложений (письма),ALM (las letras),Alm (die Buchstaben)
+Almost all of the words you have practiced so far have been one syllable.,_salmos,"Почти все слова, которые вы практиковали до сих пор, были одним слогом.",Casi todas las palabras que has practicado hasta ahora han sido una sílaba.,"Fast alle Wörter, die Sie bisher praktiziert haben, waren eine Silbe."
+"Also, in the word full, the short ""u"" sound is affected by the ""l"".",_saitwf,"Кроме того, в слове «полный текст» на короткое u влияет l.","También, en la palabra Full, el sonido de u corto es afectado por el l.","Auch im Wort voll, der kurze u-Klang wird von der l beeinflusst."
+"Also, remember that some vowel teams can make more than one sound.",_sarttv,"Кроме того, помните, что некоторые гласные команды могут делать более одного звука.","Además, recuerde que algunos equipos vocales pueden hacer más de un sonido.","Beachten Sie auch, dass einige Vokal-Teams mehr als einen Klang machen können."
+alt (the letters),_lalt,Alt (буквы),Alt (las letras),alt (die Buchstaben)
+Always blend the word syllable by syllable.,_salway,Всегда накладываем слово слог по слогам.,Siempre mezcle la palabra sílaba por sílaba.,Blende immer die Wort-Silbe durch Silbe ein.
+"An ""s"" is added to the end of the word to make it plural.",_sasiat,"К концу слова добавляется s, чтобы сделать его множественным.",Se añade un s al final de la palabra para que sea plural.,"Ein s wird am Ende des Wortes hinzugefügt, um es Plural zu machen."
+"An example is the word ""patch"", which has a short ""a"".",_saeitw,"Примером является исправление Word, которое имеет короткий a.","Un ejemplo es la palabra patch, que tiene un corto a.","Ein Beispiel ist der Word-Patch, der ein kurzes a aufweist."
+"An open syllable ends with a vowel, and that vowel is long.",_sanope,"Открытый слог заканчивается гласным, а гласный-длинный.","Una sílaba abierta termina con una vocal, y esa vocal es larga.","Eine offene Silbe endet mit einem Vokal, und der Vokal ist lang."
+and,_wand,и,y,und
+"and ""p"" ...(are consonants.) (the letters ""t"")...",_sap,и с... (согласные.) (буквы t)...,y p ... (son consonantes.) (las letras t) ...,und p ... (sind Konsonanten.) (die Buchstaben t) ...
+and a consonant.,_saac,и согласные.,y una consonante.,und einen Konsonanten.
+And say the letter sound...,_sastls,"И сказать, что письмо звучит...",Y dicen que el sonido de la letra ...,"Und sagen, der Buchstabe Klang ..."
+And say the letters sound...,_sastls1,"И сказать, что буквы звучат...",Y dicen que las letras suenan ...,Und sagen die Buchstaben Klang ...
+and the blend or digraph (Hint3).,_satbod,и смесь или расграфа (хинт3).,y la mezcla o el digrama (Hint3).,und die Mischung oder Digraph (Hint3).
+and the consonant (Hint3).,_satc,и согласный (хинт3).,y la consonante (Hint3).,und den Konsonanten (Hint3).
+and the vowel (Hint3),_satv,и гласный (хинт3),y la vocal (Hint3),und der Vokal (Hint3)
+"and vowels with the letter ""v"". (We will represent consonants with the letter ""c"")",_savwtl,и гласные с буквой v. (мы будем представлять согласные с буквой c),y vocales con la letra v. (representaremos consonantes con la letra c),und Vokale mit dem Buchstaben v. (wir werden Konsonanten mit dem Buchstaben c repräsentieren)
+"and...(Hint3) (used in Syllables, Break 3)",_wand1,"и... (хинт3) (используется в слогах, разрыв 3)","y ... (Hint3) (utilizado en sílabas, rotura 3)","und ... (Hint3) (wird in Silben, Break 3 verwendet)"
+"""ang"" (the letters)",_lang,угол (буквы),Ang (las letras),ang (die Buchstaben)
+"""ang"" (the sounds)",_sang,угол (звуки),Ang (los sonidos),ang (die Klänge)
+"""ank"" (the letters)",_lank,АНК (буквы),ANK (las letras),ANK (die Buchstaben)
+ank (the sounds),_sank,АНК (звуки),ANK (los sonidos),ANK (die Klänge)
+another digraph in which the consonants do have separate sounds.,_sadiwt,"еще одна расграфа, в которой согласные имеют отдельные звуки.",otro digrama en el que las consonantes tienen sonidos separados.,"ein anderes Digraph, in dem die Konsonanten getrennte Töne haben."
+another exception to vowel team rules.,_saetvt,еще одно исключение из правил для гласных команд.,otra excepción a las reglas del equipo vocal.,eine weitere Ausnahme zu Vokal-Team Regeln.
+Answer no if you think the doubling rule does not apply to the word.,_saniyt,"Ответ нет, если вы считаете, что правило удвоения не применяется к слову.",Respuesta no si cree que la regla de duplicación no se aplica a la palabra.,"Antwort Nein, wenn Sie denken, die doppelte Regel gilt nicht für das Wort."
+Answer yes if you think the doubling rule applies to the word.,_sayiyt,"Ответьте Да, если вы считаете, что правило удвоения применяется к слову.",Responda sí si cree que la regla de duplicación se aplica a la palabra.,"Beantworten Sie ja, wenn Sie denken, die doppelte Regel gilt für das Wort."
+appear,appear,исчезновени,aparecen,angezeigt
+applause,_sapplau,аплодисмент,aplausos,Applaus
+ar,_lar,Бы,¿,Würde
+are,are,являются,son,sind
+"are called r-controlled syllables (Syllables that contain the letters...(ar/er/ir, etc) ...",_sacrcs,"называются подконтрольными слогами r (слоги, содержащие буквы... (AR/ER/ИК и т. д.)...","se llaman las sílabas r-controladas (las sílabas que contienen las letras ...) (ar/er/ir, etc) ...","nennt man r-kontrollierte Silben (Silben, die die Buchstaben enthalten ...) (AR/er/IR, etc) ..."
+"are consonants. (the letters ""t"" and ""p"")",_sac,согласны. (буквы t и p),son consonantes. (las letras t y p),sind Konsonanten. (die Buchstaben t und p)
+Are you finished with these words?,_saydwt,Вы закончили с этими словами?,¿Has terminado con estas palabras?,Sind Sie mit diesen Wörtern fertig?
+arr (the letters),_larr,неаранжировка (буквы),ARR (las letras),ARR (die Buchstaben)
+"As a vowel team, you know that letters “ie” make long vowel sounds.",_saavty,"Как гласная команда, вы знаете, что буквы «IE» делают длинные гласные звуки.","Como equipo vocal, usted sabe que las letras IE hacen sonidos vocales largos.","Als Vokal-Team wissen Sie, dass Buchstaben IE lange Vokal-Töne bilden."
+"As each new sight word is introduced, the computer will record it in your electronic sight word notebook.",_saensw,"После того как будет введено каждое новое слово, компьютер зарегистрирует его в блокноте электронного слова.","A medida que se introduce cada nueva palabra de vista, el ordenador lo grabará en su cuaderno electrónico de palabras de vista.","Da jedes neue Sight Word eingeführt wird, wird der Computer es in Ihrem elektronischen Sight Word-Notizbuch aufzeichnen."
+as in,_sasin,как в,como en,wie in
+as in the word...,_saitw,как и в слове...,como en la palabra ...,wie im Wort ...
+"As you have practiced, “ow” also makes the sound of long “o”.",_sayhpo,"Как вы практиковали, Ай также делает звук длинного o.","Como usted ha practicado, ow también hace el sonido de o largo.","Wie Sie geübt haben, macht ow auch den Klang langer o."
+"As you may have guessed by now, all the syllable types seem to have an exception or two.",_sasyou,"Как вы уже догадались, все слоговые типы, похоже, имеют исключение или два.","Como usted puede haber adivinado por ahora, todos los tipos de sílabas parecen tener una excepción o dos.","Wie Sie vielleicht schon erraten haben, scheinen alle Silben-Typen eine Ausnahme oder zwei zu haben."
+At least one letter in that word is silent.,_saloli,По крайней мере одна буква в этом слове хранит молчание.,Al menos una letra en esa palabra es silenciosa.,Mindestens ein Buchstabe in diesem Wort schweigt.
+au (the letters),_lau,АС (письма),au (las letras),Au (die Buchstaben)
+au (the sounds),_sau,Au (звуки),au (los sonidos),Au (die Klänge)
+augh (the letters),_laugh,аугх (буквы),augh (las letras),AUGH (die Buchstaben)
+augh1 (the sounds),_saugh,аугх1 (звуки),augh1 (los sonidos),augh1 (die Klänge)
+augh2 (as in LAUGH),_saugh2,аугх2 (как смех),augh2 (como en risa),augh2 (wie im lachen)
+aw (the letters),_law,Ох (буквы),AW (las letras),AW (die Buchstaben)
+aw (the sounds),_saw,о (звуки),AW (los sonidos),AW (die Sounds)
+ay (the letters),_lay,Ай (буквы),Ay (las letras),ay (die Buchstaben)
+ay (the sounds),_say,Ай (звуки),Ay (los sonidos),ay (die Klänge)
+b (the letter),b,b (письмо),b (la letra),b (Buchstabe)
+baby,baby,ребенка,bebé,Baby
+BACHINV1,BACHINV1,Бачинв1,BACHINV1,BACHINV1
+BACHINV2,BACHINV2,Бачинв2,BACHINV2,BACHINV2
+BACHINV3,BACHINV3,Бачинв3,BACHINV3,BACHINV3
+BACHPR51,BACHPR51,Бачпр51,BACHPR51,BACHPR51
+bald,bald,Можно,Pronto,bald
+ball,ball,мяч,bola,Ball
 Title,ID,ru,sp,du
-Title,ID,Название,Título,Titel
-Hello,,Привет,Hola,Hallo
-“Bye”,,пОка,Bye,Bye
-Morning,,Утром,Mañana,Morgen
-A word must always have a vowel sound.,,Слово всегда должно иметь гласный звук.,Una palabra siempre debe tener un sonido de vocal.,Ein Wort muss immer ein Vokal.
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
+Title,ID,ru,sp,du
