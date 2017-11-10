@@ -55,7 +55,7 @@ with open('keywords.csv', 'r') as f:
                 for item in jsonResponse['value']:
                     
 
-                    if jsonResponse['value'].index(item) < 3:
+                    if jsonResponse['value'].index(item) < 6:
                         
 
                         urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)))
