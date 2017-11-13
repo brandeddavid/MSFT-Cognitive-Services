@@ -10,7 +10,7 @@ host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/images/search"
 
 
-    
+
 
 
 def BingImageSearch(search):
@@ -28,9 +28,10 @@ def BingImageSearch(search):
     return headers, response.read().decode("utf8")
 
 
-with open('keywords.csv', 'r') as f:
+with open('keyword.csv', 'r') as f:
 
     toSearch = []
+    notFound = []
 
     words = csv.reader(f, delimiter = ',')
 
@@ -40,29 +41,45 @@ with open('keywords.csv', 'r') as f:
 
     if len(subscriptionKey) == 32:
 
+        with open('out.csv', 'a') as l:
 
-        for term in toSearch:
-            
-            print('Searching images for: ', term)
+            fieldnames = ['UNSUCCESSFUL']
+
+            writer = csv.DictWriter(l, fieldnames=fieldnames)
+
+            writer.writeheader()
 
 
-            try:
+            for term in toSearch:
 
-                headers, result = BingImageSearch(term)
+                print('Searching images for: ', term)
 
-                jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
-                for item in jsonResponse['value']:
-                    
+                try:
 
-                    if jsonResponse['value'].index(item) < 6:
-                        
+                    headers, result = BingImageSearch(term)
 
-                        urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)))
+                    jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
-            except:
+                    if len(jsonResponse['value']) == 0:
 
-                pass
+                        writer.writerow({'UNSUCCESSFUL': term})
+
+                    else:
+
+                        for item in jsonResponse['value']:
+
+
+                            if jsonResponse['value'].index(item) < 6:
+
+
+                                urllib.request.urlretrieve(item['contentUrl'], term + str((jsonResponse['value'].index(item)+1)))
+
+                except:
+
+
+                    pass
+                    #writer.writerow({'Not': term})
 
 
 
