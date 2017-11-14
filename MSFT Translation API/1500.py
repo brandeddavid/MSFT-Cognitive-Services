@@ -21,7 +21,7 @@ def GetTextAndTranslate(finalToken):
 
 
 
-    with open('out.csv', 'a') as l:
+    with open('1500.csv', 'a') as l:
 
         fieldnames = ['Wave1','Corrections','ru','de','es','fr']
 
