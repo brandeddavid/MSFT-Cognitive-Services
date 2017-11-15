@@ -16,7 +16,7 @@ path = "/bing/v7.0/images/search"
 def BingImageSearch(search):
     "Performs a Bing image search and returns the results."
 
-    imageFilters = '&mkt=en-US&imageType=animatedgif&license=all&safesearch=strict'
+    imageFilters = '&mkt=en-US&imageType=clipart&license=all&safesearch=strict'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
