@@ -37,7 +37,7 @@ def GetTextAndTranslate(finalToken):
 
                 headers = {"Authorization ": finalToken}
 
-                toTranslate = item[1].replace('"','')
+                toTranslate = item[1]
 
                 #Translate to Russia
                 translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ru')
