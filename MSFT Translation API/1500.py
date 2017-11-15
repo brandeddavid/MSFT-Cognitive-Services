@@ -43,25 +43,25 @@ def GetTextAndTranslate(finalToken):
                 translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ru')
                 translationRUData = requests.get(translateRUUrl, headers = headers)
                 translationRU = ElementTree.fromstring(translationRUData.text.encode('utf-8'))
-                item[2] = translationRU.text.replace('"','')
+                item[2] = translationRU.text
 
                 #Translate to Deutsch
                 translateDEUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'de')
                 translationDEData = requests.get(translateDEUrl, headers = headers)
                 translationDE = ElementTree.fromstring(translationDEData.text.encode('utf-8'))
-                item[3] = translationDE.text.replace('"','')
+                item[3] = translationDE.text
 
                 #Translate to Spanish
                 translateESUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'es')
                 translationESData = requests.get(translateESUrl, headers = headers)
                 translationES = ElementTree.fromstring(translationESData.text.encode('utf-8'))
-                item[4] = translationES.text.replace('"','')
+                item[4] = translationES.text
 
                 #Translate to French
                 translateFRUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'fr')
                 translationFRData = requests.get(translateFRUrl, headers = headers)
                 translationFR = ElementTree.fromstring(translationFRData.text.encode('utf-8'))
-                item[5] = translationFR.text.replace('"','')
+                item[5] = translationFR.text
 
 
 
