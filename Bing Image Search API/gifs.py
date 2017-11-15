@@ -16,7 +16,7 @@ path = "/bing/v7.0/images/search"
 def BingImageSearch(search):
     "Performs a Bing image search and returns the results."
 
-    imageFilters = '&mkt=en-US&imageType=animatedgif&license=any'
+    imageFilters = '&mkt=en-US&imageType=animatedgif&license=all&safesearch=strict'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
@@ -28,7 +28,7 @@ def BingImageSearch(search):
     return headers, response.read().decode("utf8")
 
 
-with open('test.csv', 'r') as f:
+with open('gifskeywords.csv', 'r') as f:
 
     toSearch = []
     notFound = []
