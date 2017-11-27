@@ -23,7 +23,7 @@ def GetTextAndTranslate(finalToken):
 
     with open('1500.csv', 'a') as l:
 
-        fieldnames = ['Wave1','Corrections','ru','de','es','fr']
+        fieldnames = ['Wave1','Corrections','ar','zh-CHS','tr','pt']
 
         writer = csv.DictWriter(l, fieldnames=fieldnames)
 
@@ -37,41 +37,41 @@ def GetTextAndTranslate(finalToken):
 
                 headers = {"Authorization ": finalToken}
 
-                toTranslate = item[1].replace('"','')
+                toTranslate = item[1]
 
-                #Translate to Russia
-                translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ru')
-                translationRUData = requests.get(translateRUUrl, headers = headers)
-                translationRU = ElementTree.fromstring(translationRUData.text.encode('utf-8'))
-                item[2] = translationRU.text
+                #Translate to Arabic
+                translateARUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ar')
+                translationARData = requests.get(translateARUrl, headers = headers)
+                translationAR = ElementTree.fromstring(translationARData.text.encode('utf-8'))
+                ara = translationAR.text
 
-                #Translate to Deutsch
-                translateDEUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'de')
-                translationDEData = requests.get(translateDEUrl, headers = headers)
-                translationDE = ElementTree.fromstring(translationDEData.text.encode('utf-8'))
-                item[3] = translationDE.text
+                #Translate to Chinese
+                translateCHUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'zh-CHS')
+                translationCHData = requests.get(translateCHUrl, headers = headers)
+                translationCH = ElementTree.fromstring(translationCHData.text.encode('utf-8'))
+                chi = translationCH.text
 
-                #Translate to Spanish
-                translateESUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'es')
-                translationESData = requests.get(translateESUrl, headers = headers)
-                translationES = ElementTree.fromstring(translationESData.text.encode('utf-8'))
-                item[4] = translationES.text
+                #Translate to Turkish
+                translateTRUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'tr')
+                translationTRData = requests.get(translateTRUrl, headers = headers)
+                translationTR = ElementTree.fromstring(translationTRData.text.encode('utf-8'))
+                tur = translationES.text
 
-                #Translate to French
-                translateFRUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'fr')
-                translationFRData = requests.get(translateFRUrl, headers = headers)
-                translationFR = ElementTree.fromstring(translationFRData.text.encode('utf-8'))
-                item[5] = translationFR.text
+                #Translate to Portugese
+                translatePTUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'pt')
+                translationPTData = requests.get(translatePTUrl, headers = headers)
+                translationPT = ElementTree.fromstring(translationPTData.text.encode('utf-8'))
+                por = translationPT.text
 
 
 
-                writer.writerow({'Wave1': item[0],'Corrections':item[1], 'ru':item[2],'de':item[3],'es':item[4],'fr':item[5]})
+                writer.writerow({'Wave1': item[0],'Corrections':item[1], 'ar':ara,'zh-CHS':chi,'tr':tur,'pt':por})
 
 
 
 if __name__ == "__main__":
 
-    client_secret = 'f7b89ffc171b4a278ce7d17a6d218cf2'
+    client_secret = 'cdf0f2f770e44f7697e1898c54cfaead'
     auth_client = AzureAuthClient(client_secret)
     bearer_token = 'Bearer ' + auth_client.get_access_token()
     GetTextAndTranslate(bearer_token)
