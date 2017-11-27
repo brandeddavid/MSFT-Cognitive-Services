@@ -1,0 +1,736 @@
+Wave1,Corrections,ar,zh-CHS,tr,pt
+Wave1,Corrections,,更正,Düzeltmeleri,Correções
+_went,"""ent"" (as in cli-ent)","""نت"" (كما في المبادرة الخاصة)","""耳鼻喉"" (如在 cli 中)","""KBB"" (CLI-ENT gibi)","""ENT"" (como em CLI-ENT)"
+_suce,“u” - consonant - “e”,"""u""-ساكن-""e""","""u""-辅音-""e""","""u""-ünsüz-""e""","""u""-consoante-""e"""
+_wfs,"a (long a), which is also called a faded schwa",ا (طويل ا) ، والذي يسمي أيضا الشروه تلاشي,"a (长 a), 也被称为褪色的母音","a (uzun a), hangi olarak da adlandırılan bir soluk Schwa","a (Long a), que também é chamado de um schwa desbotado"
+_sa,a (sound short),(الصوت القصير),a (声音短),a (kısa ses),a (som curto)
+_sacsio,A closed syllable is one in which a vowel is followed by one or more consonants.,المقطع اللفظي المغلق هو الذي يتبع فيه حرف العلة واحد أو أكثر من الأحرف الساكنة.,一个封闭的音节是一个元音跟着一个或多个辅音。,Kapalı hece bir sesli harf bir veya daha fazla ünsüz tarafından izlenen biridir.,Uma sílaba fechada é aquela em que uma vogal é seguida por uma ou mais consoantes.
+_saone1,"A one syllable word that ends in a vowel is An open syllable, for example: ""me"" = m","كلمه واحده المقطع الذي ينتهي في حرف العلة هو مقطع مفتوح ، علي سبيل المثال: ""me"" = m","以元音结尾的一个音节词是一个开放的音节, 例如: ""我"" = m","Sesli harflerle biten bir hece kelimesi açık hecedir, örneğin: ""Me"" = m","Uma palavra de uma sílaba que termina em uma vogal é uma sílaba aberta, por exemplo: ""me"" = m"
+_sasaca,"A syllable always contains a vowel and can ""be"" said in one breath.","مقطع لفظي دائما يحتوي علي حرف العلة ويمكن ان ""يكون"" وقال في نفس واحد.","音节总包含元音并且能 ""是"" 说在一次呼吸。","Bir hece her zaman bir sesli harf içerir ve ""olabilir"" tek bir nefes dedi.","Uma sílaba sempre contém uma vogal e pode ""ser"" disse em uma respiração."
+_sasiaw,"A syllable is a word, or part of a word.",مقطع لفظي هو كلمه ، أو جزء من كلمه واحده.,音节是单词或单词的一部分。,Hece kelime ya da kelimenin bir parçasıdır.,"Uma sílaba é uma palavra, ou parte de uma palavra."
+_sastca,"A syllable that contains a vowel, a consonant and a ""siltne"" ""e"" is called a ""vce"" syllable.","المقطع اللفظي الذي يحتوي علي حرف العلة ، وهو ساكن و ""الحرير"" ""e"" يسمي مقطع ""العنف اللفظي"".","包含元音、辅音和 ""siltne"" ""e"" 的音节称为 ""vce"" 音节。","Sesli harf, ünsüz ve ""siltne"" ""e"" harfi içeren bir hece ""VCE"" hecesi olarak adlandırılır.","Uma sílaba que contém uma vogal, uma consoante e um ""siltne"" ""e"" é chamado de ""VCE"" sílaba."
+_saswav,A syllable with a vowel at the end of it is called An open syllable.,ويسمي مقطع لفظي مع حرف العلة في نهاية ذلك مقطع مفتوح.,一个音节与元音在它的末端叫一个开放音节。,Sonunda bir sesli harfe sahip bir hece açık hece olarak adlandırılır.,Uma sílaba com vogal no final é chamada de sílaba aberta.
+_sawmah,A word must always have a vowel sound.,يجب ان يكون للكلمة صوت أحرف العلة دائما.,一个词必须总是有元音音。,Bir kelimenin her zaman sesli ses olması gerekir.,Uma palavra deve sempre ter um som vogal.
+_sawwtl,"A word represented by the letters ""cvc"" is made ""up"" with (a consonant , ""avowel"", and a consonant).","والكلمة التي تمثلها الرسائل ""الاتفاقية الخاصة"" هي عبارة ""حتى"" مع (a ساكن ، ""افويل"" ، وساكنه).","由字母 ""cvc"" 表示的词由 ""向上"" 与 (辅音, ""avowel"" 和辅音)。","""CVC"" harfleri ile temsil edilen bir kelime ""Up"" ile (bir ünsüz, ""avowel"" ve bir ünsüz) yapılır.","Uma palavra representada pelas letras ""CVC"" é feita ""up"" com (uma consoante, ""avowel"" e uma consoante)."
+_saeiou,"""A"", ""e"", ""i"", ""o"", and ""u"".","""A"" ، ""هاء"" ، ""انا"" ، ""o"" ، و ""u"".","""A"", ""e"", ""i"", ""o"" 和 ""u""。","""A"", ""e"", ""ı"", ""o"" ve ""u"".","""A"", ""e"", ""i"", ""o"", e ""u""."
+_lable,able (the letters),قادره (الرسائل),能 (信件),Able (harfler),Able (as letras)
+_safb,about final blends.,حول المزج النهائي.,关于最终的融合。,Son karışımlar hakkında.,sobre as misturas finais.
+_saib,about initial blends.,حول المزج الاولي.,关于初始混合。,ilk karışımlar hakkında.,sobre as misturas iniciais.
+_satdr,about the doubling rule.,حول قاعده مضاعفه.,关于加倍的规则,iki misli kuralı hakkında.,sobre a regra de duplicação.
+_sitlywl,about word blends.,حول خليط الكلمات.,关于单词混合。,kelime karışımları hakkında.,sobre misturas de palavras.
+_saavtm,"Add a vowel (a,""e"",""i"",""o"" or ""u"") to make a word.","أضافه حرف العلة (a ، ""e"" ، ""i"" ، ""o"" أو ""u"") لجعل كلمه.","添加一个元音 (a, ""e"", ""i"", ""o"" 或 ""u"") 做一个词。","Bir kelime yapmak için bir sesli harf (a, ""e"", ""ı"", ""o"" veya ""u"") ekleyin.","Adicione uma vogal (a, ""e"", ""i"", ""o"" ou ""u"") para fazer uma palavra."
+_saytyc,"After you type your choice, I will give you the correct choice for spelling.",بعد ان تقوم بكتابه اختيارك ، ساعطيك الخيار الصحيح للتدقيق.,"在您键入您的选择之后, 我将给您正确的拼写选择。","Seçiminizi yazın sonra, size yazım için doğru seçimi verecektir.","Depois que você datilografa sua escolha, eu dar-lhe-á a escolha correta para soletrar."
+_sasitw,"Again, separate the words into syllables, read one syllable at a time, and then blend into a whole word.",مره أخرى ، وفصل الكلمات في المقاطع ، قراءه مقطع واحد في كل مره ، ومن ثم مزيج في كلمه كامله.,"再次, 把单词分成音节, 一次读一个音节, 然后混合成一个完整的单词。","Kelimeleri hecelere ayırın, aynı anda bir heceyi okuyup bir kelimeyi bütünüyle karıştırın.","Mais uma vez, separe as palavras em sílabas, leia uma sílaba de cada vez, e depois misture em uma palavra inteira."
+_lai,"""ai"" (the letters)","""ai"" (الرسائل)","""ai"" (字母)","""AI"" (harfler)","""ai"" (as letras)"
+_sai,"""ai"" (the sounds)","""ai"" (الأصوات)","""ai"" (声音)","""AI"" (sesler)","""ai"" (os sons)"
+_lald,"""ald"" (the letters)","""ألد"" (الرسائل)","""限期"" (字母)","""ald"" (harfler)","""ALD"" (as letras)"
+_lalk,"""alk"" (the letters)","""الكلمة"" (الرسائل)","""说"" (信件)","""alk"" (harfler)","""AIK"" (as letras)"
+_lall,all (the letters),all (الرسائل),所有 (信件),Tüm (harfler),todos (as letras)
+_saotlvs,all of the long vowel sounds which are closed syllable exceptions,كل من الأصوات الطويلة حرف العلة التي هي الاستثناءات المقطع مغلقه,所有是闭合的音节例外的长的元音声音,kapalı hece istisnalar olan uzun sesli seslerin tümü,todos os sons vogais longos que são exceções de sílaba fechado
+_saatws,"All of these words should ""be"" memorized.","كل هذه الكلمات ""يجب ان"" يحفظ.","所有这些单词都应该 ""被"" 记住。","Tüm bu kelimelerin """" ezberlemek gerekir.",Todas estas palavras devem ser memorizadas.
+_sasmha,All syllables must have a vowel.,كل المقاطع يجب ان يكون لها حرف العلة.,所有音节都必须有元音。,Tüm hecelerin sesli harfleri olmalı.,Todas as sílabas devem ter uma vogal.
+_satdyh,"all the digraphs you have learned ""so"" far.",كل الرسوم البيانية التي تعلمتها حتى الآن,"所有的图你已经学会了 ""那么"" 远。","""So"" kadar dahil.","todos os digrafos que você aprendeu ""tão"" longe."
+_sallth,"All the syllables in these words will ""be"" closed; therefore the vowels will be short.","جميع المقاطع في هذه الكلمات ""ستكون"" مغلقه ؛ التالي فان أحرف العلة ستكون قصيرة.",这些词中所有的音节都将被关闭;因此元音将是短的。,"Bu kelimelerdeki tüm heceler ""kapalı"" olacaktır; Bu nedenle sesli harfler kısa olacaktır.","Todas as sílabas nestas palavras serão fechadas; Portanto, as vogais serão curtas."
+_satvty,"all the vowel teams you have learned ""so"" far.",كل الفرق الصوتية التي تعلمتها حتى الآن,"所有的元音团队, 你已经学会了 ""那么"" 远。","""So"" Bildiğin tüm ünlü takımlar.","todas as equipas de vogais que aprendeste ""tão longe""."
+_satvty1,all the vowel teams you worked with in the previous lessons.,جميع الفرق الأحرف التي عملت معها في الدروس السابقة.,你在上节课中所做的所有元音团队。,önceki derste çalıştığın tüm ünlü takımlar.,todas as equipas de vogais com que trabalhou nas lições anteriores.
+_satmtss,All three make the same sound.,كل الثلاثة يصنعون نفس الصوت,所有三发出相同的声音。,Üçü de aynı sesi yapıyor.,Todos os três fazem o mesmo som.
+_lalm,"""alm"" (the letters)","""الم"" (الحروف)","""alm"" (信件)","""Alm"" (harfler)","""Alm"" (as letras)"
+_salmos,"Almost all of the words you have practiced ""so"" far have been one syllable.","تقريبا كل من الكلمات التي مارستها ""حتى"" حتى الآن كان مقطع واحد.",几乎所有你练习过的单词都是一个音节。,"Neredeyse tüm kelimelerin ""So"" çok bir hece olmuştur pratik var.","Quase todas as palavras que você praticou ""tão"" têm sido uma sílaba."
+_saitwf,"Also, in the word full, the short ""u"" sound is affected by the ""l"".","أيضا ، في كلمه كامله ، والقصيرة ""u"" الصوت يتاثر ب ""l"".","而且, 在 ""完整"" 一词中, 短的 ""u"" 音受 ""l"" 的影响。","Ayrıca, kelime dolu, kısa ""u"" ses ""l"" etkilenmektedir.","Além disso, na palavra completa, o curto ""u"" som é afetado pelo ""l""."
+_sarttv,"Also, remember that some vowel teams can make more than one sound.",أيضا ، تذكر ان بعض الفرق الأحرف الصوتية يمكن ان تجعل أكثر من صوت واحد.,"另外, 请记住, 一些元音团队可以发出不止一个声音。","Ayrıca, bazı ünlü takımlar birden fazla ses yapabilir unutmayın.","Além disso, lembre-se que algumas equipes de vogais podem fazer mais de um som."
+_lalt,alt (the letters),alt (الأحرف),alt (字母),alt (harfler),Alt (as letras)
+_salway,Always blend the word syllable by syllable.,مزيج دائما المقطع كلمه بواسطة مقطع لفظي.,总是用音节来混合单词。,Hece kelime hece her zaman karıştırın.,Sempre misture a palavra sílaba por sílaba.
+_sasiat,"An ""s"" is added to the end of the word to make it plural.","يتم أضافه ""s"" إلى نهاية الكلمة لجعله الجمع.","""s"" 被添加到单词的末尾, 使其变为复数。","Çoğul yapmak için sözcüğün sonuna ""s"" eklenir.","Um ""s"" é adicionado ao fim da palavra para torná-lo plural."
+_saeitw,"An example is the word ""patch"", which has a short ""a"".","ومن الامثله علي ذلك كلمه ""تصحيح"" ، التي لها ""الف"" قصيرة.","一个例子是 ""补丁"" 这个词, 它有一个简短的 ""a""。","Kısa bir ""a"" olan ""Patch"" sözcüğünün örneğidir.","Um exemplo é a palavra ""patch"", que tem um ""a"" curto."
+_sanope,"An open syllable ends with a vowel, and that vowel is long.",مقطع مفتوح ينتهي مع حرف العلة ، وهذا الحرف طويلة.,"一个开放的音节以元音结尾, 而元音是长的。",Açık hece bir sesli harfle sona erer ve sesli harf uzun.,"Uma sílaba aberta termina com uma vogal, e essa vogal é longa."
+_sap,"and ""p"" ...(are consonants.) (the letters ""t"")...","و ""p""... (هي الساكنة). (الحروف ""t"")...","和 ""p""..。(是辅音。(字母 ""t"")..。","ve ""p""... (ünsüzler vardır.) (harfler ""t"")...","e ""p""... (são consoantes.) (as letras ""t"")..."
+_saac,and a consonant.,والساكنة.,和辅音。,ve sessiz.,e uma consoante.
+_sastls,And say the letter sound...,ويقول الصوت الرسالة...,并说的信的声音..。,Ve mektup ses söylüyorlar...,E diga a carta soar...
+_sastls1,And say the letters sound...,ويقول الصوت الرسائل...,并说字母的声音..。,Ve harfler ses söylüyorlar...,E dizem que as letras soam...
+_satbod,"and the blend or digraph (""Hint3"").","والمزج أو الرسم البياني (""Hint3"").","和混合或有向图 (""Hint3"")。","ve Blend veya digraph (""Hint3"").","e a mistura ou digrafo (""Hint3"")."
+_satc,"and the consonant (""Hint3"").","والساكنة (""Hint3"").","和辅音 (""Hint3"")。","ve ünsüz (""Hint3"").","e a consoante (""Hint3"")."
+_satv,"and the vowel (""Hint3"")","وحرف العلة (""Hint3"")","和元音 (""Hint3"")","ve sesli harfler (""Hint3"")","e a vogal (""Hint3"")"
+_savwtl,"and vowels with the letter ""v"". (""We"" will represent consonants with the letter ""c"")","وأحرف العلة مع الحرف ""v"". (""نحن"" سنمثل الحروف الساكنة مع الحرف ""ج"")","元音与字母 ""v""。(""我们"" 将代表辅音与字母 ""c"")","ve ""v"" harfi ile ünlüler. (""Biz"" harf ""c"" ile ünsüz temsil edecektir)","e vogais com a letra ""v"". (""nós"" vai representar consoantes com a letra ""c"")"
+_wand1,"and...(""Hint3"") (used in Syllables, Break ""3"")","و... (""Hint3"") (المستخدمة في المقاطع ، كسر ""3"")","和.(""Hint3"")(用于音节, 打破 ""3"")","ve... (""Hint3"") (hecelerde kullanılan, break ""3"")","e... (""Hint3"") (usado nas sílabas, ruptura ""3"")"
+_lang,"""ang"" (the letters)","""انغ"" (الرسائل)","""昂"" (字母)","""ang"" (harfler)","""ang"" (as letras)"
+_sang,"""ang"" (the sounds)","""انج"" (الأصوات)","""昂"" (声音)","""ang"" (sesler)","""ang"" (os sons)"
+_lank,"""ank"" (the letters)","""الآن"" (الحروف)","""谢谢"" (信件)","""ank"" (harfler)","""agradecer"" (as letras)"
+_sank,"""ank"" (the sounds)","""الآن"" (الأصوات)","""谢谢"" (音)","""ank"" (sesler)","""agradecer"" (os sons)"
+_sadiwt,another digraph in which the consonants do have separate sounds.,آخر الرسم البياني الذي الحروف الساكنة لديها أصوات منفصلة.,辅音有不同的声音的另一有向图。,ünsüzlerin ayrı sesleri olduğu başka bir digraph.,outro digrafo em que as consoantes têm sons distintos.
+_saetvt,another exception to vowel team rules.,استثناء آخر لقواعد الفريق الأحرف الصوتية.,元音团队规则的另一个例外。,ünlü takım kuralları için başka bir istisna.,outra exceção às regras da equipe vogal.
+_saniyt,"Answer ""no"" if you think the doubling rule does not apply to the word.","الاجابه ""لا"" إذا كنت تعتقد ان قاعده مضاعفه لا تنطبق علي الكلمة.","如果你认为加倍规则不适用于这个词, 回答 ""否""。","İki katına kural sözcüğün geçerli olmadığını düşünüyorsanız ""Hayır"" cevap.","Resposta ""não"" se você acha que a regra de duplicação não se aplica à palavra."
+_sayiyt,Answer yes if you think the doubling rule applies to the word.,الاجابه نعم إذا كنت تعتقد ان قاعده مضاعفه ينطبق علي الكلمة.,"回答是, 如果你认为加倍规则适用于这个词。",İki katına kural Word için geçerli olduğunu düşünüyorsanız Evet cevap.,"Resposta Sim, se você acha que a regra de duplicação se aplica à palavra."
+_sacrcs,"are called ""r""-controlled syllables (Syllables that contain the letters...(""ar""/""er""/""ir"", ""etc"") ...","وتسمي ""r"" المقاطع التي تسيطر عليها (المقاطع التي تحتوي علي الحروف... (""ع""/""er""/""الاشعه تحت الحمراء"" ، ""الخ"")...","被称为 ""r""-控制音节 (包含字母的音节..。(""ar""/""er""/""ir"", ""等"")..。","adı ""r""-kontrollü heceler (harfler içeren heceler... (""ar""/""er""/""IR"", ""vb"")...","são chamadas de ""r""-sílabas controladas (sílabas que contêm as letras... (""ar""/""er""/""ir"", ""etc"")..."
+_sac,"are consonants. (the letters ""t"" and ""p"")","هي الساكنة. (الحرفان ""t"" و ""p"")","是辅音。(字母 ""t"" 和 ""p"")","ünsüzler vardır. (""t"" ve ""p"" harfi)","são consoantes. (as letras ""t"" e ""p"")"
+_saydwt,Are you finished with these words?,هل انتهيت من هذه الكلمات ؟,你说完了吗？,Bu sözlerle işin bitti mi?,Já acabaste com estas palavras?
+_larr,"""arr"" (the letters)","""ار"" (الرسائل)","""发射"" (信件)","""ARR"" (harfler)","""Arr"" (as letras)"
+_saavty,"As a vowel team, you know that letters ""“ie”"" make long vowel sounds.","كفريق حرف ، تعرف ان الحروف ""اي"" تجعل الأصوات الطويلة أحرف العلة.","作为一个元音团队, 你知道字母 ""ie"" 发出长元音。","Ünlü bir takım olarak, bu harfler """" demek ""Yani"" uzun sesli ses yapmak.","Como uma equipe vogal, você sabe que as letras """" IE """" fazem sons de vogais longos."
+_saensw,"As each new sight word is introduced, the computer will record it in your electronic sight word notebook.",كما يتم عرض كل كلمه جديده البصر ، والكمبيوتر سوف يسجل في المفكرة الكترونيه الخاصة بك البصر الكلمة.,"当每个新的视觉词被介绍, 计算机将记录它在您的电子视觉词笔记本。","Her yeni görüş kelime tanıtıldığı gibi, bilgisayar elektronik Sight Word Notebook kaydeder.","Como cada nova visão da palavra é introduzida, o computador irá gravá-lo em seu notebook visão eletrônica palavra."
+_saitw,as in the word...,كما هو الأمر في الكلمة...,就像这个词..。,kelime gibi...,como na palavra...
+_sayhpo,"As you have practiced, “ow” also makes the sound of long “o”.","كما كنت قد مارست ، ""أؤو"" يجعل أيضا صوت طويل ""o"".","正如你所练习的, ""哦"" 也发出长 ""o"" 的声音。","Sen, ""ow"" de uzun ""o"" ses yapar uygulandığı gibi.","Como você praticou, ""ow"" também faz o som de ""o"" longo."
+_sasyou,"As you may have guessed by now, all the syllable types seem to have An exception or two.",كما كنت قد خمنت الآن ، وجميع أنواع مقطع يبدو ان لديها استثناء أو اثنين.,"正如你现在可能已经猜到, 所有的音节类型似乎有一个或两个例外。","Şimdiye kadar tahmin etmiş olabilirsin, tüm hece tipleri bir istisna ya da iki var gibi görünüyor.","Como você já deve ter adivinhado até agora, todos os tipos de sílaba parecem ter uma exceção ou duas."
+_saloli,At least one letter in that word is silent.,رسالة واحده علي الأقل في تلك الكلمة صامته.,这个词中至少有一封信是无声的。,Bu kelimede en az bir mektup sessiz.,Pelo menos uma letra nessa palavra é silenciosa.
+_lau,"""au"" (the letters)","""الاتحاد الافريقي"" (الرسائل)","""au"" (信件)","""Au"" (harfler)","""au"" (as letras)"
+_sau,"""au"" (the sounds)","""الاتحاد الافريقي"" (الأصوات)","""au"" (声音)","""Au"" (sesler)","""au"" (os sons)"
+_laugh,augh (the letters),(الحروف),augh (信件),augh (harfler),Augh (as letras)
+_saugh,"""augh1"" (the sounds)","""augh1"" (الأصوات)","""augh1"" (音)","""augh1"" (sesler)","""augh1"" (os sons)"
+_saugh2,"""augh2"" (as in LAUGH)","""augh2"" (كما في الضحك)","""augh2"" (笑)","""augh2"" (gülmek gibi)","""augh2"" (como no riso)"
+_law,"""aw"" (the letters)","""aw"" (الرسائل)","""aw"" (字母)","""AW"" (harfler)","""aw"" (as letras)"
+_saw,"""aw"" (the sounds)","""aw"" (الأصوات)","""aw"" (声音)","""AW"" (sesler)","""aw"" (os sons)"
+_lay,"""ay"" (the letters)","""ay"" (الرسائل)","""哎"" (信)","""ay"" (harfler)","""ay"" (as letras)"
+_say,"""ay"" (the sounds)","""ay"" (الأصوات)","""哎"" (声音)","""ay"" (sesler)","""ay"" (os sons)"
+_sasmt8,bass (pause) bass,باس (وقفه) باس,低音 (暂停) 低音,bas (Duraklat) Bass,baixo (pausa) baixo
+_sbstst1,"""Be"" sure to say the sound of each letter and blend them together.","""كن"" من المؤكد ان يقول صوت كل حرف ومزجها معا.","""是"" 一定要说出每封信的声音并将它们混合在一起。","""her harfin sesini söylemek ve onları birarada karıştırmak"" emin olun.","""seja"" certo dizer o som de cada letra e misturá-los juntos."
+_sbtfsc,"Because the first syllable, “cli”, is open, the letter ""“i”"" makes the long ""“i”sound"".","لان المقطع الأول ، ""cli"" ، مفتوح ، والحرف ""انا"" يجعل من الطويل ""انا"" الصوت "".","因为第一个音节, ""cli"", 是开放的, 字母 ""i"" """", 使长的 ""我"" 的声音。","Çünkü ilk hece, ""CLI"", açık, """" ""ı"" harfi ""ı"" ""ses"" yapar.","Porque a primeira sílaba, ""CLI"", está aberta, a letra ""i"" faz a longa ""i"" Sound."
+_sblend,Blend the sounds in each syllable.,مزج الأصوات في كل مقطع لفظي.,混合每一个音节的声音。,Sesleri her heceye karıştırın.,Misture os sons em cada sílaba.
+_sbiimo,but it is most often at the end.,ولكنه في معظم الأحيان في نهاية المطاف.,但这是最常见的结束。,Ama en sık sonunda.,Mas é mais frequentemente no final.
+_sbtacta,But they are crunched together and the sounds are hard to separate.,ولكن يتم طحنها معا والأصوات من الصعب فصل.,"但它们在一起嘎吱作响, 声音很难分开。",Ama onlar birlikte Crunched ve sesler ayırmak zordur.,Mas eles são triturados juntos e os sons são difíceis de separar.
+_sbwicw,"But, when it ""combibines"" with a vowel to form a single sound, it is called a ""semi-vowel"".","ولكن ، عندما ""الكومبينات"" مع حرف العلة لتشكيل صوت واحد ، ويطلق عليه اسم ""شبه الحرف"".","但是, 当它 ""combibines"" 与一个元音形成一个单一的声音, 它被称为 ""semi-vowel""。","Ama, tek bir ses oluşturmak için bir sesli harflerle ""combibines"", bir ""yarı-sesli"" denir.","Mas, quando ""combibines"" com uma vogal para formar um único som, é chamado de ""semi-vogal""."
+_sc,"""c"" (hard- the sound)","""جيم"" (هارد--الصوت)","""c"" (--声音)","""c"" (sert-ses)","""c"" (Hard-o som)"
+_scs,"""c"" (soft - the sound)","""جيم"" (لينه--الصوت)","""c"" (soft-the 声音)","""c"" (yumuşak-ses)","""c"" (Soft-o som)"
+_lch,"""ch"" (the letters)","""ch"" (الحروف)","""ch"" (字母)","""CH"" (harfler)","""ch"" (as letras)"
+_sch,"""ch"" (the sounds)","""ch"" (الأصوات)","""ch"" (声音)","""CH"" (sesler)","""ch"" (os sons)"
+_schoos,"Choose a word from Column ""B"" to tack onto a word in Column A to form new compound word.","اختر كلمه من العمود ""B"" إلى المسمار في كلمه في العمود a لتكوين كلمه مركبه جديده.","从列 ""B"" 中选择一个单词, 将其粘到 a 列中的一个单词以形成新的复合词。","Yeni bileşik sözcük oluşturmak için a sütunundaki bir kelime üzerine tack ""B"" sütunundan bir sözcük seçin.","Escolha uma palavra da coluna ""B"" para tachar para uma palavra na coluna a para formar nova palavra composta."
+_sctccs,"Choose the correct consonant -""le"" syllable to tack onto.","اختيار الصحيح الساكنة--""لو"" مقطع إلى المسمار.","选择正确的辅音-""le"" 音节钉上。","Doğru ünsüz seçmek-""Le"" hece üzerine Tack.","Escolha a consoante correta-""Le"" sílaba para Tack para."
+_sctcwt,Choose the correct word to put in the blank.,اختر الكلمة الصحيحة لوضعها في الفراغ.,选择正确的单词放在空白处。,Boş koymak için doğru sözcüğü seçin.,Escolha a palavra correta para colocar em branco.
+_lck,"""ck"" (the letters)","""ck"" (الرسائل)","""ck"" (字母)","""CK"" (harfler)","""CK"" (as letras)"
+_sck,"""ck"" (the sounds)","""كورونا تشيكية"" (الأصوات)","""ck"" (声音)","""CK"" (sesler)","""CK"" (os sons)"
+_sclait,"""cl"", as in the word clap","""cl"" ، كما في كلمه التصفيق","""cl"", 如在字拍手","""CL"", kelime alkış gibi","""CL"", como na palavra clap"
+_scoawa,Click on a word at the top of your screen to complete the sentence.,انقر علي كلمه في اعلي الشاشة لإكمال الجملة.,单击屏幕顶部的某个单词以完成该句子。,Cümleyi tamamlamak için ekranınızın üst kısmındaki bir kelimeye tıklayın.,Clique em uma palavra na parte superior da tela para completar a frase.
+_scooot1,"Click on one of the suffixes in Column ""B"" to make a word.","طقطقت فوق واحده من اللواحق في عمود ""[ب]"" ان يجعل كلمه.","单击 ""B"" 列中的一个后缀来制作一个单词。","Bir kelime yapmak için ""B"" sütunundaki sonekleri birini tıklatın.","Clique em um dos sufixos na coluna ""B"" para fazer uma palavra."
+_scooot,Click on one of the three syllables to make a complete word.,انقر علي واحد من المقاطع الثلاثة لجعل كلمه كامله.,"点击一个三音节, 使一个完整的字。",Tam bir kelime yapmak için üç hece birini tıklayın.,Clique em uma das três sílabas para fazer uma palavra completa.
+_scotaf,Click on the answer for this question from the list below.,انقر علي الاجابه عن هذا السؤال من القائمة أدناه.,请从下面的列表中单击此问题的答案。,Aşağıdaki listeden bu sorunun cevabını tıklayın.,Clique na resposta para esta pergunta da lista abaixo.
+_scotbt,Click on the blend to select the word.,انقر علي المزيج لتحديد الكلمة.,单击混合以选择单词。,Kelimeyi seçmek için karışıma tıklayın.,Clique na mistura para selecionar a palavra.
+_scotct1,"Click on the column that makes the same sound of ""c""as the word on your screen.","انقر فوق العمود الذي يجعل الصوت نفسه من ""c"" كالكلمة علي الشاشة.","单击在屏幕上发出与 ""c"" 相同的声音的列。","Ekranda kelime olarak ""c"" aynı ses yapan sütuna tıklayın.","Clique na coluna que faz o mesmo som de ""c"" como a palavra em sua tela."
+_scotct,"Click on the column that makes the same sound of ""“ed”"" as the word on your screen.","انقر علي العمود الذي يجعل نفس صوت ""ed"" كالكلمة علي الشاشة.","单击在屏幕上发出与 ""ed"" 相同的声音的列。","Ekranda kelime olarak ""Ed"" aynı ses yapan sütuna tıklayın.","Clique na coluna que faz o mesmo som de ""Ed"" como a palavra em sua tela."
+_scotctm,"Click on the column that makes the same sound of ""g""as the word on your screen.","انقر علي العمود الذي يجعل الصوت نفسه من ""g"" كالكلمة علي الشاشة.","单击在屏幕上发出与 ""g"" 相同的声音的列。","Ekranda kelime olarak ""g"" aynı ses yapan sütuna tıklayın.","Clique na coluna que faz o mesmo som de ""g"" como a palavra em sua tela."
+_scotlc,Click on the left column if the “c” is hard.,"انقر علي العمود الأيسر إذا كان من الصعب ""c"".","如果 ""c"" 是硬的, 请单击左栏。","""c"" sabit ise sol sütuna tıklayın.","Clique na coluna da esquerda se o ""c"" é difícil."
+_scotlc1,Click on the left column if the “g” is hard.,"انقر علي العمود الأيسر إذا كان ""g"" من الصعب.","如果 ""g"" 是硬的, 请单击左栏。","""g"" sabit ise sol sütuna tıklayın.","Clique na coluna da esquerda se o ""g"" é difícil."
+_scotla,Click on the letter and compare its sound to your recording.,طقطقت فوق الرسالة وقارنت صوته إلى تسجيلك.,"点击这封信, 把它的声音与你的录音进行比较。",Harfe tıklayın ve kayıt için ses karşılaştırın.,Clique na letra e compare seu som à sua gravação.
+_scotlt,Click on the letter that makes the sound.,انقر علي الحرف الذي يجعل الصوت.,单击发出声音的字母。,Sesi yapan mektubu tıklayın.,Clique na letra que faz o som.
+_scotla2,Click on the letters and compare their sound to your recording.,طقطقت فوق الحروف وقارنت صوتهم إلى تسجيلك.,"单击这些字母, 并将它们的声音与您的录制进行比较。",Harfleri tıklayın ve kayıt kendi ses karşılaştırın.,Clique nas letras e compare seu som à sua gravação.
+_scotoi,Click on the one I say.,انقر علي واحد أقول.,点击我说的那个。,I say bir tıklayın.,Clique no que eu digo.
+_scltrc,Click on the right column if the “c” is soft.,"انقر علي العمود الأيمن إذا كانت ""c"" لينه.","如果 ""c"" 是软的, 请单击右栏。","""c"" yumuşak ise sağ sütuna tıklayın.","Clique na coluna direita se o ""c"" for macio."
+_scltrc1,Click on the right column if the “g” is soft.,"انقر علي العمود الأيمن إذا كانت ""g"" لينه.","如果 ""g"" 是软的, 请单击右栏。","""g"" yumuşak ise sağ sütuna tıklayın.","Clique na coluna direita se o ""g"" for macio."
+_scotst2,Click on the syllable to the left of this syllable to hear the rule.,طقطقت فوق المقطع إلى اليسار من هذا مقطع لفظي ان يسمع القاعدة.,点击这个音节左边的音节听规则。,Kuralı dinlemek için bu hecenin solundaki heceyi tıklayın.,Clique na sílaba à esquerda desta sílaba para ouvir a regra.
+_scotst1,Click on the syllable to the right of this syllable to hear the rule.,طقطقت فوق المقطع إلى الحق من هذا مقطع لفظي ان يسمع القاعدة.,点击这个音节右边的音节听规则。,Kuralı dinlemek için bu hecenin sağındaki heceyi tıklayın.,Clique na sílaba à direita desta sílaba para ouvir a regra.
+_scotst,Click on the syllable type for this syllable from the list below.,انقر علي نوع مقطع لفظي لهذا المقطع من القائمة أدناه.,从下面的列表中单击该音节的音节类型。,Aşağıdaki listeden bu hecenin hece tipine tıklayın.,Clique no tipo de sílaba para esta sílaba da lista abaixo.
+_scotwa1,Click on the word and compare it to your recording.,طقطقت فوق الكلمة وقارنت هو إلى تسجيلك.,单击该单词并将其与您的录制进行比较。,Kelimeye tıklayın ve kayıt karşılaştırın.,Clique na palavra e compare-a com a sua gravação.
+_scotwa,Click on the word and compare its sound to your recording.,طقطقت فوق الكلمة وقارنت صوته إلى تسجيلك.,单击该单词并将其声音与您的录制进行比较。,Kelimeye tıklayın ve kayıt için ses karşılaştırın.,Clique na palavra e compare seu som à sua gravação.
+_scowft,Click on words from the list below to complete the sentence.,انقر علي الكلمات من القائمة أدناه لإكمال الجملة.,点击下面列表中的单词完成句子。,Cümleyi tamamlamak için aşağıdaki listeden kelimeleri tıklayın.,Clique em palavras da lista abaixo para completar a frase.
+_sctrba2,Click the record button and say the word on the screen.,انقر فوق زر السجل وقل الكلمة علي الشاشة.,"单击 ""录制"" 按钮并在屏幕上说出该单词。",Kayıt düğmesini tıklatın ve ekrandaki kelimeyi söyleyin.,Clique no botão gravar e diga a palavra na tela.
+_scotwo,Click the words on the right that match the numbers on the left.,انقر فوق الكلمات علي اليمين التي تطابق الأرقام علي اليسار.,单击右侧与左侧数字匹配的单词。,Soldaki sayılarla eşleşen sağdaki sözcükleri tıklatın.,Clique nas palavras à direita que correspondem aos números à esquerda.
+_hcft,"Click this button to transfer a copy of your student history files to a Language Tune-""Up"" Kit For Schools system.","انقر فوق هذا الزر لنقل نسخه من ملفات محفوظات الطلاب الخاصة بك إلى لحن لغة-""لاعلي"" لنظام المدارس.","单击此按钮可将学生历史文件的副本传输到语言调整-""向上"" 工具包供学校系统使用。","Öğrenci geçmişi dosyalarınızın bir kopyasını okul sistemi için ""Up"" Kit 'e aktarmak için bu düğmeyi tıklatın.","Clique neste botão para transferir uma cópia dos seus ficheiros de histórico de alunos para uma afinação de idioma-""up"" kit para o sistema de escolas."
+_scswte,Closed syllable words that end in...,الكلمات المقطعة المغلقة التي تنتهي في...,闭合音节词结束在..。,Kapalı hece kelimeleri...,Palavras de sílaba fechadas que terminam em...
+_scolum,Column A contains the first syllables of three words.,يحتوي العمود A علي المقاطع الاولي من ثلاث كلمات.,A 列包含三单词的第一个音节。,A sütunu üç kelimenin ilk hecelerini içerir.,A coluna a contém as primeiras sílabas de três palavras.
+_scbcts,"Column ""B"" contains the second syllables of three words.","العمود ""B"" يحتوي علي المقاطع الثانية من ثلاث كلمات.","列 ""B"" 包含三单词的第二个音节。","""B"" sütunu üç kelimenin ikinci hecelerini içerir.","A coluna ""B"" contém as segundas sílabas de três palavras."
+_sctsbb,Complete the sentence below by typing in the missing word.,أكمل الجملة أدناه بالكتابة في الكلمة المفقودة.,通过键入缺少的单词来完成下面的句子。,Eksik sözcüğü yazarak aşağıdaki cümleyi tamamlayın.,"Complete a frase abaixo, digitando a palavra em falta."
+_scwamu,"Compound words are made ""up"" of two one syllable words.","وادلي الكلمات المركبة ""حتى"" من الكلمات 2 1 مقطع لفظي.",复合词是由两个音节的单词组成的。,"Bileşik kelimeler 2 1 hece kelime ""Up"" yapılır.","Palavras compostas são feitas ""up"" de 2 1 palavras-sílaba."
+_scompo,Compound words are words in which two one syllable words are joined together to make one word.,الكلمات المركبة هي الكلمات التي يتم ضم الكلمات 2 1 مقطع معا لجعل كلمه واحده.,复合词是用两个音节词一起组成一个词的词。,Bileşik sözcükleri bir kelime yapmak için birlikte 2 1 hece kelimeleri birleştirilmiştir kelime vardır.,Palavras compostas são palavras nas quais 2 1 palavras-sílabas se unem para fazer uma palavra.
+_scwhto,Compound words have two one syllable words which are joined together to make one word.,الكلمات المركبة لها الكلمات المقطعة 2 1 التي انضمت معا لجعل كلمه واحده.,"复合词有两个音节的单词, 它们一起组成一个词。",Bileşik kelimeler bir kelime yapmak için birlikte birleştirilmiş 2 1 hece kelime var.,Palavras compostas têm 2 1 palavras-sílaba que estão Unidas para fazer uma palavra.
+_scw1,compound words.,الكلمات المركبة.,复合词。,bileşik sözler.,palavras compostas.
+_wcongra,Congratulations!,تهاني!,祝贺!,Tebrikler!,Parabéns!
+_scdatc,Consonant digraphs are two consonants that weld together to make a new sound.,الرسوم البيانية الساكنة هما الساكنة التي لحام معا لجعل صوت جديد.,"辅音图是两个辅音, 焊接在一起, 使一个新的声音。",Ünsüz dahil yeni bir ses yapmak için birlikte kaynak iki ünsüz vardır.,Digrafos consoante são duas consoantes que soldam juntas para fazer um novo som.
+_scd,consonant digraphs.,الرسومات البيانية الساكنة.,辅音图。,sessiz dahil.,digrafias consoantes.
+_scarto,Consonants are all the other letters that are not vowels.,الساكنة هي جميع الحروف الأخرى التي ليست أحرف العلة.,辅音是所有其他字母不是元音。,"Ünsüzler, ünlüler olmayan tüm diğer harflerdir.",Consoantes são todas as outras letras que não são vogais.
+_scaoby,"Consonants are obstructed by your teeth, (""ch""- cheese), your mouth, (""th"" -these), or your lips, (""p"" - pig).","يتم أعاقه الساكنة من قبل أسنانك ، (""ch"" الجبن) ، فمك ، (""ال""--هذه) ، أو شفتيك ، (""p""--خنزير).","辅音是由你的牙齿, (""ch""-奶酪), 你的嘴, (""th""-这些), 或你的嘴唇, (""p""-猪) 阻碍。","Ünsüzler dişlerinizi, (""CH""-peynir), ağzınızı, (""TH""-Bu), veya dudaklar, (""p""-Pig) tarafından engellenir.","Consoantes são obstruídas por seus dentes, (""ch""-queijo), sua boca, (""th""-estes), ou seus lábios, (""p""-porco)."
+_sdeipt,Data error in sound pronunciation table. Call vendor.,خطا بيانات في جدول نطق الصوت. اتصل بالبائع.,语音表中的数据错误。呼叫供应商。,Ses telaffuz tablosunda veri hatası. Satıcıyı arayın.,Erro de dados na tabela de pronúncia de som. Chame o vendedor.
+_wdelay5,"delay .""5"" second","تاخير "". 5 ""الثاني","延迟。5 ""第二","gecikme. "" 5 ""ikinci","atraso. "" 5 ""segundo"
+_wdelay1,"delay ""1"".""0"" second","تاخير ""1"". 0 ""الثانية","延迟 ""1""。0 ""第二","gecikme ""1"". 0 ""saniye","Delay ""1"". 0 ""segundo"
+_wdelay2,"delay ""2"".""0"" seconds","تاخير ""2"". 0 ""ثانيه","延迟 ""2""。0 ""秒","""2"" gecikme. 0 ""saniye","Delay ""2"". 0 ""segundos"
+_sdotctf,"Depending on the consonant that follows the letters ""al"", the letter ""a"" will make the sound of double dotted ""a"".","واعتمادا علي الحرف الساكن الذي يتبع الحروف ""al"" ، فان الرسالة ""a"" ستجعل الصوت مزدوج المنقطة ""a"".","根据字母 ""al"" 后面的辅音, 字母 ""a"" 将发出双点 ""a"" 的声音。","""Al"" harfini izleyen sessize bağlı olarak, ""a"" harfi çift noktalı ""a"" sesini yapacaktır.","Dependendo da consoante que segue as letras ""Al"", a letra ""a"" fará com que o som de duplo pontilhado ""a""."
+_ldge,"""dge"" (the letters)","""الحرف"" (الأحرف)","""dge"" (信件)","""DGE"" (harfler)","""DGE"" (as letras)"
+_sdyhts,Did you hear the sound made by the letter “c” in the word “ceiling”?,"هل سمعت صوت الحرف ""ج"" في كلمه ""السقف"" ؟","你有没有听到 ""天花板"" 一词中的字母 ""c"" 所发出的声音？","""tavan"" kelimesinin ""c"" harfi ile yapılan sesi duydunuz mu?","Você ouviu o som feito pela letra ""c"" na palavra ""teto""?"
+_sdivid,Divide that word into syllables.,تقسيم تلك الكلمة إلى المقاطع.,把这个词分成音节。,Bu kelimeyi hecelere bölün.,Divida essa palavra em sílabas.
+_sdtwbt2,Divide the syllables between the consonant and the last vowel.,تقسيم المقاطع بين ساكنه وحرف العلة الأخير.,将辅音和最后一个元音之间的音节分开。,Ünsüz ve son sesli harf arasındaki heceleri bölün.,Divida as sílabas entre a consoante e a última vogal.
+_sdtwbt,Divide the syllables between two or more consonants which fall between two vowels.,تقسيم المقاطع بين اثنين أو أكثر من الحروف الساكنة التي تقع بين اثنين من حرف العلة.,把两个或两个以上元音之间的音节分开。,İki sesli harfler arasında iki veya daha fazla ünsüz arasındaki heceleri bölün.,Divida as sílabas entre duas ou mais consoantes que caem entre duas vogais.
+_sdtwis,Divide the word into syllables.,تقسيم الكلمة إلى المقاطع.,把这个词分成音节。,Sözcüğü hecelere bölün.,Divida a palavra em sílabas.
+_sdytts,Do you think they sound the same?,هل تعتقد انهم يبدون متشابهين ؟,你认为他们的声音是一样的吗？,Sence aynı sesler mi?,Acha que soam iguais?
+_sdywte,Do you want to exit?,هل تريد الخروج ؟,要退出吗？,Çıkmak ister misin?,Quer sair?
+_sdylss1,Do your letter sounds sound like mine?,هل يبدو خطابك كصوتي ؟,你的信听起来像我的吗？,Mektubun benimki gibi geliyor mu?,Sua carta soa como a minha?
+_sdoest,"Does the ""e"" make a sound?","هل ""اي"" تجعل الصوت ؟","""e"" 是否发出声音？","""e"" bir ses yapar mı?","O ""e"" faz um som?"
+_sdyass,"Does your ""a"" sound sound like mine?",هل صوتك يبدو كالمنجم ؟,"你的 ""a"" 听起来像我的吗？","""a"" sesin benimkine benziyor mu?","O seu som de ""a"" soa como o meu?"
+_sdwas,"Don'""t"" worry about spelling it correctly.",لا تقلق بشان تهجئه الأمر بشكل صحيح,不要担心拼写正确。,"""t"" doğru hecelemeyi dert etme.",Não se preocupe em soletrar corretamente.
+_lddi,"Double dotted ""i"" (the letters).","منقطه مزدوجة ""انا"" (الحروف).","双虚线 ""i"" (字母)。","Çift noktalı ""ı"" (harfler).","Duplo pontilhado ""i"" (as letras)."
+_lddo,"Double Dotted ""O""","منقطه مزدوجة ""O""","双虚线 ""O""","Çift noktalı ""O""","Duplo pontilhado ""O"""
+_lddy,double dotted Y,Y منقطه مزدوجة,双虚线 Y,çift noktalı Y,Y pontilhado dobro
+_ldr,"""dr"" (the letters)","""الدكتور"" (الرسائل)","""博士"" (字母)","""Dr"" (harfler)","""Dr"" (as letras)"
+_lea,"""ea"" (the letters)","""ea"" (الرسائل)","""ea"" (字母)","""EA"" (harfler)","""ea"" (as letras)"
+_sea1,"""ea1"" (the sounds - EAT)","""الإنجاز المتوقع"" (الأصوات--أكل)","""ea1"" (声音吃)","""EA1"" (sesler-EAT)","""EA1"" (os sons-Eat)"
+_sea2,"""ea2"" (the sounds - HEAD)","""الإنجاز المتوقع"" (الأصوات الرئيسية)","""ea2"" (音头)","""EA2"" (sesler-Head)","""EA2"" (o som-Head)"
+_sea3,"""ea3"" (the sounds - STEAK)","""3"" (الأصوات--ستيك)","""ea3"" (声音-牛排)","""EA3"" (sesler-biftek)","""-"" (os sons-Steak)"
+_selmio,Each letter makes its own sound.,كل حرف يجعل الصوت الخاصة به.,每个字母都发出自己的声音。,Her mektup kendi sesini yapar.,Cada letra faz seu próprio som.
+_seswha,Each sound will have a keyword to help you remember it.,سيكون لكل صوت كلمه رئيسيه لمساعدتك علي تذكرها.,"每个声音将有一个关键字, 以帮助您记住它。",Her ses size hatırlamaya yardımcı olacak bir anahtar kelime olacaktır.,Cada som terá uma palavra-chave para ajudá-lo a lembrar.
+_seusha,Each unique sound has a keyword associated with it.,يحتوي كل صوت فريد علي كلمه أساسيه مقترنة به.,每个唯一的声音都有一个与之相关的关键词。,Her benzersiz ses ile ilişkilendirilmiş bir anahtar kelime vardır.,Cada som exclusivo tem uma palavra-chave associada a ele.
+_sevmmd,Each vowel makes many different sounds.,كل حرف العلة يجعل العديد من الأصوات المختلفة.,每个元音都发出许多不同的声音。,Her sesli harf çok farklı sesler yapar.,Cada vogal faz muitos sons diferentes.
+_lear,ear (the letters),الاذن (الحروف),耳朵 (信件),kulak (harfler),orelha (as letras)
+_led,"""ed"" (the letters)","""اد"" (الرسائل)","""ed"" (信件)","""Ed"" (harfler)","""Ed"" (as letras)"
+_sedd,"""edd"" (the sound of /""d""/)","""d"" (صوت/""d"")","""edd"" (音/""d""/)","""EDD"" (ses/""d""/)","""EDD"" (o som de/""d""/)"
+_sedt,"""edt"" (the sound of /""t""/)","""edt"" (صوت/""t"")","""edt"" (声音/""t""/)","""EDT"" (ses/""t""/)","""EDT"" (o som de/""t""/)"
+_lee,"""ee"" (the letters)","""هاء"" (الرسائل)","""ee"" (信件)","""Ee"" (harfler)","""ee"" (as letras)"
+_see,"""ee"" (the sounds)","""ee"" (الأصوات)","""ee"" (声音)","""Ee"" (sesler)","""ee"" (os sons)"
+_lei,"""ei"" (the letters)","""الرسائل""","""ei"" (字母)","""EI"" (harfler)","""Ei"" (as letras)"
+_leigh,"""eigh"" (the letters)","""الرسائل""","""8"" (信件)","""sekiz"" (harfler)","""8"" (as letras)"
+_seigh,"""eigh"" (the sounds)","""الأصوات""","""8"" (音)","""sekiz"" (sesler)","""8"" (os sons)"
+_see2,"eighteen, eighteenth",ثمانيه عشر ، ثامن عشر,"十八, 第十八","on sekiz, onsekizinci","dezoito, décimo oitavo"
+_see1,"eleven, eleventh",11 ، الحادي عشر,"十一, 第十一","Onbir, onbirinci","onze, décimo primeiro"
+_seisrw,Employ is the root word.,الاستخدام هو الكلمة الجذرية.,用人是根字。,İstihdam kök kelimedir.,Empregar é a palavra raiz.
+_len,"""en"" (the letters).","""en"" (الحروف).","""en"" (信件)。","""en"" (harfler).","""en"" (as letras)."
+_leng,"""eng"" (the letters)","""إنكلترا"" (الرسائل)","""英语"" (字母)","""ENG"" (harfler)","""ENG"" (as letras)"
+_seng,"""eng"" (the sound)","""المهندس"" (الصوت)","""英语"" (声音)","""ENG"" (ses)","""ENG"" (o som)"
+_lenk,"""enk"" (the letters)","""اينك"" (الحروف)","""l-enk"" (信件)","""ENK"" (harfler)","""brigada"" (as letras)"
+_senk,"""enk"" (the sound)","""اينك"" (الصوت)","""l-enk"" (声音)","""ENK"" (ses)","""brigada"" (o som)"
+_seyiya,"Enter ""Y"" if yes, and ""N"" if ""no"".","ادخل ""Y"" إذا كان الجواب نعم ، و ""N"" إذا كان ""لا"".","如果是, 则输入 ""Y"", 如果为 ""否"", 则为 ""N""。","Evet ve ""Hayır"" ise ""Y"" girin.","Digite ""Y"" se Sim, e ""n"" se ""não""."
+_seatlit,"Enter all of the letters in the ""r-controlled"" syllable.","ادخل كافة الأحرف في مقطع ""r-المتحكم"".","输入 ""r 控制"" 音节中的所有字母。","""r-kontrollü"" hecedeki tüm harfleri girin.","Insira todas as letras na sílaba ""r-controlled""."
+_seaotli,"Enter all of the letters in the syllable that contains the letter ""c"".","ادخل كل الحروف في المقطع اللفظي الذي يحتوي علي الحرف ""c"".","输入包含字母 ""c"" 的音节中的所有字母。","""c"" harfi içeren hecedeki tüm harfleri girin.","Insira todas as letras na sílaba que contém a letra ""c""."
+_seaotl,"Enter all of the letters in the syllable that contains the letter ""g"".","ادخل كل الحروف في المقطع اللفظي الذي يحتوي علي الحرف ""g"".","输入包含字母 ""g"" 的音节中的所有字母。","""g"" harfi içeren hecedeki tüm harfleri girin.","Insira todas as letras na sílaba que contém a letra ""g""."
+_setbww,"Enter the base word without the added ""s"".","ادخل الكلمة الاساسيه بدون الاضافه ""s"".","输入基本单词而不添加 ""s""。","Eklenen ""s"" olmadan temel kelimeyi girin.","Insira a palavra base sem o ""s"" adicionado."
+_setkft,Enter the keyword for that sound.,ادخل الكلمة الاساسيه لهذا الصوت.,输入该声音的关键字。,Bu sesin anahtar sözcüğünü girin.,Insira a palavra-chave para esse som.
+_setlei,"Enter the letter ""E"" if you think the vowel is ""E"".","ادخل الحرف ""e"" إذا كنت تعتقد ان حرف العلة هو ""e"".","如果你认为元音是 ""e"", 请输入字母 ""e""。","Harf ""e"" harfi ""e"" olduğunu düşünüyorsanız ""e"" girin.","Digite a letra ""e"" se você acha que a vogal é ""e""."
+_setlii,"Enter the letter ""I"" if you think the vowel is ""I"".","ادخل الحرف ""i"" إذا كنت تعتقد ان حرف العلة هو ""i"".","如果你认为元音是 ""i"", 请输入字母 ""i""。","Harf ""ı"" harfi harfini ""ı"" olduğunu düşünüyorsanız girin.","Digite a letra ""i"" se você acha que a vogal é ""i""."
+_setlsit,"Enter the letter ""s"" if the vowel is short, or ""l"", if the vowel is long.","ادخل الحرف ""s"" إذا كان حرف العلة قصيرا ، أو ""l"" ، إذا كان حرف العلة طويلا.","如果元音较短, 则输入字母 ""s"", 如果元音较长, 则为 ""l""。","Sesli harf kısa ise ""s"" harfi girin, ya da ""l"", Eğer sesli harf uzun.","Introduza a letra ""s"" se a vogal for curta, ou ""l"", se a vogal for longa."
+_setlft,Enter the letter for that sound.,ادخل الحرف الخاص بهذا الصوت.,输入该声音的字母。,Bu sesin harfini girin.,Digite a carta para esse som.
+_setlft1,Enter the letter for the sound...,ادخل الحرف الخاص بالصوت...,输入声音的字母..。,Ses için harf girin...,Digite a carta para o som...
+_setlotv,Enter the letter of the vowel sound for the word...,ادخل حرف صوت الحرف الصوتي للكلمة...,输入单词的元音字母.。,Kelime için ünlü sesin harfi girin...,Digite a letra do som vogal para a palavra...
+_setlot,Enter the letters for the digraph in the word...,ادخل الأحرف للرسم البياني في الكلمة...,在单词中输入有向图的字母.。,Kelime digraph için harfleri girin...,Digite as letras para o digrafo na palavra...
+_setlot5,Enter the letters of the long vowel sounds for the word...,ادخل حروف الأحرف الطويلة الصوتية للكلمة...,输入单词的长元音音的字母.。,Kelime için uzun ünlü seslerin harfleri girin...,Digite as letras da vogal longa sons para a palavra...
+_setlo12,Enter the letters of the suffix in the word...(word),ادخل الأحرف الخاصة باللاحقة في الكلمة... كلمه),在单词中输入后缀的字母.。词),Word 'de sonekin harflerini girin... Word),Insira as letras do sufixo na palavra... palavra)
+_setlot4,Enter the letters of the three letter blend for the word...,ادخل الحروف من الحرف الثلاثة مزيج للكلمة...,输入单词的三字母混合的字母.。,Kelime için üç harf karışımı girin...,Digite as letras da mistura de três letras para a palavra...
+_setlot3,Enter the letters of the vowel sound for the word...,ادخل حروف صوت الحرف الصوتي للكلمة...,输入单词的元音字母.。,Kelime için ünlü sesin harflerini girin...,Digite as letras do som vogal para a palavra...
+_setlot2,Enter the letters of the vowel team in the word...,ادخل رسائل الفريق الحرف الصوتي في الكلمة...,在单词中输入元音组的字母.。,Harflerle harfleri kelimeye girin...,Digite as letras da equipe vogal na palavra...
+_setlot6,"Enter the letters of the vowel team in this word that make the sound...(""SkillWave"").","ادخل رسائل الفريق الحرف الصوتي في هذه الكلمة التي تجعل الصوت... (""المهارة الموجهة"").","在这个词中输入元音组的字母, 使声音..。(""SkillWave"")。","Ses yapmak bu kelimede ünlü takımın harfleri girin... (""SkillWave"").","Digite as letras da equipe vogal nesta palavra que fazem o som... (""SkillWave"")."
+_setlot1,Enter the letters of the vowel team.,ادخل رسائل الفريق الحرف الصوتي.,输入元音组的字母。,Ünlü takımın harflerini girin.,Digite as letras da equipe vogal.
+_setlotw,Enter the letters of the word family in the word (word).,ادخل الأحرف الخاصة بكلمه العائلة في الكلمة (word).,在单词 (word) 中输入单词族的字母。,Sözcüğün Word ailesinin harflerini girin (Word).,Introduza as letras da palavra família na palavra (palavra).
+_setmli,Enter the missing letter in the correct alphabetical order.,ادخل الحرف المفقود بالترتيب الأبجدي الصحيح.,以正确的字母顺序输入丢失的字母。,Eksik harfi doğru alfabetik sıraya girin.,Insira a letra em falta na ordem alfabética correta.
+_setnos,Enter the number of syllables that you hear in the word...(word),ادخل عدد المقاطع التي تسمعها في الكلمة... كلمه),输入您在单词中听到的音节数.。词),Kelimede duyduğunuz hecelerin sayısını girin... Word),Digite o número de sílabas que você ouve na palavra... palavra)
+_setvsf,Enter the vowel sound for the word...,ادخل صوت حرف العلة للكلمة...,输入单词的元音音.。,Kelime için sesli ses girin...,Digite o som vogal para a palavra...
+_setwwi,"Enter the ""W"" with its controlled letters for the word (word).","ادخل ""W"" مع الرسائل التي يتحكم بها للكلمة (word).","输入 ""W"" 及其受控字母 (单词)。","Kelime (Word) için kontrollü harflerle ""W"" girin.","Digite o ""W"" com suas letras controladas para a palavra (Word)."
+_lerr,err (the letters),خطا (الأحرف),错误 (字母),Err (harfler),Err (as letras)
+_les,"""es"" (the letters)","""es"" (الحروف)","""es"" (字母)","""es"" (harfler)","""es"" (as letras)"
+_lest,"""est"" (the letters)","""est"" (الحروف)","""est"" (字母)","""EST"" (harfler)","""est"" (as letras)"
+_leu,"""eu"" (the letters)","""الاتحاد الأوروبي"" (الرسائل)","""欧共体"" (信件)","""AB"" (harfler)","""UE"" (as letras)"
+_lew,"""ew"" (the letters)","""الرسائل المتبادلة""","""电子战"" (字母)","""ew"" (harfler)","""EW"" (as letras)"
+_ley,"""ey"" (the letters)","""ني"" (الرسائل)","""他们"" (字母)","""Ey"" (harfler)","""ey"" (as letras)"
+_sff1,"fifteen, fifteenth",خمسه عشر ، خامس عشر,"十五, 第十五","Onbeş, on beşinci","Quinze, décimo quinto"
+_sfitbwa,Fill in the blanks with a word from the story.,ملء الفراغات مع كلمه من القصة.,用故事中的一个词填空。,Hikayeden bir kelime ile boşlukları doldurun.,Preencha os espaços em branco com uma palavra da história.
+_sflait,"""fl"", as in the word flap","""فلوريدا"" ، كما هو الأمر في رفرف كلمه","""fl"", 如在字瓣","""fl"", kelime flep gibi","""FL"", como na aba da palavra"
+_sfetaf,"For example ""TAF"" is not a word, but you can blend the three sounds /t/ /a/ /""f""/ to make a nonsense word.","علي سبيل المثال ""تاف"" ليست كلمه واحده ، ولكن يمكنك مزيج الأصوات الثلاثة////////""f"" لجعل كلمه هراء.","例如 ""TAF"" 不是一个词, 但你可以混合三的声音/t/////""f""/做一个废话字。","Örneğin ""TSK"" bir kelime değil, ancak üç sesleri//a//""f""/anlamsız bir kelime yapmak için karışımı olabilir.","Por exemplo ""TAF"" não é uma palavra, mas você pode misturar os três sons/t//a//""f""/para fazer uma palavra sem sentido."
+_sfetit,"For example, ""t"" is the first letter of the word ""top""","علي سبيل المثال ، ""t"" هي الحرف الأول من كلمه ""top""","例如, ""t"" 是单词 ""top"" 的第一个字母","Örneğin, ""t"" sözcüğünün ilk harfidir ""top""","Por exemplo, ""t"" é a primeira letra da palavra ""Top"""
+_sforex,"For example, I will say object -- What type of syllable is the first syllable in the word object?",علي سبيل المثال ، سوف أقول الكائن--ما هو نوع من مقطع لفظي هو المقطع الأول في كلمه الكائن ؟,"例如, 我会说对象-什么类型的音节是单词对象中的第一个音节？","Örneğin, nesnenin kelime nesnesinin ilk hecesi ne tür bir hecedir?","Por exemplo, eu vou dizer objeto-que tipo de sílaba é a primeira sílaba no objeto do Word?"
+_sfeitw,"For example, in the word ""these"", the ""th"" is obstructed by your teeth,","علي سبيل المثال ، في كلمه ""هذه"" ، فان ""ال"" يعوقها أسنانك ،","例如, 在 ""这些"" 这个词中, ""th"" 被你的牙齿挡住了,","Örneğin, ""Bu"" sözcüğünde, ""TH"" dişlerin tarafından engellendi,","Por exemplo, na palavra ""estes"", o ""th"" é obstruído por seus dentes,"
+_sfetot,"For example, think of the name Tom and the sounds you hear in it.",علي سبيل المثال ، التفكير في اسم توم والأصوات التي تسمع فيه.,"例如, 想起汤姆的名字和你在里面听到的声音。","Örneğin, adı Tom ve duyduğunuz sesleri düşünün.","Por exemplo, pense no nome Tom e os sons que você ouve nele."
+_sfetot1,"For example, think of the word top and the sounds you hear in it.",علي سبيل المثال ، التفكير في الكلمة اعلي والأصوات التي تسمع فيه.,"举个例子, 想象一下上面的单词和你听到的声音。","Örneğin, kelime üst ve duyduğunuz sesleri düşünün.","Por exemplo, pense na palavra Top e os sons que você ouve nele."
+_sfec,For example: contest,علي سبيل المثال: المسابقة,例如: 比赛,Örneğin: yarışma,Por exemplo: concurso
+_sfeds,"For example: ""da"" ""so"" = soda","علي سبيل المثال: ""da"" ""لذلك"" = الصودا","例如: ""da"" ""所以"" = 苏打","Örneğin: ""da"" ""So"" = soda","Por exemplo: ""da"" ""assim"" = soda"
+_sfeff,"For example: fifty = ""fif"" ty","علي سبيل المثال: 50 = ""فأف"" تاي","例如: 五十 = ""fif"" ty","Örneğin: 50 = ""FIF"" Ty","Por exemplo: 50 = ""a"""
+_sfer,"For example: reruns = ""re"" runs","علي سبيل المثال: أعاده تشغيل = ""re"" يعمل","例如: 重播 = ""re"" 运行","Örneğin: yeniden çalıştırır = ""Re"" çalıştırır","Por exemplo: reprises = ""re"" executa"
+_sfer1,For example: restive = rest ive,علي سبيل المثال: المضطربة = بقية ايف,例如: 焦躁不安 = 休息,Örneğin: Resty = Rest ive,Por exemplo: resty = REST ive
+_sfev,"For example: volcanic = ""vol"" can ic","علي سبيل المثال: البركانية = ""المجلد"" يمكن ic","例如: 火山 = ""卷"" 罐头集成电路","Örneğin: volkanik = ""Vol"" olabilir IC","Por exemplo: vulcânica = ""Vol"" pode IC"
+_sfmnat,"For most numbers after three, you will add the letters ""th"" when referring to the next consecutive count of something.","بالنسبة لمعظم الأرقام بعد ثلاثه ، سوف تضيف الحروف ""ال"" عند الاشاره إلى العد التالي علي التوالي من شيء.","对于大多数数字在三以后, 您将添加字母 ""th"" 时, 指的是下一个连续计数的东西。","Üç sonra çoğu sayı için, bir şey sonraki ardışık sayım atıfta ""TH"" harfleri ekleyecektir.","Para a maioria dos números após três, você vai adicionar as letras ""th"" ao se referir à próxima contagem consecutiva de algo."
+_sftw,For the word...,للكلمة...,这个词..。,Kelime için...,Para a palavra...
+_sff,"fourteen, fourteenth",أربعه عشر ، رابع عشر,"十四, 第十四","Ondört, ondördüncü","Quatorze, décimo quarto"
+_lful,"""ful"" (the letters)","""فول"" (الحروف)","""全部"" (信件)","""ful"" (harfler)","""FUL"" (as letras)"
+_sg,"""g"" (hard G sound)","""g"" (الصوت الصلب g)","""g"" (坚硬 g 声音)","""g"" (Sabit g ses)","""g"" (Hard g Sound)"
+g,"""g"" (the letter).","""g"" (الرسالة).","""g"" (信)。","""g"" (harf).","""g"" (a letra)."
+_lgh,"""gh"" (the letters)","""غ"" (الرسائل)","""gh"" (信件)","""GH"" (harfler)","""GH"" (as letras)"
+_lgn,"""gn"" (the letters)","""gn"" (الرسائل)","""gn"" (信件)","""GN"" (harfler)","""GN"" (as letras)"
+_sgwbil,"Good work, but I'""d"" like to hear the ""a"" sound once again.","العمل الجيد ، ولكن انا ""د"" ترغب في سماع ""a"" الصوت مره أخرى.","干得好, 但我 ""d"" 喜欢再次听到 ""a"" 的声音。","İyi iş, ama ""a"" sesini bir kez daha duymak istiyorum.","Bom trabalho, mas eu gostaria de ouvir o som de ""a"" mais uma vez."
+_shasns,Here are some new sight words for you to memorize.,وهنا بعض الكلمات الجديدة البصر بالنسبة لك لحفظ.,这里有一些新的视觉词汇供你记忆。,Burada ezberlemek için bazı yeni görüş kelimeleri vardır.,Aqui estão algumas novas palavras de visão para você memorizar.
+_shiasr,Here is a simple rule for you to remember.,هنا قاعده بسيطه بالنسبة لك ان نتذكر.,这里有一个简单的规则让你记住。,Burada hatırlanması gereken basit bir kural var.,Aqui está uma regra simples para você se lembrar.
+_shotfv,hooks onto the first vowel to form a closed syllable.,خطاطيف علي حرف العلة الأول لتشكيل مقطع مغلق.,钩到第一个元音形成一个封闭的音节。,bir kapalı hece oluşturmak için ilk sesli harf üzerine kanca.,ganchos na primeira vogal para formar uma sílaba fechada.
+_showis,"How is the word ""into"" different from the word ""in""?","كيف هي كلمه ""في"" مختلفه عن كلمه ""في"" ؟","""入"" 一词与 ""in"" 中的词有何不同？","Kelime ""ın"" kelimesinin ""içinde"" kelimesinin farkı nedir?","Como a palavra ""em"" é diferente da palavra ""em""?"
+_shmldy,How many letters do you see?,كم عدد الرسائل التي تراها ؟,你看到多少封信？,Kaç tane mektup gördün?,Quantas cartas você vê?
+_shmsdy1,How many sounds did you hear?,كم عدد الأصوات التي سمعتها ؟,你听到多少声音？,Kaç ses duydun?,Quantos sons você ouviu?
+_shmsdy,How many sounds did you say.,كم عدد الأصوات التي قلتها,你说了多少声？,Kaç ses dedin.,Quantos sons você disse.
+_shmsd3,How many sounds do you hear in the first syllable?,كم عدد الأصوات التي تسمعها في المقطع الأول ؟,第一个音节你听到多少声音？,İlk hecede kaç ses duyulur?,Quantos sons você ouve na primeira sílaba?
+_shmsd2,How many sounds do you hear in the second syllable?,كم عدد الأصوات التي تسمعها في المقطع الثاني ؟,你在第二个音节听到多少声音？,İkinci hecede kaç ses duyulur?,Quantos sons você ouve na segunda sílaba?
+_shmsd,How many sounds do you hear?,كم عدد الأصوات التي تسمعها ؟,你听到多少声音？,Kaç ses duyuyorsun?,Quantos sons você ouve?
+_shmsa,How many syllables are in this word?,كم عدد المقاطع في هذه الكلمة ؟,这个词有多少音节？,Bu kelimede kaç hece var?,Quantas sílabas estão nesta palavra?
+_shiyst,"However, if you say the vowel team ""ei"" using a long ""e"" sound, you get the nonsense word ""cleent"".","ومع ذلك ، إذا كنت تقول الفريق حرف العلة ""اي"" باستخدام طويلة ""هاء"" الصوت ، وتحصل علي كلمه هراء ""كلينت"".","然而, 如果你说元音小组 ""ei"" 使用一个长的 ""e"" 的声音, 你得到废话字 ""cleent""。","Ancak, Eğer ""ei"" uzun bir ""e"" ses kullanarak, sen anlamsız kelime ""cleent"".","No entanto, se você diz que a equipe vogal ""Ei"" usando um longo ""e"" som, você recebe a palavra nonsense ""cleent""."
+_sasmt1,I am going to say two words.,ساقول كلمتين,我要说两个字。,İki kelime söyleyeceğim.,Vou dizer duas palavras.
+_sihkto,I have kept the ones you have already completed.,لقد احتفظت بتلك التي أكملتها بالفعل,我保留了你已经完成的那些。,Zaten tamamladınız olanları sakladım.,Eu mantive os que você já completou.
+_siwbit,I will beep if the letter you type is wrong.,ساقوم بالتنبيه إذا كانت الرسالة التي تكتبها خاطئه.,"如果你打字的信错了, 我就会哔一声。",Yazdığınız mektup yanlışsa bip sesini vereceğim.,Vou apitar se a carta que você digitar estiver errada.
+_siwbit1,I will beep if you choose the wrong second syllable.,سوف بيب إذا اخترت المقطع الثاني الخطا.,"如果你选错了第二个音节, 我就会哔一声。",Yanlış ikinci heceyi seçerseniz bip sesi çıkar.,Vou apitar se escolher a segunda sílaba errada.
+_siwgyf,I will give you four groups of three.,ساعطيك أربع مجموعات من ثلاثه,我会给你四组三。,Sana üç kişilik dört grup vereceğim.,Vou dar-lhe quatro grupos de três.
+_siwsab,I will say a blend.,ساقول مزيجا.,我要说的是混合。,Ben de bir karışım söyleyeceğim.,Vou dizer uma mistura.
+_siwsan,I will say a nonsense word.,ساقول كلمه هراء,我会说一个无意义的词。,Saçma sapan bir kelime söyleyeceğim.,Vou dizer uma palavra sem sentido.
+_siwsap,I will say a phrase.,ساقول عبارة,我会说一句话。,Bir deyim söyleyeceğim.,Vou dizer uma frase.
+_siwsas1,I will say a sentence.,ساقول جمله,我会说一句话。,Bir cümle söyleyeceğim.,Vou dizer uma frase.
+_siwsas,I will say a sound.,ساقول صوتا,我要说声。,Bir ses söyleyeceğim.,Eu vou dizer um som.
+_siwsaw1,I will say a word and I will say a sound.,ساقول كلمه ساقول صوتا,"我会说一个字, 我会说一个声音。",Bir kelime söyleyeceğim ve bir ses söyleyeceğim.,Eu vou dizer uma palavra e eu vou dizer um som.
+_siwsaw3,I will say a word and show it on the screen.,ساقول كلمه وتظهر علي الشاشة.,"我会说一个字, 并显示在屏幕上。",Bir kelime söyleyeceğim ve ekranda göstereceğim.,Eu vou dizer uma palavra e mostrá-lo na tela.
+_siwsaw2,I will say a word or a nonsense word.,ساقول كلمه أو كلمه هراء,我会说一个字或一个无意义的词。,Bir kelime ya da anlamsız bir kelime söyleyeceğim.,Vou dizer uma palavra ou uma palavra sem sentido.
+_siwsaw,I will say a word.,ساقول كلمه.,我要说一句话。,Bir kelime söyleyeceğim.,Vou dizer uma palavra.
+_siwsts,I will say the sound of a blend.,ساقول صوت مزيج.,我要说的是混合的声音。,Bir karışımın sesini söyleyeceğim.,Eu vou dizer o som de uma mistura.
+_siwstf,I will show the first syllable of a word.,وسوف تظهر المقطع الأول من كلمه واحده.,我将展示一个单词的第一个音节。,Bir kelimenin ilk hecesini göstereceğim.,Vou mostrar a primeira sílaba de uma palavra.
+_siwsya2,I will show you a group of letters.,ساريك مجموعه من الرسائل,我会给你看一组字母。,Sana bir grup mektup göstereceğim.,Vou lhe mostrar um grupo de cartas.
+_siwsya4,I will show you a group of sentences.,ساريك مجموعه من الجمل,我会给你看一组句子。,Sana bir grup cümle göstereceğim.,Vou lhe mostrar um grupo de frases.
+_siwsya3,I will show you a group of words.,ساريك مجموعه من الكلمات,我会给你看一组单词。,Sana bir grup kelime göstereceğim.,Vou lhe mostrar um grupo de palavras.
+_siwsya,I will show you a letter and you will need to record its sound.,وسوف تظهر لك رسالة وسوف تحتاج إلى تسجيل صوتها.,"我会给你看一封信, 你将需要记录它的声音。",Sana bir mektup göstereceğim ve ses kaydını yapman gerekecek.,Vou mostrar-lhe uma carta e você vai precisar para gravar o seu som.
+_siwsya6,I will show you a word that contains the letter “c”.,"ساريك كلمه تحتوي علي الحرف ""ج""","我将给你看一个包含字母 ""c"" 的单词。","Sana ""c"" harfi içeren bir kelime göstereceğim.","Vou lhe mostrar uma palavra que contém a letra ""c""."
+_siwsya7,I will show you a word that contains the letter “g”.,"ساريك كلمه تحتوي علي الحرف ""g""","我会告诉你一个词, 其中包含字母 ""g""。","Sana ""g"" harfi içeren bir kelime göstereceğim.","Vou lhe mostrar uma palavra que contém a letra ""g""."
+_siwsya5,"I will show you a word that contains the suffix ""“ed”"".","وسوف تظهر لك كلمه تحتوي علي لاحقه ""اد"" "".","我将向您展示一个包含后缀 ""ed"" 的单词。","Sana sonek """" ""Ed"" içeren bir kelime gösterecektir.","Vou lhe mostrar uma palavra que contém o sufixo ""Ed""."
+_siwsya1,I will show you a word.,ساريك كلمه,我会告诉你一个字。,Sana bir şey göstereceğim.,Vou lhe mostrar uma palavra.
+_siwsys,I will show you some letters and you will need to record their sound.,ساريكم بعض الرسائل ستحتاجون لتسجيل صوتهم,"我会给你看一些信, 你将需要记录他们的声音。",Sana bazı mektuplar göstereceğim ve ses kayıtlarını kaydetmen gerekecek.,Vou mostrar-lhe algumas letras e você vai precisar para gravar o seu som.
+_sistoy,"I'""ve"" saved the ones you need to check again.",لقد أنقذت الأشخاص الذين تحتاج لفحصهم مره أخرى,我已经保存了你需要检查的那些,Tekrar kontrol etmen gerekenleri kurtardım.,Eu salvei aqueles que você precisa checar de novo.
+_si2,"""i2"" (double dotted - the sound (""machine""))","""i2"" (منقطه مزدوجة--الصوت (""اله""))","""i2"" (双虚线-声音 (""机器""))","""1.75"" (çift noktalı-ses (""makine""))","""i2"" (duplo pontilhado-o som (""máquina""))"
+_lie,"""ie"" (the letters)","""اي"" (الحروف)","""ie"" (字母)","""IE"" (harfler)","""IE"" (as letras)"
+_sie,"""ie"" (the sounds)","""اي"" (الأصوات)","""ie"" (声音)","""IE"" (sesler)","""IE"" (os sons)"
+_sasmt2,"If I say the same words twice, I want you to click the SAME box",إذا قلت نفس الكلمات مرتين ، أريدك ان تنقر علي نفس المربع,"如果我说同样的话两次, 我要你点击相同的框","Aynı kelimeleri iki kere dersem, aynı kutuyu tıklatmanı istiyorum.","Se eu disser as mesmas palavras duas vezes, eu quero que você clique na mesma caixa"
+_sasmt3,"If I say two different words, I want you to click the DIFFERENT box.",إذا قلت كلمتين مختلفتين ، أريدك ان تنقر علي المربع المختلف.,"如果我说两个不同的词, 我希望你点击不同的框。","İki farklı kelime dersem, farklı kutuyu tıklatmanı istiyorum.","Se eu disser duas palavras diferentes, eu quero que você clique na caixa diferente."
+_sitdma,"If that ""doesn""'""t"" make a sensible word, then try dividing the vowels.","إذا كان هذا ""لا شيء"" ""t"" جعل كلمه معقولة ، ثم حاول تقسيم أحرف العلة.","如果 ""不"" ""t"" 是一个合理的词, 那么试着把元音分开。","Eğer bu ""doesnt"" ' ""t"" mantıklı bir kelime yapmak, o zaman ünlüler bölünmesi deneyin.","Se esse ""doesn"" ' t ""fazer uma palavra sensata, então tente dividir as vogais."
+_sitlri,"If the “r” is followed by An “e” at the end of the word, the vowel will make its long sound.","إذا كان ""r"" متبوعا ب ""e"" في نهاية الكلمة ، فان حرف العلة سيجعل صوته طويلا.","如果 ""r"" 后面是一个 ""e"" 在词的末尾, 元音将使其长的声音。","""r"" sözcüğün sonunda bir ""e"" tarafından izlenirse, sesli harf uzun sesini yapacaktır.","Se o ""r"" for seguido por um ""e"" no final da palavra, a vogal fará seu som longo."
+_sifthe,"If the consonant before the ""le"" is doubled, then the syllable before the consonant l - ""e"" is closed.","إذا كانت الساكنة قبل ""le"" يتضاعف ، ثم المقطع اللفظي قبل الحرف l-""e"" مغلق.","如果辅音在 ""le"" 之前被加倍, 则在辅音之前的音节 l ""e"" 是闭合的。","""Le"" önce sessiz harf iki katına çıktığında, sonra ünsüz l-""e"" önce hece kapatıldı.","Se a consoante antes do ""Le"" for dobrada, então a sílaba antes da consoante l-""e"" está fechada."
+_sitcbt,"If the consonant before the ""le"" is not doubled, then the syllable before the consonant l - ""e"" is open.","إذا كانت الساكنة قبل ""le"" ليست مضاعفه ، ثم المقطع قبل الحرف l-""e"" مفتوحة.","如果辅音在 ""le"" 之前不加倍, 则辅音前的音节 l ""e"" 是开放的。","""Le"" önce ünsüz çift değil, daha sonra ünsüz l-""e"" önce hece açık.","Se a consoante antes do ""Le"" não for duplicada, então a sílaba antes da consoante l-""e"" está aberta."
+_sitcbt2,"If the consonant before the ""y"" is doubled, the previous syllable is closed.","إذا كانت الساكنة قبل ""y"" قد تضاعفت ، فان المقطع السابق مغلق.","如果在 ""y"" 之前的辅音是一倍, 前面的音节是闭合的。","""y"" öncesindeki ünsüz iki katına çıktığında, önceki hece kapanır.","Se a consoante antes do ""y"" for duplicada, a sílaba anterior está fechada."
+_sitcbt3,"If the consonant before the ""y"" is not doubled, the previous syllable is open.","إذا كانت الساكنة قبل ""y"" غير المضاعفة ، فان المقطع السابق مفتوح.","如果在 ""y"" 之前的辅音不加倍, 前面的音节是开放的。","""y"" önce ünsüz iki katına değil, önceki hece açık.","Se a consoante antes do ""y"" não for duplicada, a sílaba anterior está aberta."
+_sitlai,"If the letter “a” is a syllable at the beginning of a word, it is unaccented and says “u” (ugh).","إذا كان الحرف ""a"" هو مقطع لفظي في بداية كلمه ، فانه غير معلمه ويقول ""u"" (هتاف اشمئزاز).","如果字母 ""a"" 是单词开头的音节, 它是重音的, 并说 ""u"" (唉)。","Harf ""a"" sözcüğün başında bir hece ise, bu aksansız ve ""u"" (Ugh) diyor.","Se a letra ""a"" é uma sílaba no início de uma palavra, não é acentuada e diz ""u"" (Ugh)."
+_sitlai1,"If the letter “a” is at the end of a word, the syllable that contains it is also unaccented and says “u” (ugh).","إذا كان الحرف ""a"" في نهاية كلمه ، المقطع الذي يحتوي عليه هو أيضا غير معلمه ويقول ""u"" (هتاف اشمئزاز).","如果字母 ""a"" 是在一个词的结尾, 包含它的音节也重音并且说 ""u"" (唉)。","""a"" harfi bir kelimenin sonunda ise, içerdiği hece de aksansız ve ""u"" (Ugh) diyor.","Se a letra ""a"" estiver no final de uma palavra, a sílaba que o contém também é sem acentos e diz ""u"" (Ugh)."
+_sitlci,"If the letter “c” is followed by the letters “e”, ""“i”"", or “y”, the “c” will make the /""s""/ sound.","إذا كانت الرسالة ""c"" متبوعه بالأحرف ""e"" أو ""i"" أو ""y"" ، فان ""c"" ستجعل الحرف ""s""/الصوت.","如果字母 ""c"" 后跟字母 ""e""、""i"" 或 ""y"", 则 ""c"" 将发出/""s""/""声音""。","""c"" harfi ""e"", ""Ben"" ya da ""y"" harfleri takip ediyorsa, ""c"",/""s""/ses yapacaktır.","Se a letra ""c"" for seguida pelas letras ""e"", ""i"" "", ou"" y "", o"" c ""fará o/"" s ""/Sound."
+_sitlie,"If the letter ""“i”"" ends a syllable (making it open), and another vowel follows, the “i” will frequently make the long “e” sound.","إذا كان الحرف ""i"" ينتهي مقطع لفظي (مما يجعلها مفتوحة) ، واخر حرف العلة التالية ، ""انا"" سوف تجعل كثيرا ""هاء"" الصوت الطويل.","如果字母 ""i"" 结束一个音节 (使它打开), 并且另一个元音跟随, ""i"" 将频繁地做长的 ""e"" 声音。","""Ben"" harfi bir hece (açık yapma), ve başka bir sesli harf sona erer ise, ""ı"" sıklıkla uzun ""e"" sesi yapacaktır.","Se a letra ""i"" ""termina uma sílaba (tornando-a aberta), e outra vogal segue, o"" i ""freqüentemente fará o som"" e ""longo."
+_sitsia,"If the syllable is a closed syllable, type ""C"".","إذا كان مقطع لفظي هو مقطع مغلقه ، اكتب ""C"".","如果音节是闭合的音节, 请键入 ""C""。","Hece kapalı bir hece ise, ""C"" yazın.","Se a sílaba for uma sílaba fechada, digite ""C""."
+_sitsia1,"If the syllable is a vowel - consonant - ""e"" syllable, type ""E"".","إذا كان المقطع هو حرف العلة الساكنة--""هاء"" مقطع لفظي ، اكتب ""e"".","如果音节是元音辅音-""e"" 音节, 请键入 ""e""。","Hece sesli harflerle-ünsüz-""e"" hece ise, ""e"" yazın.","Se a sílaba é uma vogal-consoante-""e"" sílaba, digite ""e""."
+_sitvsi,"If the vowel sound is ""r""-controlled type ""er"", ""ir"", or ""ur"".","إذا كان الصوت الصوتي هو ""r""-التحكم في النوع ""er"" ، ""ir"" ، أو ""الخاص"".","如果元音是 ""r""-控制类型 ""er"", ""ir"", 或 ""你的""。","Sesli Ses ""r""-kontrollü tip ""er"", ""IR"" veya ""sizin"" ise.","Se o som vogal é ""r""-tipo controlado ""er"", ""ir"", ou ""Your""."
+_sitvsi1,"If the vowel sound is ""r""-controlled, say and type ""ar"".","إذا كان صوت حرف العلة هو ""r"" التي تسيطر عليها ، ويقول ونوع ""ar"".","如果元音是 ""r""-控制, 说和键入 ""ar""。","Sesli Ses ""r"" ise-kontrollü, say ve yazın ""ar"".","Se o som vogal é ""r""-controlada, digamos e tipo ""ar""."
+_sitvsi2,"If the vowel sound is ""r""-controlled, type ""ear"", ""er"", ""ir"", or ""ur"".","إذا كان الصوت الصوتي هو ""r"" المتحكم فيه ، اكتب ""اذن"" ، ""er"" ، ""ir"" ، أو ""الخاص"".","如果元音是 ""r"" 控制的, 请键入 ""ear""、""er""、""ir"" 或 ""您的""。","Sesli Ses ""r""-kontrollü ise, ""kulak"", ""er"", ""IR"" veya ""sizin"".","Se o som da vogal for ""r"" controlado, digite ""EAR"", ""er"", ""ir"" ou ""seu""."
+_sitvsi3,"If the vowel sound is ""r""-controlled, type or or ore--whichever way you think the word is spelled.","إذا كان الصوت الصوتي هو ""r""-المتحكم فيه أو النوع أو الخام--أيا كانت الطريقة التي تعتقد ان الكلمة مكتوب عليها.","如果元音是 ""r""-控制, 类型或矿石-无论你认为这个词是拼写。","Sesli harf ""r"" ise-kontrollü, türü veya veya cevher-ne şekilde kelime yazıldığından düşünüyorsanız.","Se o som da vogal é ""r""-controlada, tipo ou ou minério--qualquer maneira que você acha que a palavra é soletrado."
+_sitwds,"If the word ""doesn""'""t"" sound correct, say it a second time with the ""fitst"" vowel long.","إذا كانت كلمه ""لا"" ""t"" سليمه ، ويقولون مره ثانيه مع ""المتقطع"" حرف العلة طويلة.","如果单词 ""不"" ""t"" 的发音正确, 那么就用 ""fitst"" 元音长第二次说。","Kelime ""doesnt"" ' ""t"" doğru ses, ""uygun"" sesli uzun bir ikinci kez say.","Se a palavra ""doesn"" ' ""t"" som correto, dizê-lo uma segunda vez com a vogal ""Fits"" longo."
+_sitwew,"If the word ends with a short vowel, consonant, and the ""k"" sound, it will not need the ""c"".","إذا كانت الكلمة تنتهي مع حرف العلة قصيرة ، ساكنه ، و ""k"" الصوت ، فانه لن تحتاج إلى ""جيم"".","如果单词以短元音、辅音和 ""k"" 音结尾, 则不需要 ""c""。","Sözcüğü kısa bir sesli harf, ünsüz ve ""k"" sesi ile biterse, ""c"" gerekmez.","Se a palavra termina com uma vogal curta, consoante, e o som ""k"", não vai precisar do ""c""."
+_sitwht,"If the word has two syllables, I will ask for the first syllable, then the second syllable.",إذا كانت كلمه اثنين من المقاطع ، وسوف اطلب لأول مقطع لفظي ، ثم مقطع الثانية.,"如果单词有两个音节, 我会问第一个音节, 然后是第二个音节。","Kelimenin iki hecesi varsa, ilk heceyi, sonra ikinci heceyi sorarım.","Se a palavra tem duas sílabas, vou pedir a primeira sílaba, em seguida, a segunda sílaba."
+_sitwws,"If the word was spelled ""brige"", the vowel-consonant-""e"" pattern would apply, and the letter ""i"" would make its long sound.","وإذا كانت الكلمة مكتوبه ""بريغي"" ، فان نمط الحرف الساكن ""e"" سيطبق ، والحرف ""i"" سيجعل صوته طويلا.","如果这个词被拼写为 ""桥"", 元音-辅音-""e"" 模式将会适用, 而字母 ""i"" 将会发出长音。","Kelime ""Brige"" yazıldığından, sesli harflerle-ünsüz-""e"" deseni uygulanacaktır ve ""Ben"" harfi uzun ses yapar.","Se a palavra foi soletrado ""brige"", a vogal-consoante-""e"" padrão se aplicaria, ea letra ""i"" faria o seu som longo."
+_siyans,"If you are not sure which sound to use, try both sounds to form a word you recognize.",إذا لم تكن متاكدا من الصوت الذي سيتم استخدامه ، حاول كلا الصوتين لتكوين كلمه تتعرف عليها.,"如果您不确定要使用哪个声音, 请尝试两个声音来形成一个您认识的单词。","Hangi sesin kullanılacağını emin değilseniz, her iki sesi de tanıdığınız bir kelime oluşturmak için deneyin.","Se você não tiver certeza de qual som usar, tente ambos os sons para formar uma palavra que você reconhece."
+_sasmt4,"If you don'""t"" know or are unsure then select the DON'T KNOW box","إذا كنت لا تعرف ""ر"" أو غير متاكد ثم حدد المربع لا اعرف","如果你不知道或不确定, 那么选择不知道的框","Eğer Don 't ' ""t"" biliyorsanız veya emin değilseniz bilmiyorum kutusunu seçin","Se você Don ' t ""sabe ou não tem certeza, em seguida, selecione a caixa não sei"
+_siykht,"If you know how this word is ""pronnounced"", listen to the sounds made by the vowels.","إذا كنت تعرف كيف ان هذه الكلمة ""التي يعلن عنها"" ، والاستماع إلى الأصوات التي ادلي بها حرف العلة.","如果你知道这个词是如何 ""pronnounced"" 的, 听元音所发出的声音。","Bu kelimenin nasıl ""pronnounced"" olduğunu biliyorsanız, sesli harflerle yapılan sesleri dinleyin.","Se você sabe como esta palavra é ""pronnounced"", ouvir os sons feitos pelas vogais."
+_siyktcs,"If you know the common suffixes, you will find it easier to break apart words.",إذا كنت تعرف اللواحق المشتركة ، سوف تجد انه من الأسهل لكسر الكلمات بصرف النظر.,"如果你知道常见的后缀, 你会发现它更容易分解单词。","Ortak sonekleri biliyorsanız, daha kolay kelimeleri ayırmak için bulacaksınız.","Se você conhece os sufixos comuns, você vai achar mais fácil quebrar palavras."
+_sifyou,"If you need help, just click on any syllable.",إذا كنت بحاجه إلى مساعده ، فقط اضغط علي اي مقطع لفظي.,"如果你需要帮助, 只要点击任何一个音节。","Eğer yardıma ihtiyacınız varsa, herhangi bir hece tıklamanız yeterlidir.","Se você precisar de ajuda, basta clicar em qualquer sílaba."
+_sifyou1,"If you need help, just click on the word.",إذا كنت بحاجه إلى مساعده ، فقط اضغط علي الكلمة.,"如果您需要帮助, 只需单击该单词。","Yardıma ihtiyacınız varsa, sadece kelimeye tıklayın.","Se precisar de ajuda, basta clicar na palavra."
+_siystv,"If you say the vowel team ""ei"" using a long ""i"" sound, you get the nonsense word ""clint"".","إذا كنت تقول الفريق حرف العلة ""الأول"" باستخدام طويلة ""انا"" الصوت ، وتحصل علي كلمه هراء ""كلينت"".","如果你说元音小组 ""ei"" 使用一个长的 ""我"" 的声音, 你得到的废话字 ""克林特""。","Eğer ünlü bir takım ""ei"" uzun bir ""ı"" ses kullanarak, sen anlamsız kelime ""Clint"" olsun söylüyorlar.","Se você diz que a equipe vogal ""Ei"" usando um longo ""i"" som, você recebe a palavra nonsense ""Clint""."
+_siynsa,"If you'""re"" not sure, and the word contains a known vowel team, blend the word using the vowel team sound.","إذا كنت ""أعاده"" غير متاكد ، والكلمة تحتوي علي الفريق حرف العلة المعروفة ، ومزج الكلمة باستخدام صوت الفريق حرف العلة.","如果你不确定, 并且这个词包含一个已知的元音团队, 用元音团队的声音混合这个词。","Eğer ' ""Re"" emin değil ve kelime bilinen bir ünlü takım içerir, kelimeyi ünlü takım sesini kullanarak karıştırın.","Se você não tem certeza, e a palavra contém uma equipe de vogal conhecida, misture a palavra usando o som da equipe vogal."
+_ligh,"""igh"" (the letters)","""غ"" (الحروف)","""室内运动场"" (信件)","""IGH"" (harfler)","""CMI"" (as letras)"
+_siacst,In a closed syllable the vowel will have a short sound.,في مقطع مغلق سيكون لحرف العلة صوت قصير.,在一个闭合的音节元音将有短的声音。,Kapalı bir hecede sesli harf kısa bir ses olacaktır.,Em uma sílaba fechada a vogal terá um som curto.
+_sinacl,"In a closed syllable, the vowel is followed by at least one consonant.",في مقطع مغلقه ، ويتبع حرف العلة واحده علي الأقل ساكنه.,"在一个闭合的音节, 元音跟随至少一个辅音。","Kapalı hecede, sesli harf en az bir ünsüz tarafından izlenir.","Em uma sílaba fechada, a vogal é seguida por pelo menos uma consoante."
+_siacs2,"In a closed syllable, the vowel is short.",في مقطع مغلق ، وحرف العلة قصيرة.,"在一个闭合的音节, 元音是短的。",Kapalı hecede sesli harf kısadır.,"Em uma sílaba fechada, a vogal é curta."
+_siafoc,"In a few other cases, words ending in the letters ""ey"" make the ""ound"" of long ""a"".","في عدد قليل من الحالات الأخرى ، والكلمات التي تنتهي في الحروف ""ي"" جعل ""الموجه"" لفتره طويلة ""ا"".",,,
+_siavstv,"In a ""vce"" syllable, the vowel will ""be"" long.",,,,
+_siawte1,"In a word that ends in ""“stle”"", the “t” is silent",,,,
+_siawte,"In a word that ends with a vowel, a consonant, and An ""e"", the ""e"" is silent.",,,,
+_siawth,"In a word that has a short vowel and ends with a consonant that you can hear, the letters ""ch"" do not need a ""t"".",,,,
+_siatot,"In all the other three letter blends, each letter makes its own sound.",,,,
+_sinano,"In An open syllable, the vowel is long.",,,,
+_sic1ta,"In Column ""1"", there are some numbers.",,,,
+_sic1ta1,"In Column ""2"", there are some written numbers.",,,,
+_sicayw,In Column A you will find four first syllables.,,,,
+_sicayw1,"In Column ""B"" you will find four consonant -""le"" endings",,,,
+_simcwa,"In most cases, when a word ends in ""ey"", the ""ey"" makes the sound of long ""e"".",,,,
+_sinmos,"In most two syllable words that end in ""y"", the ""y"" sounds like ""baby"".",,,,
+_simtsw,"In most two syllable words that then in ""y"", the ""y"" sounds like long ""e"", as in the word ""baby"".",,,,
+_simwtc,"In most words that contain CVC, the consonant will hook onto the second vowel, making the first vowel long.",,,,
+_siplyl,In previous lessons you learned...,,,,
+_sinpre,"In previous lessons, you practiced closed syllable words with ""up"" to five sounds.",,,,
+_siswte,"In some words that end with a short vowel and the letters ""ch, a ""t"" is added to the ""ch"".",,,,
+_siswte1,"In some words with the /""j""/ sound, the consonant ""d"" is added to keep the vowel short.",,,,
+_siswtl,"In some words, the letter ""“i”"" in An open syllable will make the long “e” sound even when it is not followed by a vowel.",,,,
+_siswvt,"In some words, vowel teams or two vowels side-by-side, are divided.",,,,
+_sinthe,"In the closed syllable, the vowel will ""be"" short.",,,,
+_sitfey,"In the following exercise you will hear the sound of long ""i"".",,,,
+_sitn2l,"In the next ""22"" lessons, you will practice vowels that make their short sound.",,,,
+_sitvctw,"In the ""vce"" syllable, the vowel will usually ""be"" long.",,,,
+_sitlatl,"In the word ""and"", the letters ""a"" and ""n"" will ""be"" shown together because they make one sound.",,,,
+_sitwbt1,"In the word “blow”, the letters “ow” make the sound of long “o”, “o”.",,,,
+_sitwbt,"In the word “boat”, the letters ""“oa”"" make the sound of long “o”, “o”.",,,,
+_sitwbto,"In the word “box”, the “o” makes it’s short sound, “o”.",,,,
+_sitwctl,"In the word ""cage"", the letter ""g"" says /""j""/.",,,,
+_sitwct1,"In the word ""camera"", there are three syllables: cam-""er""-a.",,,,
+_sitwdt,"In the word ""dime"", the ""e"" at the end of the word is silent.",,,,
+_sitwht1,"In the word “hay”, the letters “ay” make the sound of long “a”, “a”.",,,,
+_sitwpt1,"In the word “piece”, the letter “c” is followed by An “e” which makes the “c” soft,",,,,
+_sitwpt,"In the word ""pig"", the ""p"" is obstructed by your lips.",,,,
+_sitwst,"In the word “steak”, the letters ""“ea”"" make the sound of long “a”, “a”.",,,,
+_sitwtt3,"In the word “tie”, the letters ""“ie”"" make the sound of long ""“i”"", “i”.",,,,
+_sitwtt2,"In the word “toe”, the letters ""“oe”"" make the sound of long “o”, “o”.",,,,
+_sitwtt1,"In the word “train”, the letters ""“ai”"" make the sound of long “a”, “a”.",,,,
+_sitwtt,"In the word “tree”, the letters ""“ee”"" make the sound of long “e”, “e”.",,,,
+_sitw,in the word ... (There are ... sounds),,,,
+_sitwct,"In the word cheese, the ""ch"" is obstructed by your mouth.",,,,
+_sitwc,"In the word contract, ""tr"" is a blend, ""so"" you will not divide the word there.",,,,
+_sitws,"In the word snapshot, ""sh"" is a digraph, ""so"" you will not divide the word there.",,,,
+_situs,"In these unaccented syllables, the vowel becomes slurred.",,,,
+_sitgyw,"In this case you can divide the blend ""ck"".",,,,
+_sitcys,In this case you should divide the vowel team.,,,,
+_sitgyw1,"In this game, you will name the syllable types in the words I say.",,,,
+_sitgyw2,"In this game, you will see two columns.",,,,
+_sitly37,In this lesson you learned about the doubling rule.,,,,
+_sitlyl,In this lesson you learned...,,,,
+_sitlyp,"In this lesson you practice words that contain a closed syllable where the vowel is ""y"".",,,,
+_sitlyp1,"In this lesson you practice words that contain An ""s"" which is between vowels.",,,,
+_sitly13,In this lesson you practiced consonants and vowels.,,,,
+_sitly25,In this lesson you practiced...,,,,
+_sitlyr,In this lesson you reviewed...,,,,
+_sitly43,In this lesson you will also practice a new consonant sound.,,,,
+_sitly34,"In this lesson you will ""be"" working with",,,,
+_sitlyp2,In this lesson you will begin to build closed one syllable words using the consonants you have just reviewed.,,,,
+_sitly29,In this lesson you will learn about the doubling rule.,,,,
+_sitly10,In this lesson you will learn...,,,,
+_sitlyw2,In this lesson you will practice a new syllable type.,,,,
+_sitlyw3,In this lesson you will practice a new type of syllable known as An open syllable.,,,,
+_sitlyw1,In this lesson you will practice all the final blends that you have learned.,,,,
+_sitly26,"In this lesson you will practice all the initial, or beginning blends.",,,,
+_sitly19,In this lesson you will practice compound words.,,,,
+_sitly38,In this lesson you will practice consonant digraphs.,,,,
+_sitly28,In this lesson you will practice consonants and vowels.,,,,
+_sitlyw8,"In this lesson you will practice final blends, or blends that come at the end of a word.",,,,
+_sitlyw5,In this lesson you will practice final blends.,,,,
+_sitlyw6,In this lesson you will practice initial and final blends in words with five sounds.,,,,
+_sitly27,"In this lesson you will practice initial, or beginning blends.",,,,
+_sitly30,"In this lesson you will practice making plurals, (more than one) out of words with ""up"" to six sounds.",,,,
+_sitlyw9,In this lesson you will practice more closed two syllable words.,,,,
+_sitlyw0,In this lesson you will practice more consonant digraphs.,,,,
+_sitlyw7,In this lesson you will practice more final blends.,,,,
+_sithyw2,"In this lesson you will practice more initial, or beginning, blends.",,,,
+_sitly11,"In this lesson you will practice more ""vce"" words.",,,,
+_sitly12,"In this lesson you will practice more words that contain a closed syllable and a vowel - consonant - silent ""e"" syllable.",,,,
+_sitly35,"In this lesson you will practice some vowel - consonant - ""e"" words, better known as ""vce"" words.",,,,
+_sitly14,"In this lesson you will practice the consonant ""l""-""e"" syllable.",,,,
+_sitly33,In this lesson you will practice three letter blends.,,,,
+_sitly16,"In this lesson you will practice two exceptions to the consonant ""l"" - ""e"" syllable.",,,,
+_sityWp5,"In this lesson you will practice two syllable words that end in ""y"".",,,,
+_sitly32,"In this lesson you will practice ""vce"" words that contain the letter ""s"" between ""2"" vowels.",,,,
+_sitly17,"In this lesson you will practice words that contain a closed syllable and a vowel - consonant - silent ""e"" syllable.",,,,
+_sitly18,In this lesson you will practice words that contain a closed syllable and An open syllable.,,,,
+_sitly40,"In this lesson you will practice words that contain a closed syllable where the vowel is ""y"".",,,,
+_sitly41,In this lesson you will practice words that contain a vowel followed by the letter “r”.,,,,
+_sitly20,In this lesson you will practice words that contain two closed syllables.,,,,
+_sitly21,"In this lesson you will practice words that end in ""ive"".",,,,
+_sitly22,"In this lesson you will practice words with three or more syllables and end in ""y"".",,,,
+_sitly15,In this lesson you will practice words with three or more syllables.,,,,
+_sitly39,In this lesson you will practice words with three or more syllables...,,,,
+_sitly36,In this lesson you will practice...,,,,
+_sitly24,In this lesson you will review...,,,,
+_sithyw4,In this lesson you will work with more blends.,,,,
+_sitly42,In this lesson you will work with more vowel teams.,,,,
+_sitlyw,"In this lesson you will work with words with ""4"" sounds.",,,,
+_sithyw1,"In this lesson you will work with words with same kind of sounds, but with a twist.",,,,
+_sitly23,"In this lesson, you will practice more initial or beginning blends.",,,,
+_sitpnw,"In this program, nonsense words will always have just one consonant at the end of a word.",,,,
+_sitptlq,"In this program, the letter ""q"" will always ""be"" shown with the letter ""u"".",,,,
+_sitpyw3,"In this program, you will see these letter combinations shown together.",,,,
+_siwtca,"In words that contain a vowel followed by two “r”'""s"", the vowel will make it’s short sound.",,,,
+_siwtctl,"In words that contain the letters ""igh"", the letters ""gh"" are silent, and the letter ""i"" makes the sound of long ""i"".",,,,
+_siwtei,In words that end in,,,,
+_siwtut,In words that use the three letter blend:,,,,
+_siwwmt,"In words with more than one syllable that end with An unaccented a, the a says ""u"" (ugh), not a (short a).",,,,
+_sind,"""ind"" (the sounds)",,,,
+_ling,"""ing"" (the letters)",,,,
+_sing,"""ing"" (the sounds)",,,,
+_link,ink (the letters),,,,
+_sink,ink (the sounds),,,,
+_sintoh,Into has two beats or syllables: in to.,,,,
+_lion,ion (the letters),,,,
+_sion,ion (the sounds - ONION),,,,
+_lirr,"""irr"" (the letters)",,,,
+_siacs,is a closed syllable.,,,,
+_sisals,is also a closed syllable.,,,,
+_sifbtl,is followed by the letter...,,,,
+_sisope,"is open, ""VT"" if the syllable is a vowel team syllable, or ""X"" if the syllable is An ""ive"" exception.",,,,
+_sis1,"""is1"" (template for WORD in Card Deck)",,,,
+_sis2,"""is2"" (template for letter in Card Deck)",,,,
+_sis3,"""is3"" (template for .... in Card Deck)",,,,
+_lish,"""ish"" (the letters)",,,,
+_sitalw,"It always contains ""3"" letters, two of which are consonants.",,,,
+_sihfl,It has four letters.,,,,
+_siigtp,It is good to practice this as a sight word.,,,,
+_siious,It is one uninterrupted sounding of your voice.,,,,
+_sitist,"It is the vowel - consonant - ""e"" syllable.",,,,
+_sitlea,It leaps over the consonant and causes the vowel to make its long sound.,,,,
+_simtso,it makes the sound of ...,,,,
+_simtsol,"It makes the sound of long ""e"".",,,,
+_siwmts,"It will make the sound of /""i""/. mystic.",,,,
+_sitwou,It would help to sound out each syllable before you try building a word.,,,,
+_silhan,"It'""s"" like holding a note when you sing a song, or saying ""ah"" when the doctor looks at your tonsils.",,,,
+_live,"""ive"" (the letters)",,,,
+_sjcotw,"Just click on the word to hear it'""s"" sound.",,,,
+_sjptrb,Just press the RECORD button while you talk.,,,,
+_sjtalo,Just try another letter or press the repeat button to hear it again.,,,,
+_sjustt,"Just try another letter, or ask ""me"" to repeat the word.",,,,
+_sjttcl1,Just type the correct letter inside the red spaces.,,,,
+_sjttcl,Just type the correct letter over the letter you have already typed.,,,,
+_sk,"""k"" (letter sound)",,,,
+_skimtt,"Keep in mind that the final ""f"", ""l"", ""s"", or ""z"" must ""be"" doubled, and that the doubled consonant will make just one sound.",,,,
+_lkn,"""kn"" (the letters)",,,,
+_sl,"""l"" (letter sound)",,,,
+_sltwl,"Last time ""we"" learned...",,,,
+_sltwpt1,"Last time ""we"" practiced ""10"" sounds.",,,,
+_sltwpf,"Last time ""we"" practiced ""4"" consonant sounds.",,,,
+_sltwp6,"Last time ""we"" practiced ""6"" sounds.",,,,
+_sltwp8,"Last time ""we"" practiced ""8"" sounds.",,,,
+_sltwpa,"Last time ""we"" practiced a vowel sound.",,,,
+_sltwp,"Last time ""we"" practiced...",,,,
+_sltypc2,"Last time you practiced closed-syllable ""4""-sound words with blends.",,,,
+_sltypc,"Last time you practiced closed-syllable, ""3""-letter, 3-sound words.",,,,
+_sltyps,Last time you practiced several words.,,,,
+_lless,less (the letters),,,,
+_slbsnw8,let's build some new words,,,,
+_slbsnw1,let's build some new words using all the final blends you have practiced.,,,,
+_slbsnw2,let's build some new words using five new blends.,,,,
+_slbsnw7,let's build some new words using four new blends.,,,,
+_slbsnw4,let's build some new words using seven new blends.,,,,
+_slbsnw5,let's build some new words using six new blends.,,,,
+_slbsnw9,let's build some new words using these new blends.,,,,
+_slbsnw,let's build some new words.,,,,
+_slbsnw6,let's build some words using all the final blends you have practiced.,,,,
+_sltacp,let's do a crossword puzzle.,,,,
+_slhwyh,let's hear what you have recorded.,,,,
+_sllasw,let's learn about sight words.,,,,
+_slrysw,let's look at your sight word notebook and review the sight words you already know.,,,,
+_slrsc,let's review some consonants.,,,,
+_slrtst,let's review the sounds that you already know.,,,,
+_slrwya,let's review what you already know.,,,,
+_slette,"letter ""e"" jumps over the consonant",,,,
+_sliste,Listen carefully.,,,,
+_slttcs,"Listen to the computer'""s"" sound and compare it with yours.",,,,
+_slttfs,Listen to the first sound in the word.,,,,
+_slttls3,Listen to the last sound in the first syllable of this word.,,,,
+_slttls4,Listen to the last sound in the in this word or nonsense word.,,,,
+_slttls5,Listen to the last sound in the second syllable of this word.,,,,
+_slttss6,Listen to the second sound in the word.,,,,
+_sstent1,Listen to the sound and compare it with yours.,,,,
+_slttsi,Listen to the sound I say.,,,,
+_slttst2,Listen to the sound that you hear at the end of the word.,,,,
+_slttst1,Listen to the sound that you hear in the middle of the word.,,,,
+_slttvi,Listen to the vowel in the word I say.,,,,
+_slttvs,Listen to the vowel sound in the first syllable of this word or nonsense word.,,,,
+_slttvs1,Listen to the vowel sound in the first syllable of this word.,,,,
+_slttvs2,Listen to the vowel sound in the second syllable of this word.,,,,
+_slttvs3,Listen to the vowel sound in this word or nonsense word.,,,,
+_slttwi1,"Listen to the word ""in"". (Tap your hand against the table when you hear the word).",,,,
+_slttwf,Listen to the word fill.,,,,
+_slttwi,Listen to the word I say.,,,,
+_slttwo,Listen to the word or nonsense word.,,,,
+_slttw,Listen to the word.,,,,
+_slttw1,Listen to the word...,,,,
+_sltwyh,Listen to what you have recorded.,,,,
+_slvs,long vowel sounds,,,,
+_slvt,long vowel teams,,,,
+_slatloy,Look at the letters on your screen.,,,,
+_slatw1,Look at the word,,,,
+_slatwo1,Look at the word fill.,,,,
+_slattw,Look at the word on your screen.,,,,
+_slatw,Look at the word...,,,,
+_slattw1,Look at the words in Column A.,,,,
+_slatwo,Look at the words on your screen.,,,,
+_slaycd1,Look at your card deck and find the card for these letters.,,,,
+_slaycd,Look at your card deck and find the card for this letter.,,,,
+_sasmt6,man (pause) man,,,,
+_smotwc,"Many of these words can ""be"" blended using the skills you have already learned.",,,,
+_smswdn,"Many sight words do not follow any of the word building rules ""we"" will practice in each lesson.",,,,
+_lmb,"""mb"" (the letters)",,,,
+_smrcw,"more ""r""-control words (In this lesson you will practice...)...",,,,
+_smores,more syllables.,,,,
+_smvt,more vowel teams.,,,,
+_smotti,"Most of the time, it is quite helpful if you find the root word first and then add the suffix.",,,,
+_smwcbc,"Most words can ""be"" changed to plural form by adding An ""s"" to the word.",,,,
+_smwtha,"Most words that have a short vowel, and end with the ""k"" sound, are spelled ""ck"".",,,,
+_lness,ness (the letters),,,,
+_snc,new consonants.,,,,
+_lng,"""ng"" (the letters)",,,,
+_snn1,"nineteen, nineteenth",,,,
+_lnk,"""nk"" (the letters)",,,,
+_snk,"""nk"" (the sounds)",,,,
+_snwewa,"""No"" words end with a soft ""g"" at the end.",,,,
+_snonse,Nonsense words are not real words.,,,,
+_sntnew,"Note that numbers ending with one, two or three, do not end with the letters ""th"" when referring to what or which.",,,,
+_snttla,"Notice that the letters ""augh"" make one sound - /""aw""/.",,,,
+_snttso,"Notice that the sound of ""x"" is at the end of the keyword.",,,,
+_snotic,Notice that the unaccented a is considered An open syllable.,,,,
+_snftf,Now for the fun part.,,,,
+_sniwst,Now I will say the word again.,,,,
+_snowiw,Now I will say the word or nonsense word again.,,,,
+_snlpan,Now let's practice a new vowel sound.,,,,
+_snlprs2,Now let's practice reading some new words.,,,,
+_snlprs,Now let's practice reading some real words and nonsense words.,,,,
+_snlpsn,Now let's practice some new consonant sounds.,,,,
+_snlrav,Now let's review a vowel.,,,,
+_snltew,Now listen to each word.,,,,
+_snltms1,"Now listen to ""my"" sounds and hear if yours sounded the same.",,,,
+_snltms,"Now listen to ""my"" sounds and keywords again, and hear if yours sounded the same.",,,,
+_snowli,"Now listen to the word into. (Again, tap your hand).",,,,
+_snlyct,Now locate your card that makes this sound.,,,,
+_snwt,Now watch this.,,,,
+_snwwb,"Now ""we"" will build some new words with five sounds.",,,,
+_swwew1l,"Now ""we"" will do the same thing using the new consonant sounds we have already practiced, and the new vowel sound we have practiced in this lesson",,,,
+_swwewil,"Now ""we"" will do the same thing using the new consonant sounds we have practiced in this lesson.",,,,
+_snwwfs1,"Now ""we"" will form some closed syllable words.",,,,
+_snwwpc,"Now ""we"" will practice common exceptions to the doubling rule.",,,,
+_snowyo,Now you can review some of the sight words from previous lessons.,,,,
+_snyrtl,"Now you record the letter, keyword and it'""s"" sound.",,,,
+_snys1,Now you say... (word),,,,
+_snyttm,"Now you try to make the ""a"" sound.",,,,
+_snywpa,Now you will practice a vowel sound.,,,,
+_snlprs1,"Now, let's practice reading some new words.",,,,
+_snlpss,"Now, let's practice some sounds.",,,,
+_snlrnt,"Now, let's review numbers that end in two or more zeros.",,,,
+_lnt,"""nt"" (the letters)",,,,
+_lny,"""ny"" (the netters)",,,,
+_lto,"""o4"" (tented ""o"" - the letter)",,,,
+_lo,"""o4"" (tented O - the letter)",,,,
+_so4,"""o4"" (tented O - the sound)",,,,
+_loa,"""oa"" (the letters)",,,,
+_soa,"""oa"" (the sounds)",,,,
+_loe,"""oe"" (the letters)",,,,
+_soe,"""oe"" (the sounds)",,,,
+_loi,"""oi"" (the letters)",,,,
+_soi,"""oi"" (the sounds)",,,,
+_sasmt5,"OK, let's practice one time:",,,,
+_sasmt9,"OK, now let's do a lot of words",,,,
+_lold,old (the letters),,,,
+_sold,old (the sounds),,,,
+_loll,"""oll"" (the letters)",,,,
+_soll,"""oll"" (the sounds)",,,,
+_lolst,"""olst"" (the letters)",,,,
+_solst,"""olst"" (the sounds)",,,,
+_lolt,"""olt"" (the letters)",,,,
+_solt,"""olt"" (the sounds)",,,,
+_soawwf,"Once again ""we"" will form closed syllable words.",,,,
+_soawwf1,"Once again ""we"" will form closed syllables with four sounds.",,,,
+_soawwf2,"Once again ""we"" will form closed syllables with three sounds.",,,,
+_soatin,"Once again, there is ""no"" set rule to tell when the letter ""“i”"" makes the sound of long “e”.",,,,
+_sodcit,"One ""d"" closes in the ""a"", making the ""a"" sound short.",,,,
+_sosiav,"One syllable is a ""vce"" syllable.",,,,
+_soof,"one, once, first",,,,
+_long,"""ong"" (the letters)",,,,
+_song,"""ong"" (the sounds)",,,,
+_lonk,"""onk"" (the letters)",,,,
+_sonk,"""onk"" (the sounds)",,,,
+_loo,"""oo"" (the letters)",,,,
+_soo1,"""oo1"" (as in ""boot"")",,,,
+_soo2,"""oo2"" (as in ""book"")",,,,
+_lor,or (the letters),,,,
+_lorr,"""orr"" (the letters)",,,,
+_lost,"""ost"" (the letters)",,,,
+_sost,"""ost"" (the sounds)",,,,
+_lou,"""ou"" (the letters)",,,,
+_sou1,"""ou1"" (the sounds)",,,,
+_sou2,"""ou2"" (the sounds)",,,,
+_sou3,"""ou3"" (the sounds)",,,,
+_low,"""ow"" (the letters)",,,,
+_sow,"""ow"" (the sounds)",,,,
+_loy,"""oy"" (the letters)",,,,
+_soy,"""oy"" (the sounds)",,,,
+_sp,"""p"" (letter sound)",,,,
+_spotsi,"part of the syllable immediately before the consonant ""l""-""e"" syllable.",,,,
+_spctcb,"Pat'""s"" car -- the car belongs to Pat.",,,,
+_lph,"""ph"" (the letters)",,,,
+_splait,"""pl"", as in the word plus",,,,
+_spcwtl,Please continue with the lesson.,,,,
+_spltti,Please listen to the instructions for this lesson.,,,,
+_sppteb,Please press the EXIT button to leave this part of the lesson.,,,,
+_sppteb1,Please press the EXIT button.,,,,
+_spsaof,Please select An option from the screen to continue.,,,,
+_sprata,Press RECORD and try again.,,,,
+_sptcbt,Press the Clear button to start over.,,,,
+_sptebw,Press the Enter button when you have finished.,,,,
+_spthbi,Press the HINT button if you need help.,,,,
+_sptnbw,Press the NEXT button when you have finished.,,,,
+_sptrba5,Press the RECORD button and name the keyword.,,,,
+_sptrba1,Press the RECORD button and say the letter for that sound.,,,,
+_sptrba9,Press the record button and say the letter sound...,,,,
+_sptrba3,Press the RECORD button and say the letter...,,,,
+_sptrba8,Press the Record button and say the letters...,,,,
+_sptrb11,Press the Record button and say the sound made by the letter.,,,,
+_sptrb10,Press the Record button and say the sound made by these letters.,,,,
+_sptrba,Press the RECORD button and say the sound of each blend.,,,,
+_sptrba6,Press the record button and say the sound of each letter.,,,,
+_sptrba2,Press the RECORD button and say the word.,,,,
+_sptrba7,Press the RECORD button and say the word...(word),,,,
+_sptrba4,Press the RECORD button while you talk.,,,,
+_sptrb,Press the record button.,,,,
+_sptrab,Press the RIGHT ARROW button to continue.,,,,
+_sputth,Put the two syllables together.,,,,
+_squ,"""qu"" (letter sound)",,,,
+_sr,"""r"" (letter sound)",,,,
+_srcwtb,"""r""-controlled syllables that end with the letter “e”.",,,,
+_srares,Read and record each sight word you see on the screen.,,,,
+_srtfsf,Read the following sentences from the paragraph or story you just read.,,,,
+_srtfs,Read the following sentences.,,,,
+_srtsys1,Read the sentence you see on your screen.,,,,
+_srtsys,Read the sentences you see on the screen.,,,,
+_srtsb,Read the story below.,,,,
+_srtsot,Read the story on the screen.,,,,
+_srtwan,Read the words and nonsense words you see on the screen.,,,,
+_srattl,Record and type the letter that makes this sound.,,,,
+_srattl1,Record and type the letters that make this sound.,,,,
+_srtlot2,Record the letter of the end sound.,,,,
+_srtlot3,Record the letter of the first sound.,,,,
+_srtlot,Record the letter of the middle sound.,,,,
+_srtlwy,Record the letters with your voice.,,,,
+_srtwac,Record the word and compare it to mine.,,,,
+_sremem,Remember a closed syllable is one in which a vowel is followed by one or more consonants.,,,,
+_sracsi,Remember a closed syllable is one in which the vowel is followed by at least one consonant,,,,
+_srasmh,Remember all syllables must have a vowel.,,,,
+_sritll,"Remember in the last lesson ""we"" practiced how to put three sounds together to form real words and nonsense words.",,,,
+_srtoma,"Remember that ""“ou”"" also makes another sound.",,,,
+_srtaus,"Remember that An unaccented ""a"" can stand alone as ""a"".",,,,
+_srttvt,"Remember that the vowel team ""oo"" also makes the /""u""/ sound, as in the word ""school"".",,,,
+_srtfvw,"Remember the first vowel will always ""be"" long.",,,,
+_sriavss,"Remember, in a ""vce"" syllable, the final ""e"" is silent.",,,,
+_srteat,"Remember, the ""e"" at the end of the word is silent.",,,,
+_srwt,"Remember, the consonant ""y"" sometimes acts as if it were a vowel.",,,,
+_srtsoe,"Remember, the sounds of each of the three letters must ""be"" blended together.",,,,
+_srtomc,"Remember, two or more consonants together at the beginning or end of a word are called blends.",,,,
+_srvtwh,"Remember, vowel teams will have two letters.",,,,
+_srwawe1,"Remember, when a word ends with An ""e"", the ""e"" is called a silent ""e"".",,,,
+_srwawe,"Remember, when a word ends with vowel - consonant - ""e"", the ""e"" at the end of the word is silent, and the vowel is long.",,,,
+_srywtp,"Remember, you want to put the letters in alphabetical order.",,,,
+_srecfc,"Remember: Enter ""C"" for closed syllables and ""E"" for vowel - consonant - e syllables.",,,,
+_lrh,"""rh"" (the letters)",,,,
+_ss,"""s"" (letter sound)",,,,
+_sattltm,Say and type the letter that makes this sound.,,,,
+_ssattl,Say and type the letters of the blend that make the sound.,,,,
+_ssattl1,Say and type the letters that make the sound.,,,,
+_ssayan,Say and type the number of syllables you hear.,,,,
+_ssattn,Say and type the vowel sound you hear.,,,,
+_sstls,Say the letter sound...,,,,
+_sstsot,Say the syllables of the word out loud with the first vowel short.,,,,
+_lscr,"""scr"" (the letters)",,,,
+_sscr,"""scr"" (the sounds)",,,,
+_hycsee,Select either English or Spanish to hear your instructions in that language. (record in English and Spanish),,,,
+_sseosth,Select English or Spanish to hear the LTK instructions in that language.,,,,
+_sss2,"seventeen, seventeenth",,,,
+_ssotwa,"Several of these words are simply sight words and cannot ""be"" blended.",,,,
+_lsh,"""sh"" (the letters)",,,,
+_ssh,"""sh"" (the sounds)",,,,
+_lshr,"""shr"" (the letters)",,,,
+_sshr,"""shr"" (the sounds)",,,,
+_sswdnf,Sight words do not follow any spelling rules.,,,,
+_sstwei,"Since the word ends in ""s"", ""x"" or ""z"", the letters ""es"" is added to the end of the word.",,,,
+_sstwia,"Since the word is a ""vce"" word, the ""e"" is silent, and does not make a sound.",,,,
+_sstwia1,"Since the word is a ""vcv"" word, you add An ""s"" to the end of the word to make it plural.",,,,
+_sss1,"sixteen, sixteenth",,,,
+_hstcat,"""Slect"" the checkmark button at the upper left of this screen to change the instruction language. (record in English and Spanish)",,,,
+_ssfwhl,"""So"" far ""we"" have learned...",,,,
+_ssfwhp,"""So"" far ""we"" have practiced these sight words...",,,,
+_ssfwhp2,"""So"" far ""we"" have practiced these words...",,,,
+_ssfwhp1,"""So"" far ""we"" have practiced...",,,,
+_ssetvt,some exceptions to vowels team rules.,,,,
+_sslcah,Some letter combinations are hard to say as unique sounds.,,,,
+_ssnb,some new blends.,,,,
+_ssnc,some new consonants,,,,
+_ssnfb,some new final blends.,,,,
+_ssnib,some new initial blends.,,,,
+_ssnl,some new letters,,,,
+_ssnv,some new vowels.,,,,
+_ssnwbr,some new word building rules.,,,,
+_ssnw,some new words.,,,,
+_ssotsl,Some of the silent letter patterns are digraphs.,,,,
+_ssotwh,Some of these words have already been practiced as sight words.,,,,
+_ssomes,Some syllables are not accented or said as strongly as others.,,,,
+_sswmhm,Some words may have more than one correct answer.,,,,
+_ssacwc,Sometimes a consonant will change the sound of a vowel.,,,,
+_ssiibt,"Sometimes it is best to memorize some of the more common words that contain these patterns, since you have several options when blending them.",,,,
+_ssomet,"Sometimes the consonant will ""hook on"" to the first vowel to form a closed syllable.",,,,
+_stlaoi,"Sometimes the letters ""a"" or ""i"" will make the ""u"" (ugh) sound in the middle of a word with ""3"" or more syllables.",,,,
+_sstlus,"Sometimes the long ""u"" sounds like ""yu"" as in the word ""mule"".",,,,
+_ssthi,Sometimes this happens in the middle of words with three or more syllables.,,,,
+_ssvtwh,Sometimes vowel teams will have more than one sound.,,,,
+_sdvtcm,"Sometimes, different vowel teams can make the same sound.",,,,
+_ssymto,"Sorry, you missed that one.",,,,

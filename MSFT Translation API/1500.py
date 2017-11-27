@@ -55,7 +55,7 @@ def GetTextAndTranslate(finalToken):
                 translateTRUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'tr')
                 translationTRData = requests.get(translateTRUrl, headers = headers)
                 translationTR = ElementTree.fromstring(translationTRData.text.encode('utf-8'))
-                tur = translationES.text
+                tur = translationTR.text
 
                 #Translate to Portugese
                 translatePTUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'pt')
