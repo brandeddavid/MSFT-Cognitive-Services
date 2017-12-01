@@ -53,7 +53,7 @@ with open('urlList.csv', 'a', newline = '') as l:
 
         for item in jsonResponse['webPages']['value']:
 
-            if jsonResponse['webPages']['value'].index(item) < 100:
+            if jsonResponse['webPages']['value'].index(item) < 52:
 
                 writer.writerow({'NAME':item['name'], 'URL':item['url']})
 
