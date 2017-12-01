@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-import http.client, urllib.parse, json
+import http.client, urllib.parse, json, csv
 
 # **********************************************
 # *** Update or verify the following values. ***
 # **********************************************
 
 # Replace the subscriptionKey string value with your valid subscription key.
-subscriptionKey = "enter key here"
+subscriptionKey = "224bb0ef6cd348fe9a5e68be95525d22"
 
 # Verify the endpoint URI.  At this writing, only one endpoint is used for Bing
 # search APIs.  In the future, regional endpoints may be available.  If you
@@ -16,31 +16,54 @@ subscriptionKey = "enter key here"
 host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/search"
 
-term = "Microsoft Cognitive Services"
+term = 'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")'
 
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
+    addquery = '&count=100&offset=100'
+
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
     query = urllib.parse.quote(search)
-    conn.request("GET", path + "?q=" + query, headers=headers)
+    conn.request("GET", path + "?q=" + query + addquery, headers=headers)
     response = conn.getresponse()
     headers = [k + ": " + v for (k, v) in response.getheaders()
                    if k.startswith("BingAPIs-") or k.startswith("X-MSEdge-")]
     return headers, response.read().decode("utf8")
 
-if len(subscriptionKey) == 32:
 
-    print('Searching the Web for: ', term)
+with open('urlList.csv', 'a', newline = '') as l:
 
-    headers, result = BingWebSearch(term)
-    print("\nRelevant HTTP Headers:\n")
-    print("\n".join(headers))
-    print("\nJSON Response:\n")
-    print(json.dumps(json.loads(result), indent=4))
+    fieldnames = ['NAME', 'URL']
 
-else:
+    writer = csv.DictWriter(l, fieldnames=fieldnames)
 
-    print("Invalid Bing Search API subscription key!")
-    print("Please paste yours into the source code.")
+    writer.writeheader()
+
+    if len(subscriptionKey) == 32:
+
+        print('Searching the Web for: ', term)
+
+        headers, result = BingWebSearch(term)
+
+        jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+
+        #print (type(jsonResponse["webPages"]['value']))
+
+        for item in jsonResponse['webPages']['value']:
+
+            if jsonResponse['webPages']['value'].index(item) < 100:
+
+                writer.writerow({'NAME':item['name'], 'URL':item['url']})
+
+
+
+
+        #print (jsonResponse['webPages'])
+
+
+    else:
+
+        print("Invalid Bing Search API subscription key!")
+        print("Please paste yours into the source code.")
