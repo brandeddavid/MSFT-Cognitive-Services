@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 with open('final.csv', 'a', newline = '') as l:
 
-    fieldnames = ['name', 'url','emails', 'phone-numbers','search-condition', 'http status']
+    fieldnames = ['NAME', 'URL','EMAILS', 'PHONES']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
 
@@ -22,7 +22,7 @@ with open('final.csv', 'a', newline = '') as l:
 
             r = requests.get(item[1])
 
-            emails = re.findall(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+            emails = re.findall(r'[0-9a-zA-Z\@\.]{1,}', r.text)
 
             phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
 
@@ -33,4 +33,6 @@ with open('final.csv', 'a', newline = '') as l:
             #(9\d)\s+(\d{2})\s+(\d{2})\s+(\d{3}) Works no results
             #(1[-.])*([2-9]\d{2})?[-. ]\d{3}[-. ]\d{4} Works a bit
 
-            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")', 'http status':r.status_code})
+            writer.writerow({'NAME': item[0],'URL':item[1], 'EMAILS':[email for email in emails], 'PHONES':[phone for phone in phones]})
+
+             #([email[7:] for email in emails])
