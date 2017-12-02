@@ -18,13 +18,19 @@ with open('final.csv', 'a', newline = '') as l:
 
         for item in urlList:
 
-        #for link in toParse:
-
             r = requests.get(item[1])
 
             emails = re.findall(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
 
-            phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+            #phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+
+            if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
+
+                phones = re.findall(r'[\d]{3}.?[\d]{3}.[\d]{4}', r.text)
+
+            else:
+
+                phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
 
             #[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4} Best so far
             #(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}) Works just fine

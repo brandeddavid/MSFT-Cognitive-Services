@@ -2,9 +2,9 @@ import requests, re, csv
 
 from bs4 import BeautifulSoup
 
-with open('final.csv', 'a', newline = '') as l:
+with open('phone.csv', 'a', newline = '') as l:
 
-    fieldnames = ['NAME', 'URL','EMAILS', 'PHONES']
+    fieldnames = ['PHONES']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
 
@@ -22,10 +22,15 @@ with open('final.csv', 'a', newline = '') as l:
 
             r = requests.get(item[1])
 
-            emails = re.findall(r'[0-9a-zA-Z\@\.]{1,}', r.text)
+            if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
 
-            phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+                phones = re.findall(r'[\d]{3}.?[\d]{3}.[\d]{4}', r.text)
 
+            else:
+
+                phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+
+            #[\d]{3}[.]?[\d]{3}.[\d]{4}
             #[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4} Best so far
             #(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}) Works just fine
             #\:[\(\)\-0-9\ ]{1,} Works jumbled up
@@ -33,6 +38,6 @@ with open('final.csv', 'a', newline = '') as l:
             #(9\d)\s+(\d{2})\s+(\d{2})\s+(\d{3}) Works no results
             #(1[-.])*([2-9]\d{2})?[-. ]\d{3}[-. ]\d{4} Works a bit
 
-            writer.writerow({'NAME': item[0],'URL':item[1], 'EMAILS':[email for email in emails], 'PHONES':[phone for phone in phones]})
+            writer.writerow({'PHONES':[phone for phone in phones]})
 
              #([email[7:] for email in emails])
