@@ -44,25 +44,36 @@ with open('final.csv', 'a', newline = '') as l:
                 data = request.urlopen(item[1]).read().decode('utf-8')
                 #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
 
+                textAfter = ''
+                textBefore = ''
+
                 if len(emails) == 0:
 
-                    details = re.search(phones[0], data)
-                    end = details.end()
-                    textAfter = data[end:end+1000]
+                    for phone in phones:
 
-                    start = details.start()
-                    textBefore = data[start-1000:start]
+                        details = re.search(phone, data)
+
+                        end = details.end()
+                        textAft = data[end:end+100]
+                        textAfter += textAft
+
+                        start = details.start()
+                        textBef = data[start-100:start]
+                        textBefore += textBef
 
                 else:
 
+                    for email in emails:
 
-                    details = re.search(emails[0], data)
+                        details = re.search(email, data)
 
-                    end = details.end()
-                    textAfter = data[end:end+1000]
+                        end = details.end()
+                        textAft = data[end:end+100]
+                        textAfter += textAft
 
-                    start = details.start()
-                    textBefore = data[start-1000:start]
+                        start = details.start()
+                        textBef = data[start-100:start]
+                        textBefore += textBef
 
             except:
 
