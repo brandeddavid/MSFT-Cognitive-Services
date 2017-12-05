@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 with open('final.csv', 'a', newline = '') as l:
 
-    fieldnames = ['name', 'url','emails', 'phone-numbers','search-condition', 'http status', 'text before', 'text after']
+    fieldnames = ['name', 'url', 'emails', 'phone-numbers','search-condition', 'http status', 'text before', 'text after']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
 

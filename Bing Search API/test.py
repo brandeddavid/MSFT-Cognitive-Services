@@ -1,56 +1,82 @@
-import re, csv, requests
+import requests, re, csv
+from urllib import request
+from bs4 import BeautifulSoup
 
-def main():
-    outputFile = 'output.tsv'
-    #files = glob.glob('*.html')
+try:
 
-    with open('urlList.csv', 'r') as l:
+    r = requests.get('http://www.ashwaubenon.k12.wi.us/parkview/contactus_pv.cfm')
 
-        reader = csv.reader(l, delimiter = ',')
-
-        files = []
-
-        for item in reader:
-
-            files.append(requests.get(item[1]).text)
-
-    print "Extracting from %s files" %(len(files))
-
-    data = []
-    for file in files:
-        with open(file, 'rb') as f:
-            content = f.read()
-            email = getEmail(content)
-            phone = getPhone(content)
-            name = file[:-5]
-            data.append([name, email, phone])
-
-    with open(outputFile, 'wb') as f:
-        header = 'name\temail\tphone\r\n'
-        f.write(header)
-        for row in data:
-            string = '\t'.join(row) + '\r\n'
-            f.write(string)
+    emails = [email[7:] for email in re.findall(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)]
 
 
-def getEmail(string):
-    email = ''
-    emailRegEx = re.compile('\"mailto\:[0-9a-zA-Z\@\.]{1,}\"')
-    m = emailRegEx.search(string)
-    if m:
-        email = m.group(0)[8:-1]
-    return email
+    #phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+
+    if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
+
+        phones = re.findall(r'[\d]{3}.?[\d]{3}.[\d]{4}', r.text)
+
+    else:
+
+        phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+
+except:
+
+    pass
+
+try:
+
+    data = request.urlopen('http://www.ashwaubenon.k12.wi.us/parkview/contactus_pv.cfm').read().decode('utf-8')
+    #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+
+    textAfter = ''
+    textBefore = ''
+
+    if len(emails) == 0:
+
+        for phone in phones:
+
+            details = re.search(phone, data)
+
+            end = details.end()
+            textAft = data[end:end+100]
+            textAfter += textAft
+
+            start = details.start()
+            textBef = data[start-100:start]
+            textBefore += textBef
+
+    else:
+
+        for email in emails:
+
+            details = re.search(email, data)
+
+            end = details.end()
+            textAft = data[end:end+100]
+            textAfter += textAft
+
+            start = details.start()
+            textBef = data[start-100:start]
+            textBefore += textBef
+    
+    soupbefore = BeautifulSoup(textBefore, 'lxml')
+    textbef = soupbefore.get_text()
+
+    for itb in textbef.split('\n'):
+
+        print (itb)
+
+    soupafter = BeautifulSoup(textAfter, 'lxml')
+    textaft = soupafter.get_text()
+
+    for ita in textaft.split('\n'):
+
+        print (ita)
 
 
-def getPhone(string):
-    phone = ''
-    phoneRegEx = re.compile('\"tel\:[\(\)\-0-9\ ]{1,}\"')
-    m = phoneRegEx.search(string)
-    if m:
-        phone = m.group(0)[5:-1]
-    return phone
+    
+    
 
+except:
 
-
-if __name__ == '__main__':
-    main()
+    pass

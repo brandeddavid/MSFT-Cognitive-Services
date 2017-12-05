@@ -16,12 +16,12 @@ subscriptionKey = "224bb0ef6cd348fe9a5e68be95525d22"
 host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/search"
 
-term = 'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")'
+term = 'intitle:Contact (ELL ESL) site:.us "public school" '
 
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
-    addquery = '&count=100&offset=100'
+    addquery = '&count=1000&offset=1000'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
@@ -43,24 +43,30 @@ with open('urlList.csv', 'a', newline = '') as l:
 
     if len(subscriptionKey) == 32:
 
-        print('Searching the Web for: ', term)
+        try:
 
-        headers, result = BingWebSearch(term)
+            print('Searching the Web for: ', term)
 
-        jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+            headers, result = BingWebSearch(term)
 
-        #print (type(jsonResponse["webPages"]['value']))
+            jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
-        for item in jsonResponse['webPages']['value']:
-
-            if jsonResponse['webPages']['value'].index(item) < 52:
-
-                writer.writerow({'NAME':item['name'], 'URL':item['url']})
+            #print (type(jsonResponse["webPages"]['value']))
 
 
+            for item in jsonResponse['webPages']['value']:
+
+                if jsonResponse['webPages']['value'].index(item) < 100:
+
+                    writer.writerow({'NAME':item['name'], 'URL':item['url']})
 
 
-        #print (jsonResponse['webPages'])
+
+
+            #print (jsonResponse['webPages'])
+        except:
+
+            pass
 
 
     else:
