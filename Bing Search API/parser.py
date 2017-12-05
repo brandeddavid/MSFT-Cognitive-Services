@@ -18,31 +18,55 @@ with open('final.csv', 'a', newline = '') as l:
 
         for item in urlList:
 
-            r = requests.get(item[1])
+            try:
 
-            emails = re.findall(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+                r = requests.get(item[1])
+
+                emails = re.findall(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
 
 
-            #phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+                #phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
 
-            if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
+                if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
 
-                phones = re.findall(r'[\d]{3}.?[\d]{3}.[\d]{4}', r.text)
+                    phones = re.findall(r'[\d]{3}.?[\d]{3}.[\d]{4}', r.text)
 
-            else:
+                else:
 
-                phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
+                    phones = re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)
 
-            data = request.urlopen(item[1]).read().decode('utf-8')
-            #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+            except:
 
-            details = re.search('contact', data)
+                pass
 
-            end = details.end()
-            textAfter = data[end:end+100]
+            try:
 
-            start = details.start()
-            textBefore = data[start-100:start]
+                data = request.urlopen(item[1]).read().decode('utf-8')
+                #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+
+                if len(emails) == 0:
+
+                    details = re.search(phones[0], data)
+                    end = details.end()
+                    textAfter = data[end:end+1000]
+
+                    start = details.start()
+                    textBefore = data[start-1000:start]
+
+                else:
+
+
+                    details = re.search(emails[0], data)
+
+                    end = details.end()
+                    textAfter = data[end:end+1000]
+
+                    start = details.start()
+                    textBefore = data[start-1000:start]
+
+            except:
+
+                pass
 
             #[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4} Best so far
             #(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}) Works just fine
