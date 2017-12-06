@@ -2,13 +2,19 @@ import requests, re, csv
 from urllib import request
 from bs4 import BeautifulSoup
 
-with open('final.csv', 'a', newline = '') as l:
+with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline='') as f:
 
-    fieldnames = ['name', 'url', 'emails', 'phone-numbers','search-condition', 'http status', 'text before', 'text after']
+    fieldnames = ['name', 'url', 'emails', 'phone-numbers','search-condition', 'http status']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
 
     writer.writeheader()
+
+    header = ['url', 'hit', 'text']
+
+    writer2 = csv.DictWriter(f, fieldnames=header)
+
+    writer2.writeheader()
 
     toParse = []
 
@@ -49,41 +55,48 @@ with open('final.csv', 'a', newline = '') as l:
 
                 if len(emails) == 0:
 
-                    for phone in phones:
 
-                        details = re.search(phone, data)
+                    details = re.search(phones[0], data)
+                    hit = phones[0]
 
-                        end = details.end()
-                        textAft = data[end:end+100]
-                        textAfter += textAft
+                    end = details.end()
+                    textAft = data[end:end+200]
+                    textAfter += textAft
 
-                        start = details.start()
-                        textBef = data[start-100:start]
-                        textBefore += textBef
+                    start = details.start()
+                    textBef = data[start-200:start]
+                    textBefore += textBef
 
                 else:
 
-                    for email in emails:
+                    details = re.search(emails[0], data)
+                    hit = emails[0]
 
-                        details = re.search(email, data)
+                    end = details.end()
+                    textAft = data[end:end+200]
+                    textAfter += textAft
 
-                        end = details.end()
-                        textAft = data[end:end+100]
-                        textAfter += textAft
+                    start = details.start()
+                    textBef = data[start-200:start]
+                    textBefore += textBef
 
-                        start = details.start()
-                        textBef = data[start-100:start]
-                        textBefore += textBef
+                """
+                soupbefore = BeautifulSoup(textBefore, 'lxml')
+                textbef = soupbefore.get_text()
+
+                soupafter = BeautifulSoup(textAfter, 'lxml')
+                textaft = soupafter.get_text()
+                """
+
+                alltext = textBefore + textAfter
+                soup = BeautifulSoup(alltext, 'lxml')
+                gettext = soup.get_text()
+                alltextfinal = re.sub("\"|\'|>|\r|\xa0","",gettext)
 
             except:
 
                 pass
 
-            #[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4} Best so far
-            #(\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}) Works just fine
-            #\:[\(\)\-0-9\ ]{1,} Works jumbled up
-            #\"tel\:[\(\)\-0-9\ ]{1,}\" Worls no results
-            #(9\d)\s+(\d{2})\s+(\d{2})\s+(\d{3}) Works no results
-            #(1[-.])*([2-9]\d{2})?[-. ]\d{3}[-. ]\d{4} Works a bit
 
-            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")', 'http status':r.status_code, 'text before':textBefore, 'text after':textAfter})
+            #writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")', 'http status':r.status_code})
+            writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})
