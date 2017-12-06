@@ -18,8 +18,6 @@ with open('phone.csv', 'a', newline = '') as l:
 
         for item in urlList:
 
-        #for link in toParse:
-
             r = requests.get(item[1])
 
             if len(re.findall(r'[(][\d]{3}[)][ ]?[\d]{3}-[\d]{4}', r.text)) == 0:
