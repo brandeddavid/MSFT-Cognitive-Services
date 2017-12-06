@@ -2,7 +2,7 @@ import requests, re, csv
 from urllib import request
 from bs4 import BeautifulSoup
 
-url = 'http://www.avon.k12.ct.us/pine-grove-elementary/about-us/pages/contact-us'
+url = 'http://www.mountpleasant.k12.ca.us/contact_school'
 
 try:
 
@@ -25,68 +25,67 @@ except:
 
     pass
 
-try:
+with open('test.csv', 'a', newline='') as f:
 
-    data = request.urlopen(url).read().decode('utf-8')
-    #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+    fieldnames = ['url', 'text']
 
-    textAfter = ''
-    textBefore = ''
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
 
-    if len(emails) == 0:
+    writer.writeheader()
 
-        for phone in phones:
+    try:
 
-            details = re.search(phone, data)
+        data = request.urlopen(url).read().decode('utf-8')
+        #re.search(r'mailto\:[0-9a-zA-Z\@\.]{1,}', r.text)
+
+        textAfter = ''
+        textBefore = ''
+
+        if len(emails) == 0:
+
+            #for phone in phones:
+
+            details = re.search(phones[0], data)
 
             end = details.end()
-            textAft = data[end:end+200]
+            textAft = data[end:end+800]
             textAfter += textAft
 
             start = details.start()
-            textBef = data[start-200:start]
+            textBef = data[start-300:start]
             textBefore += textBef
 
-    else:
+        else:
 
-        for email in emails:
+            #for email in emails:
 
-            details = re.search(email, data)
+            details = re.search(emails[0], data)
 
             end = details.end()
-            textAft = data[end:end+200]
+            textAft = data[end:end+800]
             textAfter += textAft
 
             start = details.start()
-            textBef = data[start-200:start]
+            textBef = data[start-300:start]
             textBefore += textBef
+        """
+        soupbefore = BeautifulSoup(textBefore, 'lxml')
+        textbe = soupbefore.get_text()
+        textbef = re.sub("\"|\'|>|\r|\xa0","",textbe)
+     
+        soupafter = BeautifulSoup(textAfter, 'lxml')
+        textaf = soupafter.get_text()
+        textaft = re.sub("\"|\'|>|\r|\xa0","",textaf)
+        """
+        alltext = textBefore + textAfter
+        soup = BeautifulSoup(alltext, 'lxml')
+        gettext = soup.get_text()
+        alltextfinal = re.sub("\"|\'|>|\r|\xa0","",gettext)
 
-    soupbefore = BeautifulSoup(textBefore, 'lxml')
-    textbef = soupbefore.get_text()
-
-    for itb in textbef.split('\n'):
-
-        print (itb)
-
-    soupafter = BeautifulSoup(textAfter, 'lxml')
-    textaft = soupafter.get_text()
-
-    for ita in textaft.split('\n'):
-
-        print (ita)
-
-    with open('test.csv',  'a',  newline=' ') as f:
-
-        fieldnames = ['url', 'before', 'after']
-
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-
-        writer.writeheader()
-
-        writerow({'url':url, 'before': [item for item in textaft.split('\n')],'after':[item for item in textbef.split('\n')]})
+        writer.writerow({'url':url, 'text': alltextfinal})
 
 
 
-except:
+    except:
 
-    pass
+        pass
