@@ -53,40 +53,37 @@ with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline=
                 textAfter = ''
                 textBefore = ''
 
+
                 if len(emails) == 0:
 
+                    hit = []
 
-                    details = re.search(phones[0], data)
-                    hit = phones[0]
+                    for phone in phones:
+                        details = re.search(phone, data)
+                        hit.append(phone)
 
-                    end = details.end()
-                    textAft = data[end:end+200]
-                    textAfter += textAft
+                        end = details.end()
+                        textAft = data[end:end+200]
+                        textAfter += textAft
 
-                    start = details.start()
-                    textBef = data[start-200:start]
-                    textBefore += textBef
+                        start = details.start()
+                        textBef = data[start-200:start]
+                        textBefore += textBef
 
                 else:
 
-                    details = re.search(emails[0], data)
-                    hit = emails[0]
+                    for email in emails:
+                        details = re.search(email, data)
+                        hit.append(email)
 
-                    end = details.end()
-                    textAft = data[end:end+200]
-                    textAfter += textAft
+                        end = details.end()
+                        textAft = data[end:end+200]
+                        textAfter += textAft
 
-                    start = details.start()
-                    textBef = data[start-200:start]
-                    textBefore += textBef
+                        start = details.start()
+                        textBef = data[start-200:start]
+                        textBefore += textBef
 
-                """
-                soupbefore = BeautifulSoup(textBefore, 'lxml')
-                textbef = soupbefore.get_text()
-
-                soupafter = BeautifulSoup(textAfter, 'lxml')
-                textaft = soupafter.get_text()
-                """
 
                 alltext = textBefore + textAfter
                 soup = BeautifulSoup(alltext, 'lxml')
@@ -98,5 +95,5 @@ with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline=
                 pass
 
 
-            #writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL OR ESL)  site:.us ("public school" OR "public schools")', 'http status':r.status_code})
+            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'intitle:Contact (ELL ESL) site:.us "public school" ', 'http status':r.status_code})
             writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})
