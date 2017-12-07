@@ -90,10 +90,12 @@ with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline=
                 gettext = soup.get_text()
                 alltextfinal = re.sub("\"|\'|>|\r|\xa0","",gettext)
 
+                writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})
+
             except:
 
                 pass
 
 
-            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'intitle:Contact (ELL ESL) site:.us "public school" ', 'http status':r.status_code})
-            writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})
+            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL ESL) site:.us "public school" ', 'http status':r.status_code})
+            #writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})
