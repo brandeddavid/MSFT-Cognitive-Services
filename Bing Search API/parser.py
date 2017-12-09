@@ -18,7 +18,7 @@ with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline=
 
     toParse = []
 
-    with open('urlList.csv', 'r') as f:
+    with open('urlListELL.csv', 'r') as f:
 
         urlList = csv.reader(f, delimiter = ',')
 
@@ -97,5 +97,5 @@ with open('final.csv', 'a', newline = '') as l, open('befaft.csv', 'a', newline=
                 pass
 
 
-            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ELL ESL) site:.us "public school" ', 'http status':r.status_code})
+            writer.writerow({'name': item[0],'url':item[1], 'emails':[email[7:] for email in emails], 'phone-numbers':[phone for phone in phones], 'search-condition':'intitle:Contact (ESL) site:.us "public school"', 'http status':r.status_code})
             #writer2.writerow({'url':item[1], 'hit':hit, 'text': alltextfinal})

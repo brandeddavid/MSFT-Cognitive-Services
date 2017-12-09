@@ -16,12 +16,12 @@ subscriptionKey = "224bb0ef6cd348fe9a5e68be95525d22"
 host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/search"
 
-term = 'intitle:Contact (ELL ESL) site:.us "public school" '
+term = 'intitle:Contact (ESL) site:.us "public school"'
 
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
-    addquery = '&count=1000&offset=1000'
+    addquery = '&count=100&offset=10&mkt=en-US'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
@@ -33,7 +33,7 @@ def BingWebSearch(search):
     return headers, response.read().decode("utf8")
 
 
-with open('urlList.csv', 'a', newline = '') as l:
+with open('urlListESLTest.csv', 'a', newline = '') as l:
 
     fieldnames = ['NAME', 'URL']
 
@@ -56,7 +56,7 @@ with open('urlList.csv', 'a', newline = '') as l:
 
             for item in jsonResponse['webPages']['value']:
 
-                if jsonResponse['webPages']['value'].index(item) < 100:
+                if jsonResponse['webPages']['value'].index(item) < 90:
 
                     writer.writerow({'NAME':item['name'], 'URL':item['url']})
 
