@@ -21,15 +21,15 @@ def GetTextAndTranslate(finalToken):
 
 
 
-    with open('1500.csv', 'a') as l:
+    with open('redo.csv', 'a') as l:
 
-        fieldnames = ['Wave1','Corrections','ar','zh-CHS','tr','pt']
+        fieldnames = ['Wave1','Corrections','es','ru','de']
 
         writer = csv.DictWriter(l, fieldnames=fieldnames)
 
         writer.writeheader()
 
-        with open('translate.csv','r') as f:
+        with open('neural.csv','r') as f:
 
             reader = csv.reader(f, delimiter=',')
 
@@ -39,33 +39,35 @@ def GetTextAndTranslate(finalToken):
 
                 toTranslate = item[1]
 
-                #Translate to Arabic
-                translateARUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ar')
-                translationARData = requests.get(translateARUrl, headers = headers)
-                translationAR = ElementTree.fromstring(translationARData.text.encode('utf-8'))
-                ara = translationAR.text
+                #Translate to Spanish
+                translateSPUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'es')
+                translationSPData = requests.get(translateSPUrl, headers = headers)
+                translationSP = ElementTree.fromstring(translationSPData.text.encode('utf-8'))
+                spa = translationSP.text
 
-                #Translate to Chinese
-                translateCHUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'zh-CHS')
-                translationCHData = requests.get(translateCHUrl, headers = headers)
-                translationCH = ElementTree.fromstring(translationCHData.text.encode('utf-8'))
-                chi = translationCH.text
+                #Translate to Russian
+                translateRUUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'ru')
+                translationRUData = requests.get(translateRUUrl, headers = headers)
+                translationRU = ElementTree.fromstring(translationRUData.text.encode('utf-8'))
+                rus = translationRU.text
 
-                #Translate to Turkish
-                translateTRUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'tr')
-                translationTRData = requests.get(translateTRUrl, headers = headers)
-                translationTR = ElementTree.fromstring(translationTRData.text.encode('utf-8'))
-                tur = translationTR.text
+                #Translate to German
+                translateDEUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'de')
+                translationDEData = requests.get(translateDEUrl, headers = headers)
+                translationDE = ElementTree.fromstring(translationDEData.text.encode('utf-8'))
+                ger = translationDE.text
 
                 #Translate to Portugese
+                """
                 translatePTUrl = "http://api.microsofttranslator.com/v2/Http.svc/Translate?text={}&to={}&category=generalnn".format(toTranslate, 'pt')
                 translationPTData = requests.get(translatePTUrl, headers = headers)
                 translationPT = ElementTree.fromstring(translationPTData.text.encode('utf-8'))
                 por = translationPT.text
+                """
 
 
 
-                writer.writerow({'Wave1': item[0],'Corrections':item[1], 'ar':ara,'zh-CHS':chi,'tr':tur,'pt':por})
+                writer.writerow({'Wave1': item[0],'Corrections':item[1], 'es':spa, 'ru':rus, 'de':ger})
 
 
 
