@@ -8,7 +8,7 @@ path = "/bing/v7.0/search"
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
-    addquery = '&count=50&offset=0&mkt=en-US'
+    addquery = '&count=10&offset=0&mkt=en-US'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
@@ -24,25 +24,26 @@ intitle = ['Contact','Staff','Faculty']
 searchterm = ['"ESL"', '"ELL"', '"Adult"', '"Special Ed"', '"remediation" read','"ESOL"', '"Literacy"', '"GED"']
 domain = ['.us','.ca','.edu','.org','.net']
 
-for ini in init:
 
-    for intit in intitle:
+with open('combined.csv', 'a', newline = '') as l:
 
-        for term in searchterm:
+    fieldnames = ['NAME', 'URL', 'TERM']
 
-            for dom in domain:
+    writer = csv.DictWriter(l, fieldnames=fieldnames)
+    writer.writeheader()
 
-                searchphrase = ini+' intitle:'+ intit + ' ' + term + ' site:' + dom
+    for ini in init:
 
-                savefile = term.strip('""') + ini.strip('""') +intit + dom[1:].upper()
+        for intit in intitle:
 
-                with open(savefile + '.csv', 'a', newline = '') as l:
+            for term in searchterm:
 
-                    fieldnames = ['NAME', 'URL', 'TERM']
+                for dom in domain:
 
-                    writer = csv.DictWriter(l, fieldnames=fieldnames)
+                    searchphrase = ini+' intitle:'+ intit + ' ' + term + ' site:' + dom
 
-                    #writer.writeheader()
+                    #savefile = term.strip('""') + ini.strip('""') +intit + dom[1:].upper()
+                        #writer.writeheader()
 
                     if len(subscriptionKey) == 32:
 
@@ -59,7 +60,7 @@ for ini in init:
 
                             for item in jsonResponse['webPages']['value']:
 
-                                if jsonResponse['webPages']['value'].index(item) < 52:
+                                if jsonResponse['webPages']['value'].index(item) < 10:
 
                                     writer.writerow({'NAME':item['name'], 'URL':item['url'], 'TERM':searchphrase})
 
