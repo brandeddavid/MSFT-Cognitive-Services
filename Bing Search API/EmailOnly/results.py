@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 urlList = []
 
-with open('resultscombined.csv', 'r') as k:
+with open('150.csv', 'r') as k:
 
     reader = csv.reader(k, delimiter = ',')
 
