@@ -42,7 +42,7 @@ with open('searchresults.csv', 'a', newline = '') as l:
 
             for item in jsonResponse['webPages']['value']:
 
-                if jsonResponse['webPages']['value'].index(item) < 3:
+                if jsonResponse['webPages']['value'].index(item) < 10:
 
                     urls.append(item['url'])
 

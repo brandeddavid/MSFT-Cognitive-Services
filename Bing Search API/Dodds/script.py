@@ -1,6 +1,6 @@
 import http.client, urllib.parse, json, csv
 
-subscriptionKey = "224bb0ef6cd348fe9a5e68be95525d22"
+subscriptionKey = "763b746a12c74bcca27a50d1a48304a0"
 
 host = "api.cognitive.microsoft.com"
 path = "/bing/v7.0/search"
@@ -25,48 +25,57 @@ with open('292-301.csv', 'r') as openfile:
 
     for row in reader:
 
-        #searchphrase = row[1] + ' ' + row[2] + ' ' + row[0] + ' intitle:contact'
+        name = row[1] + ' ' + row[2]
 
-        searchphrase = 'Alan Smith Lifetime Eyecare intitle:contact'
+        if name == ' ':
+
+            pass
+
+        else:
+
+            searchphrase = 'Optometry Michigan ' + "intitle:" + name + ' contact'
+            #searchphrase = row[1] + ' ' + row[2] + ' ' + row[0] + ' intitle:contact'
+            #print(searchphrase)
+
+            #searchphrase = 'Alan Smith Lifetime Eyecare intitle:contact'
+
+            with open('searchresults.csv', 'a', newline = '') as l:
+
+                fieldnames = ['NAME', 'URL']
+
+                writer = csv.DictWriter(l, fieldnames=fieldnames)
+                #writer.writeheader()
+
+                if len(subscriptionKey) == 32:
+
+                    try:
+
+                        urls = []
+
+                        print('Searching the Web for: ', searchphrase)
+
+                        headers, result = BingWebSearch(searchphrase)
+
+                        jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+
+                        for item in jsonResponse['webPages']['value']:
+
+                            if jsonResponse['webPages']['value'].index(item) < 10:
+
+                                urls.append(item['url'])
+
+                        writer.writerow({'NAME':name, 'URL':urls})
+
+                    except:
+
+                        pass
+
+                    finally:
+
+                        urls = []
 
 
-        with open('searchresults.csv', 'a', newline = '') as l:
+                else:
 
-            fieldnames = ['URL']
-
-            writer = csv.DictWriter(l, fieldnames=fieldnames)
-            writer.writeheader()
-
-            if len(subscriptionKey) == 32:
-
-                try:
-
-                    urls = []
-
-                    print('Searching the Web for: ', searchphrase)
-
-                    headers, result = BingWebSearch(searchphrase)
-
-                    jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
-
-                    for item in jsonResponse['webPages']['value']:
-
-                        if jsonResponse['webPages']['value'].index(item) < 3:
-
-                            urls.append(item['url'])
-
-                        writer.writerow({'URL':urls})
-
-                except:
-
-                    pass
-
-                finally:
-
-                    urls = []
-
-
-            else:
-
-                print("Invalid Bing Search API subscription key!")
-                print("Please paste yours into the source code.")
+                    print("Invalid Bing Search API subscription key!")
+                    print("Please paste yours into the source code.")
