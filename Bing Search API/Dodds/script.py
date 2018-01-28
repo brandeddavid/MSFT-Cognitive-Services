@@ -19,51 +19,54 @@ def BingWebSearch(search):
                    if k.startswith("BingAPIs-") or k.startswith("X-MSEdge-")]
     return headers, response.read().decode("utf8")
 
-init = ['"District"', '"School"', '"Charter School"']
-intitle = ['Contact','Staff','Faculty']
-searchterm = ['"orton gillingham"','"wilson reading"']
-domain = ['.us','.edu','.org']
+with open('292-301.csv', 'r') as openfile:
+
+    reader = csv.reader(openfile, delimiter=',')
+
+    for row in reader:
+
+        #searchphrase = row[1] + ' ' + row[2] + ' ' + row[0] + ' intitle:contact'
+
+        searchphrase = 'Alan Smith Lifetime Eyecare intitle:contact'
 
 
-with open('150.csv', 'a', newline = '') as l:
+        with open('searchresults.csv', 'a', newline = '') as l:
 
-    fieldnames = ['NAME', 'URL', 'TERM']
+            fieldnames = ['URL']
 
-    writer = csv.DictWriter(l, fieldnames=fieldnames)
-    writer.writeheader()
+            writer = csv.DictWriter(l, fieldnames=fieldnames)
+            writer.writeheader()
 
-    for ini in init:
+            if len(subscriptionKey) == 32:
 
-        for intit in intitle:
+                try:
 
-            for term in searchterm:
+                    urls = []
 
-                for dom in domain:
+                    print('Searching the Web for: ', searchphrase)
 
-                    searchphrase = ini+' intitle:'+ intit + ' ' + term + ' site:' + dom
+                    headers, result = BingWebSearch(searchphrase)
 
-                    if len(subscriptionKey) == 32:
+                    jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
 
-                        try:
+                    for item in jsonResponse['webPages']['value']:
 
-                            print('Searching the Web for: ', searchphrase)
+                        if jsonResponse['webPages']['value'].index(item) < 3:
 
-                            headers, result = BingWebSearch(searchphrase)
+                            urls.append(item['url'])
 
-                            jsonResponse = json.loads(json.dumps(json.loads(result), indent=4))
+                        writer.writerow({'URL':urls})
 
-                            for item in jsonResponse['webPages']['value']:
+                except:
 
-                                if jsonResponse['webPages']['value'].index(item) < 10:
+                    pass
 
-                                    writer.writerow({'NAME':item['name'], 'URL':item['url'], 'TERM':searchphrase})
+                finally:
 
-                        except:
-
-                            pass
+                    urls = []
 
 
-                    else:
+            else:
 
-                        print("Invalid Bing Search API subscription key!")
-                        print("Please paste yours into the source code.")
+                print("Invalid Bing Search API subscription key!")
+                print("Please paste yours into the source code.")
