@@ -3,19 +3,19 @@ from urllib import request
 from bs4 import BeautifulSoup
 
 urlList = []
-generic = ['admin', 'frontdesk', 'hiring', 'enroll', 'careers', 'career', 'info', 'online', 'help', 'desk', 'career', 'job', 'inquire', 'contact', 'post', 'master', 'general', 'admission', 'admissions', 'advise', 'advice', 'service', 'budget', 'department', 'board', 'noreply', 'webmaster', 'nr']
+#generic = ['admin', 'frontdesk', 'hiring', 'enroll', 'careers', 'career', 'info', 'online', 'help', 'desk', 'career', 'job', 'inquire', 'contact', 'post', 'master', 'general', 'admission', 'admissions', 'advise', 'advice', 'service', 'budget', 'department', 'board', 'noreply', 'webmaster', 'nr']
 
-with open('150.csv', 'r') as k:
+with open('SolarThermalContacts.csv', 'r') as k:
 
     reader = csv.reader(k, delimiter = ',')
 
     for item in reader:
 
-        urlList.append(item[1])
+        urlList.append(item[3])
 
-with open('Results.csv', 'a', newline = '') as l:
+with open('SolarThermal.csv', 'a', newline = '') as l:
 
-    fieldnames = ['emails', 'http status']
+    fieldnames = ['EMAILS', 'SITE STATUS']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
 
@@ -57,6 +57,6 @@ with open('Results.csv', 'a', newline = '') as l:
 
         finally:
 
-            writer.writerow({'emails':[email for email in finalemails], 'http status':r.status_code})
+            writer.writerow({'EMAILS':[email for email in finalemails], 'SITE STATUS':r.status_code})
 
             emails = []

@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 urlList = []
 generic = ['admin', 'frontdesk', 'hiring', 'enroll', 'careers', 'career', 'info', 'online', 'help', 'desk', 'career', 'job', 'inquire', 'contact', 'post', 'master', 'general', 'admission', 'admissions', 'advise', 'advice', 'service', 'budget', 'department', 'board', 'noreply', 'webmaster', 'nr']
 
-with open('150.csv', 'r') as k:
+with open('ortonedu.csv', 'r') as k:
 
     reader = csv.reader(k, delimiter = ',')
 
@@ -13,7 +13,7 @@ with open('150.csv', 'r') as k:
 
         urlList.append(item[1])
 
-with open('Results.csv', 'a', newline = '') as l:
+with open('resultsedu.csv', 'a', newline = '') as l:
 
     fieldnames = ['emails', 'http status']
 

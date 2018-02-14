@@ -3,11 +3,11 @@ from urllib import request
 from bs4 import BeautifulSoup
 from string import ascii_uppercase
 
-with open('comResults.csv', 'r') as l:
+with open('edu.csv', 'r') as l:
 
     reader = csv.reader(l, delimiter=',')
 
-    with open('comFinds.csv', 'a', newline='') as f:
+    with open('eduFinds.csv', 'a', newline='') as f:
 
         header = ['name', 'url', 'text']
 

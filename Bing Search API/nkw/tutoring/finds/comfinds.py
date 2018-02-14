@@ -3,7 +3,7 @@ from urllib import request
 from bs4 import BeautifulSoup
 from string import ascii_uppercase
 
-with open('comResults.csv', 'r') as l:
+with open('com.csv', 'r') as l:
 
     reader = csv.reader(l, delimiter=',')
 

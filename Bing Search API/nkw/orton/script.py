@@ -10,7 +10,7 @@ path = "/bing/v7.0/search"
 def BingWebSearch(search):
     "Performs a Bing Web search and returns the results."
 
-    addquery = '&count=50&offset=400&mkt=en-US'
+    addquery = '&count=50&offset=410&mkt=en-US'
 
     headers = {'Ocp-Apim-Subscription-Key': subscriptionKey}
     conn = http.client.HTTPSConnection(host)
@@ -23,21 +23,21 @@ def BingWebSearch(search):
 
 
 
-with open('tutoringus.csv', 'a', newline = '') as l:
+with open('ortonca.csv', 'a', newline = '') as l:
 
     fieldnames = ['NAME', 'URL', 'TERM']
 
     writer = csv.DictWriter(l, fieldnames=fieldnames)
     #writer.writeheader()
 
-    searchphrase = 'tutoring reading remedial email "contact" site:.us'
+    searchphrase = 'Orton Gillingham reading tutor "contact" site:.ca'
 
 
     if len(subscriptionKey) == 32:
 
         try:
 
-            print('Searching the Web for: ', searchphrase)
+            print('Searching the Web for:', searchphrase)
 
             headers, result = BingWebSearch(searchphrase)
 
