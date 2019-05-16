@@ -210,3 +210,12 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+# Generated python
+.pyc
+.pyproj
+
+# Workspace in .idea 
+# There is alot of discyssion in regards to sharing the .idea folder
+# but all agree that the workspace.xml file should not be shared
+workspace.xml
